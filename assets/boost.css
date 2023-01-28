@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* tab styling */
 .product-ctn {
   width: 100%;
   padding-top: 4rem;
@@ -167,11 +169,7 @@
   grid-template-columns: 50% 50%;
   grid-gap: 1rem;
 }
-.good-vibes-ctn
-  .good-vibes-ctn-inner
-  .two-section-column
-  .section1
-  .func-benefits {
+.good-vibes-ctn .good-vibes-ctn-inner .two-section-column .section1 .func-benefits {
   text-align: left;
 }
 .good-vibes-ctn .good-vibes-ctn-inner .two-section-column .section1 .cold-brew {
@@ -222,42 +220,21 @@
 .ingredients-ctn .ingredients-ctn-inner .ing-tabs .ing-tabs-inner {
   border-bottom: 2px solid white;
 }
-.ingredients-ctn
-  .ingredients-ctn-inner
-  .ing-tabs
-  .ing-tabs-inner
-  .ing-two-section {
+.ingredients-ctn .ingredients-ctn-inner .ing-tabs .ing-tabs-inner .ing-two-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.ingredients-ctn
-  .ingredients-ctn-inner
-  .ing-tabs
-  .ing-tabs-inner
-  .ing-two-section
-  .img-info-section {
+.ingredients-ctn .ingredients-ctn-inner .ing-tabs .ing-tabs-inner .ing-two-section .img-info-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 45%;
 }
-.ingredients-ctn
-  .ingredients-ctn-inner
-  .ing-tabs
-  .ing-tabs-inner
-  .ing-two-section
-  .img-info-section
-  .name-and-weight
-  .h3 {
+.ingredients-ctn .ingredients-ctn-inner .ing-tabs .ing-tabs-inner .ing-two-section .img-info-section .name-and-weight .h3 {
   color: white;
 }
-.ingredients-ctn
-  .ingredients-ctn-inner
-  .ing-tabs
-  .ing-tabs-inner
-  .ing-two-section
-  #toggle-btn {
+.ingredients-ctn .ingredients-ctn-inner .ing-tabs .ing-tabs-inner .ing-two-section #toggle-btn {
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -368,7 +345,7 @@
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 300px 130px 80px 250px 150px 130px;
+  grid-template-rows: 350px 130px 80px 250px 150px 130px;
   grid-gap: 2rem;
   row-gap: 2rem;
   margin-top: 4rem;
@@ -505,6 +482,50 @@
   text-align: left;
 }
 
+.collapsible {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.collapsible:hover {
+  background-color: transparent;
+}
+.collapsible:after {
+  content: "+";
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active {
+  background-color: transparent;
+}
+.active:after {
+  content: "−";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: transparent;
+}
+.content p {
+  text-align: left;
+}
+
 @media (max-width: 400px) {
   .product-ctn {
     width: 100vw;
@@ -516,30 +537,13 @@
   .product-ctn .product-ctn-inner .product-img-ctn img {
     width: 100%;
   }
-  .product-ctn
-    .product-ctn-inner
-    .product-details-ctn
-    .reviws-and-price
-    .reviews
-    .stars
-    img {
+  .product-ctn .product-ctn-inner .product-details-ctn .reviws-and-price .reviews .stars img {
     width: 16px;
   }
-  .product-ctn
-    .product-ctn-inner
-    .product-details-ctn
-    .reviws-and-price
-    .reviews
-    .reviews-count
-    p {
+  .product-ctn .product-ctn-inner .product-details-ctn .reviws-and-price .reviews .reviews-count p {
     font-size: 16px;
   }
-  .product-ctn
-    .product-ctn-inner
-    .product-details-ctn
-    .reviws-and-price
-    .price
-    p {
+  .product-ctn .product-ctn-inner .product-details-ctn .reviws-and-price .price p {
     font-size: 16px;
   }
   .product-ctn .product-ctn-inner .product-details-ctn .product-tit .h2 {
@@ -557,12 +561,7 @@
     font-size: 18px;
     line-height: 18px;
   }
-  .product-ctn
-    .product-ctn-inner
-    .product-details-ctn
-    .two-button-ctn
-    .button1
-    .white-btn {
+  .product-ctn .product-ctn-inner .product-details-ctn .two-button-ctn .button1 .white-btn {
     font-size: 14px;
     line-height: 18px;
   }
@@ -591,21 +590,13 @@
     display: flex;
     flex-direction: column-reverse;
   }
-  .good-vibes-ctn
-    .good-vibes-ctn-inner
-    .two-section-column
-    .section1
-    .func-benefits {
+  .good-vibes-ctn .good-vibes-ctn-inner .two-section-column .section1 .func-benefits {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .good-vibes-ctn
-    .good-vibes-ctn-inner
-    .two-section-column
-    .section1
-    .cold-brew {
+  .good-vibes-ctn .good-vibes-ctn-inner .two-section-column .section1 .cold-brew {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -639,31 +630,13 @@
   .ingredients-ctn .ingredients-ctn-inner .ingredients-left-img img {
     width: 100%;
   }
-  .ingredients-ctn
-    .ingredients-ctn-inner
-    .ing-tabs
-    .ing-tabs-inner
-    .ing-two-section
-    .img-info-section {
+  .ingredients-ctn .ingredients-ctn-inner .ing-tabs .ing-tabs-inner .ing-two-section .img-info-section {
     width: 70%;
   }
-  .ingredients-ctn
-    .ingredients-ctn-inner
-    .ing-tabs
-    .ing-tabs-inner
-    .ing-two-section
-    .img-info-section
-    .tab-image {
+  .ingredients-ctn .ingredients-ctn-inner .ing-tabs .ing-tabs-inner .ing-two-section .img-info-section .tab-image {
     margin-right: 20px;
   }
-  .ingredients-ctn
-    .ingredients-ctn-inner
-    .ing-tabs
-    .ing-tabs-inner
-    .ing-two-section
-    .img-info-section
-    .name-and-weight
-    .h3 {
+  .ingredients-ctn .ingredients-ctn-inner .ing-tabs .ing-tabs-inner .ing-two-section .img-info-section .name-and-weight .h3 {
     font-size: 18px;
     line-height: 18px;
   }
@@ -717,51 +690,4 @@
     font-size: 24px;
     line-height: 25px;
   }
-}
-
-/* tab styling */
-
-.collapsible {
-  background-color: transparent;
-  color: black;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  border-bottom: 2px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.active,
-.collapsible:hover {
-  background-color: transparent;
-}
-
-.collapsible:after {
-  content: "\002B";
-  color: black;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: transparent;
-}
-
-.content p {
-  text-align: left;
-}
+}/*# sourceMappingURL=boost.css.map */
