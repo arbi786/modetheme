@@ -813,6 +813,10 @@ table:not([class]) th {
   justify-content: center;
 }
 
+.accessories-hero-section {
+  width: 1250px;
+  padding: 0px;
+}
 .accessories-hero-section img {
   width: 100%;
 }
