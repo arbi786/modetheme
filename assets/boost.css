@@ -348,7 +348,7 @@
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 350px 100px 150px 80px 250px 80px;
+  grid-template-rows: 350px 100px 150px 170px 250px 80px;
   grid-gap: 2rem;
   row-gap: 2rem;
   margin-top: 4rem;
