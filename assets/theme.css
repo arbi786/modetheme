@@ -146,6 +146,18 @@
   img {
   width: 100%;
 }
+
+
+.best-seller-ctn
+  .best-seller-ctn-inner
+  .product-ctn
+  .procut1{
+  display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+
+}
+
 .best-seller-ctn
   .best-seller-ctn-inner
   .product-ctn
