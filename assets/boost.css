@@ -119,8 +119,8 @@
 .our-customers-ctn {
   width: 100vw;
   background-color: #ff97cb;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
   text-align: center;
 }
 .our-customers-ctn .our-customer-ctn-inner {
@@ -152,8 +152,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
   text-align: center;
   width: 100vw;
 }
@@ -255,8 +255,8 @@
   align-items: baseline;
   justify-content: center;
   width: 100vw;
-  padding-top: 14rem;
-  padding-bottom: 4rem;
+  padding-top: 25rem;
+  padding-bottom: 7rem;
 }
 .bitterness-and-acid-ctn h1 {
   width: 80%;
@@ -271,14 +271,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 9rem;
+  margin-top: 20rem;
 }
 
 .community-ctn {
   width: 100vw;
   background-color: #ffc9e2;
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 10rem;
   text-align: center;
 }
 .community-ctn .our-customer-ctn-inner {
@@ -310,8 +310,8 @@
 
 .better-func-world-ctn-boost {
   background-color: #fff7de;
-  padding-top: 3rem;
-  padding-bottom: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
   width: 100vw;
   text-align: center;
 }
@@ -335,8 +335,8 @@
 
 .our-dm-section-ctn {
   background-color: #000;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
   text-align: center;
   width: 100vw;
 }
@@ -472,8 +472,8 @@
 
 .still-got-question-ctn {
   background-color: #ffd500;
-  padding-top: 2rem;
-  padding-bottom: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
   width: 100vw;
   text-align: center;
 }
