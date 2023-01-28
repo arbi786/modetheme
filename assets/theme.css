@@ -100,7 +100,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90vw;
 }
 .sponser-section .sponser-section-inner h2 {
   font-size: 40px;
@@ -137,7 +136,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90vw;
   margin-top: 2rem;
 }
 .best-seller-ctn
@@ -176,7 +174,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90vw;
   margin-top: 2rem;
 }
 .smart-cup-coffee-ctn
@@ -207,9 +204,7 @@
   padding-top: 2rem;
   padding-bottom: 4rem;
 }
-.our-mission-ctn .our-mission-ctn-inner {
-  width: 90vw;
-}
+
 .our-mission-ctn .our-mission-ctn-inner h2 {
   color: white;
 }
@@ -271,7 +266,6 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  width: 90%;
   padding-top: 6rem;
 }
 .our-mission-ctn
@@ -331,7 +325,6 @@
   flex-direction: column;
 }
 .coffee-smarter-ctn .coffee-smarter-ctn-inner {
-  width: 90vw;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -376,7 +369,6 @@ table:not([class]) th {
   color: white;
 }
 .what-other-says-ctn .what-other-says-ctn-inner {
-  width: 90vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -427,9 +419,7 @@ table:not([class]) th {
   justify-content: center;
   margin: auto;
 }
-.figure-your-mode-ctn .figure-your-mode-ctn-inner {
-  width: 90vw;
-}
+
 .figure-your-mode-ctn .figure-your-mode-ctn-inner .fig-your-mode-video {
   margin-top: 6rem;
   margin-bottom: 2rem;
@@ -446,7 +436,6 @@ table:not([class]) th {
   color: white;
 }
 .our-story-ctn .our-story-ctn-inner {
-  width: 90vw;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -504,7 +493,6 @@ table:not([class]) th {
   width: 100vw;
 }
 .better-func-world-ctn .better-func-world-ctn-inner {
-  width: 90vw;
   margin: auto;
   display: flex;
   align-items: center;
@@ -531,7 +519,7 @@ table:not([class]) th {
   margin-top: -2rem;
 }
 .tiktok-section-ctn .tiktok-section-ctn-inner {
-  width: 90vw;
+ 
   margin: auto;
   display: flex;
   align-items: center;
@@ -546,7 +534,6 @@ table:not([class]) th {
   padding-bottom: 2rem;
 }
 .footer-section .footer-section-inner {
-  width: 90vw;
   margin: auto;
 }
 .footer-section .footer-section-inner .footer-row {
@@ -769,7 +756,6 @@ table:not([class]) th {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
   }
   .hero-section .hero-section-inner .hero-button {
     padding: 15px 22px 16px 22px;
@@ -864,9 +850,7 @@ table:not([class]) th {
   .best-seller-ctn .best-seller-ctn-inner h2 {
     font-size: 18px;
   }
-  .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner {
-    width: 90vw;
-  }
+ 
   .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner h2 {
     font-size: 24px;
     line-height: 26px;
@@ -875,7 +859,6 @@ table:not([class]) th {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-    width: 90vw;
     margin-top: 2rem;
   }
   .smart-cup-coffee-ctn
@@ -927,9 +910,7 @@ table:not([class]) th {
     padding-top: 2rem;
     padding-bottom: 4rem;
   }
-  .our-mission-ctn .our-mission-ctn-inner {
-    width: 90vw;
-  }
+ 
   .our-mission-ctn .our-mission-ctn-inner h2 {
     font-size: 18px;
   }
@@ -1198,7 +1179,6 @@ table:not([class]) th {
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 4rem;
-  width: 90%;
   margin: auto;
   margin-top: 8rem;
 }
@@ -1245,7 +1225,6 @@ table:not([class]) th {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  width: 90%;
   margin: auto;
 }
 
@@ -1269,7 +1248,6 @@ table:not([class]) th {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  width: 90%;
   margin: auto;
 }
 
@@ -1298,7 +1276,6 @@ table:not([class]) th {
 }
 
 .tiktok-section-ctn .tiktok-section-ctn-inner {
-  width: 90vw;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1437,7 +1414,6 @@ table:not([class]) th {
 }
 .accessories-product-ctn .accessories-product-ctn-inner {
   padding-top: 2rem;
-  width: 90vw;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -1526,7 +1502,6 @@ table:not([class]) th {
   padding-bottom: 3rem;
 }
 .single-product-desc-ctn .single-product-desc-ctn-inner {
-  width: 90vw;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1547,7 +1522,6 @@ table:not([class]) th {
   padding-bottom: 3rem;
 }
 .view-more-ctn .view-more-ctn-inner {
-  width: 90vw;
   margin: auto;
 }
 .view-more-ctn .view-more-ctn-inner .prodcuts-ctn {
