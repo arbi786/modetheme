@@ -845,6 +845,11 @@ table:not([class]) th {
   justify-content: space-between;
   align-items: center;
 }
+.accessories-product-ctn .accessories-product-ctn-inner .accessories-single-product-ctn .title-price .title .h4 {
+  font-size: 18px;
+  line-height: 19px;
+  font-family: "PPAgrandir-WideHeavy";
+}
 
 .single-product-desc-ctn {
   width: 100vw;
