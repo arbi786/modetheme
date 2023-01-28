@@ -161,6 +161,7 @@
   padding-bottom: 2rem;
   background-color: #ffc9e2;
   width: 100vw;
+  text-align: center;
 }
 .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner {
   width: 100vw;
@@ -203,6 +204,7 @@
   width: 100vw;
   padding-top: 2rem;
   padding-bottom: 4rem;
+  text-align: center;
 }
 
 .our-mission-ctn .our-mission-ctn-inner h2 {
@@ -418,6 +420,7 @@ table:not([class]) th {
   align-items: center;
   justify-content: center;
   margin: auto;
+  text-align: center;
 }
 
 .figure-your-mode-ctn .figure-your-mode-ctn-inner .fig-your-mode-video {
@@ -431,6 +434,7 @@ table:not([class]) th {
   padding-top: 4rem;
   padding-bottom: 3rem;
   width: 100vw;
+  text-align: center;
 }
 .our-story-ctn h2 {
   color: white;
@@ -461,6 +465,7 @@ table:not([class]) th {
   padding-top: 2rem;
   padding-bottom: 6rem;
   width: 100vw;
+  text-align: center;
 }
 .get-inspired-ctn h2 {
   color: #fff7de;
@@ -475,10 +480,17 @@ table:not([class]) th {
   justify-content: space-between;
   padding-top: 5rem;
 }
+
+.get-inspired-ctn .get-inspired-ctn-inner .racepes1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .get-inspired-ctn .get-inspired-ctn-inner .racepes1 img {
   width: 90%;
 }
 .get-inspired-ctn .get-inspired-ctn-inner .racepes1 h4 {
+  text-align: left;
   color: white;
 }
 .get-inspired-ctn .get-inspired-ctn-inner .racepes1 p {
@@ -497,6 +509,7 @@ table:not([class]) th {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 .better-func-world-ctn .better-func-world-ctn-inner h2 {
   color: #fff7de;
@@ -908,6 +921,7 @@ table:not([class]) th {
     width: 100vw;
     padding-top: 2rem;
     padding-bottom: 4rem;
+    text-align: center;
   }
  
   .our-mission-ctn .our-mission-ctn-inner h2 {
@@ -940,7 +954,7 @@ table:not([class]) th {
     .our-mission-ctn-inner-section1
     .our-mission-section1-right-col {
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   .our-mission-ctn
     .our-mission-ctn-inner
@@ -1021,7 +1035,7 @@ table:not([class]) th {
     .our-mission-ctn-inner-section2
     .our-mission-section1-right-col {
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   .our-mission-ctn
     .our-mission-ctn-inner
