@@ -338,6 +338,7 @@ table:not([class]) th {
   background-position: center center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  text-align: center;
 }
 .what-other-says-ctn h2 {
   color: white;
@@ -368,10 +369,12 @@ table:not([class]) th {
 }
 .what-other-says-ctn .what-other-says-ctn-inner .what-other-say-left .testimonials {
   width: 370px;
-  height: 270px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   border-radius: 16px;
   background-color: white;
-  padding: 2rem;
+  padding: 3rem;
 }
 .what-other-says-ctn .what-other-says-ctn-inner .what-other-say-right img {
   width: 100%;

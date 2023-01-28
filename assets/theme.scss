@@ -365,6 +365,7 @@ table {
 	background-position: center center;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+    text-align: center;
 	h2 {
 		color: $color_1;
 	}
@@ -392,10 +393,10 @@ table {
 			}
 			.testimonials {
 				width: 370px;
-				height: 270px;
+				height: max-content;
 				border-radius: 16px;
 				background-color: $background_color_2;
-				padding: 2rem;
+				padding: 3rem;
 			}
 		}
 		.what-other-say-right {
