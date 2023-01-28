@@ -182,6 +182,16 @@
   flex-direction: column;
   margin: auto;
 }
+
+.smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner h2{
+  width: 60%;
+  
+}
+
+.smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner p{
+  width: 85%;
+  
+}
 .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner .coffe-qualities-list1 {
   display: flex;
   justify-content: space-between;
