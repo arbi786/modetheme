@@ -56,6 +56,7 @@
   border-radius: 30px;
   height: 50px;
   cursor: pointer;
+  word-break: break-word;
 }
 .product-ctn .product-ctn-inner .one-time-pur {
   width: 100%;
@@ -67,8 +68,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   color: white;
   background: black;
   border-radius: 30px;
@@ -89,8 +90,8 @@
   border-radius: 30px;
   cursor: pointer;
   height: 50px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .product-ctn .product-ctn-inner .add-to-cart-ctn {
   width: 100%;
@@ -133,7 +134,7 @@
   background-color: white;
   width: 340px;
   border-radius: 16px;
-  padding: 1.5rem;
+  padding: 3rem;
   text-align: left;
   margin-top: 3rem;
 }
@@ -289,10 +290,12 @@
 }
 .community-ctn .our-customer-ctn-inner .reviews {
   background-color: white;
-  height: 270px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   width: 340px;
   border-radius: 16px;
-  padding: 1.5rem;
+  padding: 3rem;
   text-align: left;
   margin-top: 3rem;
 }
@@ -345,7 +348,7 @@
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 350px 130px 80px 250px 150px 130px;
+  grid-template-rows: 350px 100px 170px 80px 250px 150px 180px;
   grid-gap: 2rem;
   row-gap: 2rem;
   margin-top: 4rem;
