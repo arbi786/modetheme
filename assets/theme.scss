@@ -101,6 +101,25 @@ h3 {
 		}
 	}
 }
+
+// menu setting
+
+#menu{
+    width: 300px;
+    height: 400px;
+
+
+    #menu-content{
+        ul{
+            li{
+                 $font_family_1: 'PPAgrandir-WideHeavy';
+                font-size: 36px;
+                line-height: 38px;
+            }
+        }
+
+    }
+}
 .hero-section {
 	background-image: url("./Hero-section.png");
 	background-size: cover;
@@ -452,7 +471,7 @@ table {
 		}
 		.our-story-img {
 			img {
-				width: 100%;
+				width: 97%;
 			}
 		}
 	}

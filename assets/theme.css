@@ -83,6 +83,15 @@ h3 {
   width: 100%;
 }
 
+#menu {
+  width: 300px;
+  height: 400px;
+}
+#menu #menu-content ul li {
+  font-size: 36px;
+  line-height: 38px;
+}
+
 .hero-section {
   background-image: url("./Hero-section.png");
   background-size: cover;
@@ -425,7 +434,7 @@ table:not([class]) th {
   text-align: left;
 }
 .our-story-ctn .our-story-ctn-inner .our-story-img img {
-  width: 100%;
+  width: 97%;
 }
 
 .get-inspired-ctn {
