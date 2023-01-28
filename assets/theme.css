@@ -836,6 +836,8 @@ table:not([class]) th {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 3rem;
   padding-bottom: 3rem;
+  row-gap: 10rem;
+  padding-bottom: 6rem;
 }
 .accessories-product-ctn .accessories-product-ctn-inner .accessories-single-product-ctn .accessories-product-img img {
   width: 100%;
