@@ -1,0 +1,223 @@
+<div class="coffee-smarter-ctn">
+  <div class="coffee-smarter-ctn-inner">
+    <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+    <p class="coffee-desc">{{ section.settings['section-desc'] }}</p>
+
+    <table width="90%" align="center" cellspacing="0px">
+      <tr align="center" style="background-color: black; color: white; margin-bottom: 1rem;">
+        <td>
+          <h4 class="h4">{{ section.settings.th1 }}</h4>
+        </td>
+        <td>
+          <h4 class="h4">{{ section.settings.th2 }}</h4>
+        </td>
+        <td style="border-radius: 30px;">
+          <h4 class="h4">{{ section.settings.th3 }}</h4>
+        </td>
+      </tr>
+
+      <tr style="color: #000; background-color: white;" align="center">
+        <td>
+          <p class="body-copy-bold">{{ section.settings.r1c1 }}</p>
+        </td>
+        <td><img src="{{ section.settings.r1c2 | image_url}}"></td>
+        <td><img src="{{ section.settings.r1c3 | image_url }}" alt="" srcset=""></td>
+      </tr>
+
+      <tr style="background-color: white;" align="center">
+        <td>
+          <p class="body-copy-bold">{{ section.settings.r2c1 }}</p>
+        </td>
+        <td><img src="{{ section.settings.r2c2 | image_url }}"></td>
+        <td><img src="{{ section.settings.r2c3 | image_url }}" alt="" srcset=""></td>
+      </tr>
+
+      <tr style="background-color: white; border-radius: 30px;" align="center">
+        <td>
+          <p class="body-copy-bold">{{ section.settings.r3c1 }}</p>
+        </td>
+        <td><img src="{{ section.settings.r3c2 | image_url }}"></td>
+        <td><img src="{{ section.settings.r3c3 | image_url}}" alt="" srcset=""></td>
+      </tr>
+
+      <tr style="background-color: white; border-radius: 30px;" align="center">
+        <td>
+          <p class="body-copy-bold">{{ section.settings.r4c1 }}</p>
+        </td>
+        <td><img src="{{ section.settings.r4c2 | image_url}}"></td>
+        <td><img src="{{ section.settings.r4c3  | image_url}}" alt="" srcset=""></td>
+      </tr>
+
+      <tr style="background-color: white; border-radius: 30px;" align="center">
+        <td>
+          <p class="body-copy-bold">{{ section.settings.r5c1 }}</p>
+        </td>
+        <td><img src="{{ section.settings.r5c2 | image_url }}"></td>
+        <td><img src="{{ section.settings.r5c3  | image_url}}" alt="" srcset=""></td>
+      </tr>
+
+      <tr style="background-color: white; border-radius: 30px;" align="center">
+        <td>
+          <p class="body-copy-bold">{{ section.settings.r6c1 }}</p>
+        </td>
+        <td><img src="{{ section.settings.r6c2 | image_url }}"></td>
+        <td><img src="{{ section.settings.r6c3 | image_url}}" alt="" srcset=""></td>
+      </tr>
+    </table>
+
+    <button class="explore-more-btn-pink">{{ section.settings['btn-text'] }}</button>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "How to make coffee",
+    "settings": [
+
+{
+
+  "type":"text",
+  "label":"Section Heading",
+  "id":"section-heading"
+},
+      {
+        "type":"text",
+        "label":"Section Desc",
+        "id":"section-desc"
+      },
+
+      {
+        "type":"text",
+        "label":"Heading One",
+        "id":"th1"
+      },
+       {
+        "type":"text",
+        "label":"Heading Two",
+        "id":"th2"
+      },
+       {
+        "type":"text",
+        "label":"Heading Three",
+        "id":"th3"
+      },
+      {
+        "type":"text",
+        "label":"Heading",
+        "id":"r1c1"
+      },
+      {
+        "type":"image_picker",
+        "label":"Icon",
+        "id":"r1c2"
+      },
+      {
+        "type":"image_picker",
+        "label":"Icon",
+        "id":"r1c3"
+      },
+
+
+      {
+        "type":"text",
+        "label":"Heading",
+        "id":"r2c1"
+      },
+      {
+        "type":"image_picker",
+        "label":"Icon",
+        "id":"r2c2"
+      },
+      {
+        "type":"image_picker",
+        "label":"Icon",
+        "id":"r2c3"
+      },
+
+
+      {
+        "type":"text",
+        "label":"Heading",
+        "id":"r3c1"
+      },
+      {
+        "type":"image_picker",
+        "label":"Icon",
+        "id":"r3c2"
+      },
+      {
+        "type":"image_picker",
+        "label":"Icon",
+        "id":"r3c3"
+      },
+
+
+      {
+        "type":"text",
+        "label":"Heading",
+        "id":"r4c1"
+      },
+      {
+        "type":"image_picker",
+        "label":"Icon",
+        "id":"r4c2"
+      },
+      {
+        "type":"image_picker",
+        "label":"Icon",
+        "id":"r4c3"
+      },
+
+
+      {
+        "type":"text",
+        "label":"Heading",
+        "id":"r5c1"
+      },
+      {
+        "type":"image_picker",
+        "label":"Icon",
+        "id":"r5c2"
+      },
+      {
+        "type":"image_picker",
+        "label":"Icon",
+        "id":"r5c3"
+      },
+
+
+      {
+        "type":"text",
+        "label":"Heading",
+        "id":"r6c1"
+      },
+      {
+        "type":"image_picker",
+        "label":"Icon",
+        "id":"r6c2"
+      },
+      {
+        "type":"image_picker",
+        "label":"Icon",
+        "id":"r6c3"
+      },
+      {
+        "type":"text",
+        "label":"Button Text",
+        "id":"btn-text"
+      }
+
+    ],
+    "presets":[
+      {
+        "name":"How to make coffee"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

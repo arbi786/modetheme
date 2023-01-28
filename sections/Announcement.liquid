@@ -1,0 +1,32 @@
+<div class="announcment-ctn">
+  <div class="announcment-ctn-inner">
+    <marquee behavior="" direction="">
+      <p>{{ section.settings.announcement }}</p>
+    </marquee>
+  </div>
+</div>
+
+{% schema %}
+  {
+"name":"Announcement",
+    "settings":[
+      {
+        "type":"text",
+        "label":"Announcement",
+        "id":"announcement"
+      }
+    ],
+    "presets":[
+      {
+      "name":"Announcement"
+      }
+    ]
+
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

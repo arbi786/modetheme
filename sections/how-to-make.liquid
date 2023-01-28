@@ -1,0 +1,77 @@
+<div class="how-to-make-section">
+  <div class="inner-section">
+    <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+    <div class="how-to-make-list">
+      <p>
+        {{ section.settings.ins1 }}
+      </p>
+    </div>
+
+    <div class="how-to-make-list">
+      <p>
+        {{ section.settings.ins2 }}
+      </p>
+    </div>
+
+    <div class="how-to-make-list">
+      <p>
+        {{ section.settings.ins3 }}
+      </p>
+    </div>
+
+    <div class="how-to-make-list">
+      <p>
+        {{ section.settings.ins4 }}
+      </p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "How to make",
+  "settings": [
+
+    {
+      "type":"text",
+      "label":"Section Heading",
+      "id":"section-heading"
+    },
+    {
+      "type":"richtext",
+      "label":"Instruction",
+      "id":"ins1"
+
+    },
+    {
+      "type":"richtext",
+      "label":"Instruction",
+      "id":"ins2"
+
+    },
+    {
+      "type":"richtext",
+      "label":"Instruction",
+      "id":"ins3"
+
+    },
+    {
+      "type":"richtext",
+      "label":"Instruction",
+      "id":"ins4"
+
+    }
+  ],
+
+  "presets":[
+  {
+  "name":"How to Make"
+  }]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

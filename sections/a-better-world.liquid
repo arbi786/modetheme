@@ -1,0 +1,47 @@
+ <div class="better-func-world-ctn-boost">
+        <div class="better-func-world-ctn-inner">
+            <h2 class="h2">{{ section.settings.section-heading }}</h2>
+            <p>{{ section.settings.section-desc }} </p>
+            <img src="{{ section.settings.logo | image_url }}" alt="" srcset="">
+        </div>
+    </div>
+
+
+
+
+
+{% schema %}
+  {
+    "name": "A Better World",
+    "settings": [
+      {
+"type":"text",
+      "label":"Section Heading",
+      "id":"section-heading"
+        },
+      {
+        "type":"text",
+        "label":"Section Description",
+        "id":"section-desc"
+        
+      },
+      {
+        "type":"image_picker",
+        "label":"Logo",
+        "id":"logo"
+      }
+      
+    ],
+    "presets":[
+      {
+        "name":"A Better World"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

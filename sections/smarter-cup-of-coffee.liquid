@@ -1,0 +1,203 @@
+<div class="smart-cup-coffee-ctn">
+  <div class="smart-cup-coffee-ctn-inner">
+    <h2 class="h2">{{ section.settings['smarter-cup-of-coffee'] }}</h2>
+    <p>{{ section.settings['section-desc'] }}</p>
+
+    <div class="coffe-qualities-list1">
+      <div class="quality1">
+        <img src="{{ section.settings.icon | image_url }}" alt="" srcset="">
+        <h3 class="coffee-title">{{ section.settings['icon-heading'] }}</h3>
+        <p>{{ section.settings['icon-desc'] }}</p>
+      </div>
+      <div class="quality1">
+        <img src="{{ section.settings.icon2 | image_url }}" alt="" srcset="">
+        <h3 class="coffee-title">{{ section.settings['icon2-heading'] }}</h3>
+        <p>{{ section.settings['icon2-desc'] }}</p>
+      </div>
+      <div class="quality1">
+        <img src="{{ section.settings.icon3 | image_url }}" alt="" srcset="">
+        <h3 class="coffee-title">{{ section.settings['icon3-heading'] }}</h3>
+        <p>{{ section.settings['icon3-desc'] }}</p>
+      </div>
+    </div>
+    <!-- row 2 -->
+    <div class="coffe-qualities-list1">
+      <div class="quality1">
+        <img src="{{ section.settings.icon4 | image_url }}" alt="" srcset="">
+        <h3 class="coffee-title">{{ section.settings['icon4-heading'] }}</h3>
+        <p>{{ section.settings['icon4-desc'] }}</p>
+      </div>
+      <div class="quality1">
+        <img src="{{ section.settings.icon5 | image_url }}" alt="" srcset="">
+        <h3 class="coffee-title">{{ section.settings['icon5-heading'] }}</h3>
+        <p>{{ section.settings['icon5-desc'] }}</p>
+      </div>
+      <div class="quality1">
+        <img src="{{ section.settings.icon6 | image_url }}" alt="" srcset="">
+        <h3 class="coffee-title">{{ section.settings['icon6-heading'] }}</h3>
+        <p>{{ section.settings['icon6-desc'] }}</p>
+      </div>
+    </div>
+    <button class="get-started-btn-black">{{ section.settings['btn-text'] }}</button>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Smarter cup of coffee",
+    "settings": [
+
+      {
+        "type":"text",
+        "label":"Heading",
+        "id":"smarter-cup-of-coffee"
+      },
+
+      {
+        "type":"text",
+        "label":"Description",
+        "id":"section-desc"
+},
+      {
+        "type":"image_picker",
+        "label":"icon",
+        "id":"icon"
+      },
+      {
+        "type":"text",
+        "label":"Icon Heading",
+        "id":"icon-heading"
+      },
+      {
+        "type":"text",
+        "label":"Description",
+        "id":"icon-desc"
+      },
+
+      {
+        "type":"image_picker",
+        "label":"icon",
+        "id":"icon2"
+      },
+      {
+        "type":"text",
+        "label":"Icon Heading",
+        "id":"icon2-heading"
+      },
+      {
+        "type":"text",
+        "label":"Description",
+        "id":"icon2-desc"
+      },
+      {
+        "type":"image_picker",
+        "label":"icon",
+        "id":"icon3"
+      },
+      {
+        "type":"text",
+        "label":"Icon Heading",
+        "id":"icon3-heading"
+      },
+      {
+        "type":"text",
+        "label":"Description",
+        "id":"icon3-desc"
+      },
+      {
+        "type":"image_picker",
+        "label":"icon",
+        "id":"icon4"
+      },
+      {
+        "type":"text",
+        "label":"Icon Heading",
+        "id":"icon4-heading"
+      },
+      {
+        "type":"text",
+        "label":"Description",
+        "id":"icon4-desc"
+      },
+      {
+        "type":"image_picker",
+        "label":"icon",
+        "id":"icon5"
+      },
+      {
+        "type":"text",
+        "label":"Icon Heading",
+        "id":"icon5-heading"
+      },
+      {
+        "type":"text",
+        "label":"Description",
+        "id":"icon5-desc"
+      },
+
+       {
+        "type":"image_picker",
+        "label":"icon",
+        "id":"icon6"
+      },
+      {
+        "type":"text",
+        "label":"Icon Heading",
+        "id":"icon6-heading"
+      },
+      {
+        "type":"text",
+        "label":"Description",
+        "id":"icon6-desc"
+      },
+      {
+        "type":"text",
+        "label":"Button text",
+        "id":"btn-text"
+      }
+    ],
+    "presets":[
+
+      {
+        "name":"Smarter Cup of coffee"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+  .smart-cup-coffee-ctn {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #FFC9E2;
+    width: 100vw;
+  }
+  .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner .coffe-qualities-list1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin-top: 2rem;
+  }
+  .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner .coffe-qualities-list1 .quality1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+  .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner .coffe-qualities-list1 .quality1 img {
+    width: 124px;
+  }
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,217 @@
+<div class="product-ctn">
+  <div class="product-ctn-inner">
+    <div class="product-img-ctn">
+      <img src="{{ section.settings.product-image | image_url }}" alt="" srcset="">
+
+      <div class="product-slider-imgs"></div>
+    </div>
+    <div class="product-details-ctn">
+      <div class="reviws-and-price">
+        <div class="reviews">
+          <div class="stars">
+            <img src="{{ section.settings.star-icon | image_url }}" alt="" srcset="">
+            <img src="{{ section.settings.star-icon | image_url }}" alt="" srcset="">
+            <img src="{{ section.settings.star-icon | image_url }}" alt="" srcset="">
+
+            <img src="{{ section.settings.star-icon | image_url }}" alt="" srcset="">
+
+            <img src="{{ section.settings.star-icon | image_url }}" alt="" srcset="">
+          </div>
+
+          <div class="reviews-count">
+            <p>{{ section.settings.count }}</p>
+          </div>
+        </div>
+        <div class="price">
+          <p>{{ section.settings.price }}</p>
+        </div>
+      </div>
+      <div class="product-tit">
+        <h2 class="h2">{{ section.settings['product-heading'] }}</h2>
+      </div>
+      <div class="product-desc">
+        <p>{{ section.settings['product-desc'] }}</p>
+      </div>
+
+      <div class="what-mode">
+        <h3 class="h3">{{ section.settings['what-mode'] }}</h3>
+      </div>
+      <div class="mode-type-img">
+        <div class="img1"><img src="{{ section.settings.mode1 | image_url }}" alt="" srcset=""></div>
+        <div class="img2"><img src="{{ section.settings.mode2 | image_url }}" alt="" srcset=""></div>
+      </div>
+
+      <div class="how-much">
+        <h3 class="h3">{{ section.settings['how-much'] }}</h3>
+      </div>
+
+      <div class="two-button-ctn">
+        <div class="button1">
+          <button class="white-btn">{{ section.settings.btn1 }}</button>
+        </div>
+        <div class="button2">
+          <button class="black-btn">{{ section.settings.btn2 }}</button>
+        </div>
+      </div>
+
+      <div class="one-time-pur">
+        <button class="one-time-purchase-btn">
+          <span> {{ section.settings.btn3 }} </span>
+          <span>{{ section.settings.btn33 }}</span>
+        </button>
+      </div>
+
+      <div class="subscribe-and-save-ctn">
+        <button class="subs-and-save-btn">
+          <div class="button-title">{{ section.settings.btn4 }}</div>
+          <div class="subscribe-and-save-values">
+            <span>{{ section.settings.btn5 }}</span>
+          </div>
+        </button>
+      </div>
+
+      <div class="add-to-cart-ctn">
+        <button class="add-to-cart-boost">{{ section.settings.btn6 }}</button>
+      </div>
+      <div class="feature-list">
+        <div class="features-item">
+          <img src="{{ section.settings.check | image_url }}" alt="" srcset=""
+          ><span class="span">{{ section.settings.f1 }} </span>
+        </div>
+        <div class="features-item">
+          <img src="{{ section.settings.check | image_url }}" alt="" srcset=""
+          ><span class="span">{{ section.settings.f2 }}</span>
+        </div>
+        <div class="features-item">
+          <img src="{{ section.settings.check | image_url }}" alt="" srcset=""
+          ><span class="span">{{ section.settings.f3 }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Boost",
+  "settings": [
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-image"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"star-icon"
+    },
+    {
+      "type":"text",
+      "label":"Reviews Count",
+      "id":"count"
+    },
+    {
+      "type":"text",
+      "label":"Price",
+      "id":"price"
+    },
+    {
+      "type":"text",
+      "label":"Product Headig",
+      "id":"product-heading"
+    },
+     {
+      "type":"text",
+      "label":"Product Description",
+      "id":"product-desc"
+    },
+    {
+      "type":"text",
+      "label":"What mode",
+      "id":"what-mode"
+    },
+    {
+      "type":"image_picker",
+      "label":"Mode Image One",
+      "id":"mode1"
+    },
+     {
+      "type":"image_picker",
+      "label":"Mode Image Two",
+      "id":"mode2"
+    },
+    {
+      "type":"text",
+      "label":"How much",
+      "id":"how-much"
+    },
+    {
+      "type":"text",
+      "label":"Button One Text",
+      "id":"btn1"
+    },
+     {
+      "type":"text",
+      "label":"Button Two Text",
+      "id":"btn2"
+    },
+     {
+      "type":"text",
+      "label":"Button Three Left Text",
+      "id":"btn3"
+    },
+    {
+      "type":"text",
+      "label":"Button Three Right Text",
+      "id":"btn33"
+    },
+     {
+      "type":"text",
+      "label":"Button Four Left Side Text",
+      "id":"btn4"
+    },
+    {
+      "type":"text",
+      "label":"Button Four Right Side Text",
+      "id":"btn5"
+    },
+    {
+      "type":"text",
+      "label":"Add To Cart",
+      "id":"btn6"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"check"
+    },
+    {
+      "type":"text",
+      "label":"Feature 1",
+      "id":"f1"
+    },
+     {
+      "type":"text",
+      "label":"Feature 2",
+      "id":"f2"
+    },
+     {
+      "type":"text",
+      "label":"Feature 3",
+      "id":"f3"
+    }
+  ],
+  "presets":[
+    {
+      "name":"Boost"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

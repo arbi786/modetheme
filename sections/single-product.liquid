@@ -1,0 +1,48 @@
+<div class="single-product-desc-ctn">
+  <div class="single-product-desc-ctn-inner">
+    <div class="single-product-img">
+      <img src="{{ section.settings.single-img | image_url }}" alt="" srcset="">
+    </div>
+
+    <div class="single-product-desc">
+      <h2 class="h2">{{ section.settings.heading }}</h2>
+      <p>{{ section.settings['product-desc'] }}</p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Single Product",
+  "settings": [
+    {
+      "type":"text",
+      "label":"Heading",
+      "id":"heading"
+
+    },
+
+    {
+      "type":"richtext",
+      "label":"Product Description",
+      "id":"product-desc"
+    },
+    {
+      "type":"image_picker",
+      "label":"Single Procut Image",
+      "id":"single-img"
+    }
+  ],
+  "presets":[
+    {
+      "name":"Single Product"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

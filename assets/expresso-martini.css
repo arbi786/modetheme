@@ -1,0 +1,181 @@
+.expresso-ctn {
+  text-align: center;
+  background-color: #FFFFF0;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  width: 100vw;
+}
+.expresso-ctn .expresso-ctn-inner {
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.expresso-ctn .expresso-ctn-inner .left-img img {
+  width: 80%;
+}
+.expresso-ctn .expresso-ctn-inner .how-to-make-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.expresso-ctn .expresso-ctn-inner .how-to-make-details .top {
+  text-align: left;
+}
+.expresso-ctn .expresso-ctn-inner .how-to-make-details .top .expresso-clock-timer {
+  display: flex;
+  align-items: center;
+}
+.expresso-ctn .expresso-ctn-inner .how-to-make-details .top .expresso-clock-timer .clock {
+  margin-right: 10px;
+}
+.expresso-ctn .expresso-ctn-inner .how-to-make-details .top ul {
+  list-style: none;
+  padding: 0px;
+}
+.expresso-ctn .expresso-ctn-inner .how-to-make-details .top ul li {
+  margin-top: 10px;
+  font-family: "MatterMono-reg";
+}
+.expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom {
+  text-align: right;
+}
+.expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom .social-text {
+  text-align: right;
+}
+.expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom .social-icons img {
+  width: 20px;
+  z-index: 99;
+  margin-right: 20px;
+}
+
+.how-to-make-section {
+  width: 100vw;
+  background-color: #FFFFF0;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.how-to-make-section .h2 {
+  text-align: center;
+}
+.how-to-make-section .inner-section {
+  width: 80vw;
+  margin: auto;
+}
+.how-to-make-section .inner-section .how-to-make-list {
+  margin-top: 4rem;
+}
+
+.you-may-also-like-ctn {
+  width: 100vw;
+  background-color: #FFFFF0;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.you-may-also-like-ctn .h2 {
+  text-align: center;
+}
+.you-may-also-like-ctn .you-may-also-like-ctn-inner {
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like {
+  text-align: center;
+}
+.you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like .h3 {
+  font-family: "PPAgrandir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 30px;
+}
+.you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like .clock-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like .clock-time .clock img {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .h1 {
+    font-family: "PPAgrandir";
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 800;
+  }
+  .h2 {
+    font-size: 18px;
+    text-align: center;
+    font-family: "PPAgrandir";
+    line-height: 19px;
+  }
+  .h3 {
+    font-size: 24px;
+    font-family: "PPAgrandir";
+    line-height: 26px;
+  }
+  p {
+    text-align: center;
+    font-family: "MatterMono-reg";
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .text-smooth-taste {
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 700;
+  }
+  .body-copy-bold {
+    font-family: "MatterMonot-bold";
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+  }
+  .h4 {
+    font-size: 18px;
+    line-height: 19px;
+  }
+  .h6 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .button-text-mob {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  button {
+    font-size: 14px;
+  }
+  .expresso-ctn .expresso-ctn-inner {
+    grid-template-columns: 1fr;
+  }
+  .expresso-ctn .expresso-ctn-inner .left-img img {
+    width: 100%;
+  }
+  .expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom {
+    width: 100%;
+  }
+  .expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom .social-icons img {
+    margin-right: 20px;
+  }
+  .how-to-make-section .inner-section .h2 {
+    border-bottom: 2px solid #FFF7DE;
+  }
+  .how-to-make-section .inner-section .how-to-make-list p {
+    text-align: left;
+  }
+  .you-may-also-like-ctn .you-may-also-like-ctn-inner {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  .you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like img {
+    width: 100%;
+  }
+  .you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like .clock-time .clock img {
+    width: 18px;
+  }
+}

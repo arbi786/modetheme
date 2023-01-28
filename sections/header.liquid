@@ -1,0 +1,86 @@
+<div class="marquee-bar">
+  <p id="text">Welcome to our store</p>
+</div>
+
+<!-- Menu container -->
+<div id="menu">
+  <div id="menu-content">
+    <ul>
+      <li>Shop All</li>
+      <li>Ready to drink</li>
+      <li>Ready to mix</li>
+      <li>Our Mission</li>
+      <li>Accessories</li>
+      <li>Subscribe and save</li>
+      <li>Log in</li>
+    </ul>
+  </div>
+  <div id="close-button">&times;</div>
+</div>
+
+<div class="nav-bar-section">
+  <div class="navbar-section-inner">
+    <div class="nav-bar-menu">
+      <div id="icon">
+        <img src="{{ section.settings.menu-icon | image_url }}" alt="">
+      </div>
+    </div>
+
+    <div class="logo-ctn">
+      <img src="{{ section.settings.logo | image_url }}" alt="" srcset="">
+    </div>
+
+    <div class="cart-section">
+      <div class="cart-section-inner">
+        <img src="{{ section.settings.user-pro | image_url }}" alt="" srcset="">
+        <img src="{{ section.settings.search | image_url }}" alt="" srcset="">
+        <img src="{{ section.settings.cart | image_url }}" alt="" srcset="">
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Header",
+    "settings": [
+{
+"type":"image_picker",
+      "label":"Menu Icon",
+      "id":"menu-icon"
+},
+      {
+"type":"image_picker",
+      "label":"Logo",
+      "id":"logo"
+      },
+      {
+"type":"image_picker",
+      "label":"User Profile",
+      "id":"user-pro"
+      },
+      {
+"type":"image_picker",
+      "label":"Search Icon",
+      "id":"search"
+      },
+       {
+"type":"image_picker",
+      "label":"Cart Icon",
+      "id":"cart"
+       }
+
+    ],
+    "presets":[
+      {
+      "name":"Header"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

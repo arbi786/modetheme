@@ -1,0 +1,148 @@
+.hero-section {
+  background-image: url('{{ "Hero-section.png" | asset_url }}');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.hero-section .hero-section-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+}
+.hero-section .hero-section-inner h1 {
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 60px;
+}
+
+
+.h1 {
+  font-family: "PPAgrandir";
+  size: 64px;
+  line-height: 68px;
+  font-weight: 800;
+}
+
+.h2 {
+  font-size: 36px;
+  text-align: center;
+  font-family: "PPAgrandir";
+  line-height: 38px;
+}
+
+.h3 {
+  font-size: 24px;
+  font-family: "PPAgrandir";
+  line-height: 26px;
+}
+
+p {
+  text-align: center;
+  font-family: "MatterMono-reg";
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.body-copy-bold {
+  font-family: "MatterMonot-bold";
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+
+.hero-button {
+  border-radius: 60px;
+  padding: 21px 32px;
+  height: 70px;
+  background-color: #FFF8A3;
+  color: #000000;
+  font-family: "PPAgrandir";
+  font-size: 18px;
+  line-height: 19px;
+  border: none;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.add-to-cart--btn-black {
+  width: 100%;
+  border-radius: 60px;
+  padding: 21px 32px;
+  height: 70px;
+  background-color: #000;
+  color: #fff;
+  font-family: "PPAgrandir";
+  font-size: 18px;
+  line-height: 19px;
+  border: none;
+  cursor: pointer;
+}
+
+.get-started-btn-black {
+  background-color: #000000;
+  color: white;
+  border-radius: 60px;
+  padding: 21px 32px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.shop-now {
+  background-color: #FFF7DE;
+  border-radius: 60px;
+  font-size: 18px;
+  font-family: "PPAgrandir";
+  color: black;
+  border: none;
+  padding: 21px 32px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.explore-more-btn-pink {
+  background-color: #FFC9E2;
+  border-radius: 60px;
+  padding: 21px 32px 21px 32px;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.check-out-btn-pink {
+  width: 90%;
+  background-color: #FFC9E2;
+  border: none;
+  padding: 21px 32px 21px 32px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.coffee-title {
+  font-family: "PPAgrandir";
+  text-align: center;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+button {
+  font-family: "PPAgrandir";
+  font-size: 20px;
+}
+
+.product-price {
+  font-family: "MatterMono-Bold";
+  font-size: 18px;
+}
+
+h4 {
+  font-family: "PPAgrandir";
+  font-size: 20px;
+}

@@ -1,0 +1,125 @@
+<div class="view-more-ctn">
+  <div class="view-more-ctn-inner">
+    <h4 class="h4">{{ section.settings.title }}</h4>
+
+    <div class="prodcuts-ctn">
+      <div class="product">
+        <div class="product-img">
+          <img src="{{ section.settings.product1-img | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="price-title">
+          <div class="heading">
+            <p>{{ section.settings['product1-title'] }}</p>
+          </div>
+          <div class="price">
+            <p>{{ section.settings['product1-price'] }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-img">
+          <img src="{{ section.settings.product2-img | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="price-title">
+          <div class="heading">
+            <p>{{ section.settings['product2-title'] }}</p>
+          </div>
+          <div class="price">
+            <p>{{ section.settings['product2-price'] }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-img">
+          <img src="{{ section.settings.product3-img | image_url}}" alt="" srcset="">
+        </div>
+
+        <div class="price-title">
+          <div class="heading">
+            <p>{{ section.settings['product3-title'] }}</p>
+          </div>
+          <div class="price">
+            <p>{{ section.settings['product3-price'] }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "View more",
+  "settings": [
+
+    {
+      "type":"text",
+      "label":"Title",
+      "id":"title"
+
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product1-img"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product1-title"
+    },
+    {
+      "type":"text",
+      "label":"Product Price",
+      "id":"product1-price"
+    },
+     {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product2-img"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product2-title"
+    },
+    {
+      "type":"text",
+      "label":"Product Price",
+      "id":"product2-price"
+    },
+     {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product3-img"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product3-title"
+    },
+    {
+      "type":"text",
+      "label":"Product Price",
+      "id":"product3-price"
+    }
+  ],
+  "presets":[
+
+    {
+      "name":"View More"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

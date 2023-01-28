@@ -1,0 +1,90 @@
+<div class="sponser-section">
+  <div class="sponser-section-inner">
+    <h2 class="h2">{{ section.settings['sponser-heading'] }}</h2>
+
+    <div class="logo-section">
+      <div>
+        <img src="{{ section.settings.first-image | image_url }}" alt="" srcset="">
+      </div>
+      <div>
+        <img src="{{ section.settings.second-image | image_url }}" alt="" srcset="">
+      </div>
+      <div>
+        <img src="{{ section.settings.third-image | image_url }}" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Sponser_section",
+  "settings": [
+
+
+    {
+      "type":"text",
+      "label":"Sponser Heading",
+      "id":"sponser-heading"
+    },
+    {
+      "type":"image_picker",
+      "label":"first-sponser-image",
+      "id":"first-image"
+    },
+     {
+      "type":"image_picker",
+      "label":"second-sponser-image",
+      "id":"second-image"
+    },
+     {
+      "type":"image_picker",
+      "label":"third-sponser-image",
+      "id":"third-image"
+    }
+  ],
+
+   "presets":[
+
+    {
+
+      "name":"Sponser Section",
+      "category":"sponser"
+
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+  .sponser-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF7DE;
+    width: 100vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .sponser-section .sponser-section-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+  }
+  .sponser-section .sponser-section-inner h2 {
+    font-size: 40px;
+  }
+  .sponser-section .sponser-section-inner .logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    width: 75vw;
+  }
+  .sponser-section .sponser-section-inner .logo-section img {
+    width: 100%;
+  }
+{% endstylesheet %}

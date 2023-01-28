@@ -1,0 +1,41 @@
+<div class="our-mode-fam-ctn">
+  <div class="our-mode-fam-ctn-inner">
+    <div class="our-mode-fam-left">
+      <h2 class="h2">{{ section.settings.heading }}</h2>
+    </div>
+    <div class="our-mode-fam-right">
+      <img src="{{ section.settings.img | image_url }}" alt="" srcset="">
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Our mode fam",
+  "settings": [
+
+    {
+      "type":"richtext",
+      "label":"Heading",
+      "id":"heading"
+    },
+    {
+      "type":"image_picker",
+      "label":"Image",
+      "id":"img"
+    }
+  ],
+  "presets":[
+    {
+
+    "name":"Our Mode Fam"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

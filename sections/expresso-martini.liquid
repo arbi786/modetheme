@@ -1,0 +1,170 @@
+<div class="expresso-ctn">
+  <h1 class="h1">{{ section.settings['section-heading'] }}</h1>
+
+  <div class="expresso-ctn-inner">
+    <div class="left-img">
+      <img src="{{ section.settings.product-img | image_url }}" alt="" srcset="">
+    </div>
+
+    <div class="how-to-make-details">
+      <div class="top">
+        <div class="expresso-clock-timer">
+          <div class="clock"><img src="{{ section.settings.clock-icon | image_url }}" alt="" srcset=""></div>
+          <div class="time">
+            <p>{{ section.settings.timer }}</p>
+          </div>
+        </div>
+        <h3 class="h3">{{ section.settings.ingr }}</h3>
+        <ul>
+          <li>{{ section.settings['ing-list-item1'] }}</li>
+          <li>{{ section.settings['ing-list-item2'] }}</li>
+          <li>{{ section.settings['ing-list-item3'] }}</li>
+          <li>{{ section.settings['ing-list-item4'] }}</li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <div class="social-text">
+          <p class="social-desc">{{ section.settings.smd }}</p>
+        </div>
+        <div class="social-icons">
+          <img src="{{ section.settings.fb | image_url }}" alt="" srcset="">
+          <img src="{{ section.settings.insta | image_url }}" alt="" srcset="">
+          <img src="{{ section.settings.tiktok | image_url }}" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Expresso Martini",
+  "settings": [
+
+    {
+      "type":"text",
+      "label":"Section Heading",
+      "id":"section-heading"
+    },
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"clock-icon"
+    },
+    {
+      "type":"text",
+      "label":"Time",
+      "id":"timer"
+    },
+    {
+      "type":"text",
+      "label":"Ingredients Heading",
+      "id":"ingr"
+    },
+    {
+      "type":"text",
+      "label":"Ingredients List",
+      "id":"ing-list-item1"
+    },
+     {
+      "type":"text",
+      "label":"Ingredients List",
+      "id":"ing-list-item2"
+    },
+     {
+      "type":"text",
+      "label":"Ingredients List",
+      "id":"ing-list-item3"
+    },
+     {
+      "type":"text",
+      "label":"Ingredients List",
+      "id":"ing-list-item4"
+    },
+    {
+      "type":"text",
+      "label":"Social Media Heading",
+      "id":"smd"
+    },
+    {
+      "type":"image_picker",
+      "label":"Facebook Icon",
+      "id":"fb"
+
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Insta Icon",
+      "id":"insta"
+
+    },
+    {
+      "type":"image_picker",
+      "label":"Tiktok Icon",
+      "id":"tiktok"
+
+    }
+
+  ],
+  "presets":[
+    {
+      "name":"Express Martini"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+  .expresso-ctn {
+    text-align: center;
+    background-color: #FFFFF0;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    width: 100vw;
+  }
+  .expresso-ctn .expresso-ctn-inner {
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .expresso-ctn .expresso-ctn-inner .left-img img {
+    width: 80%;
+  }
+  .expresso-ctn .expresso-ctn-inner .how-to-make-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .expresso-ctn .expresso-ctn-inner .how-to-make-details .top {
+    text-align: left;
+  }
+  .expresso-ctn .expresso-ctn-inner .how-to-make-details .top ul {
+    list-style: none;
+    padding: 0px;
+  }
+  .expresso-ctn .expresso-ctn-inner .how-to-make-details .top ul li {
+    margin-top: 10px;
+    font-family: "MatterMono-reg";
+  }
+  .expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom {
+    text-align: right;
+  }
+  .expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom .social-text {
+    text-align: right;
+  }
+  .expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom .social-icons img {
+    width: 20px;
+    z-index: 99;
+    margin-right: 20px;
+  }
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

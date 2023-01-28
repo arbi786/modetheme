@@ -1,0 +1,136 @@
+<div class="still-got-question-ctn">
+  <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+  <div class="still-got-question-ctn-inner">
+    <div class="tab-ctn">
+      <button class="collapsible">
+        <h3>{{ section.settings['tab1-title'] }}</h3>
+      </button>
+      <div class="content">
+        <p>{{ section.settings['tab1-desc'] }}</p>
+      </div>
+
+      <button class="collapsible">
+        <h3>{{ section.settings['tab2-title'] }}</h3>
+      </button>
+      <div class="content">
+        <p>{{ section.settings['tab2-desc'] }}</p>
+      </div>
+
+      <button class="collapsible">
+        <h3>{{ section.settings['tab3-title'] }}</h3>
+      </button>
+      <div class="content">
+        <p>{{ section.settings['tab3-desc'] }}</p>
+      </div>
+
+      <button class="collapsible">
+        <h3>{{ section.settings['tab4-title'] }}</h3>
+      </button>
+      <div class="content">
+        <p>{{ section.settings['tab4-desc'] }}</p>
+      </div>
+
+      <button class="collapsible">
+        <h3>{{ section.settings['tab5-title'] }}</h3>
+      </button>
+      <div class="content">
+        <p>{{ section.settings['tab5-desc'] }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Still Got Question",
+  "settings": [
+
+    {
+      "type":"text",
+      "label":"Section Heading",
+      "id":"section-heading"
+    },
+
+     {
+      "type":"text",
+      "label":"Tab1 Title",
+      "id":"tab1-title"
+    },
+     {
+      "type":"text",
+      "label":"Tab1 Description",
+      "id":"tab1-desc"
+    },
+    {
+      "type":"text",
+      "label":"Tab2 Title",
+      "id":"tab2-title"
+    },
+     {
+      "type":"text",
+      "label":"Tab2 Description",
+      "id":"tab2-desc"
+    },
+
+    {
+      "type":"text",
+      "label":"Tab3 Title",
+      "id":"tab3-title"
+    },
+     {
+      "type":"text",
+      "label":"Tab3 Description",
+      "id":"tab3-desc"
+    },
+
+    {
+      "type":"text",
+      "label":"Tab4 Title",
+      "id":"tab4-title"
+    },
+     {
+      "type":"text",
+      "label":"Tab4 Description",
+      "id":"tab4-desc"
+    },
+
+    {
+      "type":"text",
+      "label":"Tab5 Title",
+      "id":"tab5-title"
+    },
+     {
+      "type":"text",
+      "label":"Tab5 Description",
+      "id":"tab5-desc"
+    }
+
+
+  ],
+  "presets":[
+    {
+      "name":"Still Got Question"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight) {
+              content.style.maxHeight = null;
+          } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+          }
+      });
+  }
+{% endjavascript %}

@@ -1,0 +1,246 @@
+<div class="product-ctn">
+  <div class="product-ctn-inner">
+    <div class="product-img-ctn">
+      <img src="{{ section.settings.product-img | image_url }}" alt="" srcset="">
+
+      <div class="product-slider-imgs"></div>
+    </div>
+    <div class="product-details-ctn">
+      <div class="reviws-and-price">
+        <div class="reviews">
+          <div class="stars">
+            <img src="{{ section.settings.star1 | image_url }}" alt="" srcset="">
+            <img src="{{ section.settings.star2 | image_url }}" alt="" srcset="">
+            <img src="{{ section.settings.star3 | image_url }}" alt="" srcset="">
+
+            <img src="{{ section.settings.star4 | image_url }}" alt="" srcset="">
+
+            <img src="{{ section.settings.star5 | image_url }}" alt="" srcset="">
+          </div>
+
+          <div class="reviews-count">
+            <p>{{ section.settings.reviews }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-tit">
+        <div class="heading">
+          <h2 class="h2">{{ section.settings['product-title'] }}</h2>
+        </div>
+        <div class="weight">
+          <p>{{ section.settings.weight }}</p>
+        </div>
+      </div>
+      <div class="product-desc">
+        <p>{{ section.settings['product-desc'] }}</p>
+      </div>
+
+      <div class="product-features">
+        <div class="features">
+          <di class="feature-img">
+            <img src="{{ section.settings.smooth-icon | image_url }}" alt="" srcset="">
+          </di>
+          <div class="features desc">
+            <p>{{ section.settings['smooth-icon-desc'] }}</p>
+          </div>
+        </div>
+
+        <div class="features">
+          <di class="feature-img">
+            <img src="{{ section.settings.stomach | image_url }}" alt="" srcset="">
+          </di>
+          <div class="features desc">
+            <p>{{ section.settings['stomach-icon-desc'] }}</p>
+          </div>
+        </div>
+
+        <div class="features">
+          <di class="feature-img">
+            <img src="{{ section.settings.more | image_url }}" alt="" srcset="">
+          </di>
+          <div class="features desc">
+            <p>{{ section.settings['more-icon-desc'] }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="serving">
+        <p class="body-copy-bold">{{ section.settings.serving }}</p>
+      </div>
+
+      <div class="three-button-ctn">
+        <div class="button1">
+          <button class="white-btn">{{ section.settings.btn1 }}</button>
+        </div>
+        <div class="button1">
+          <button class="white-btn">{{ section.settings.btn2 }}</button>
+        </div>
+        <div class="button2">
+          <button class="black-btn">{{ section.settings.btn3 }}</button>
+        </div>
+      </div>
+
+      <div class="add-to-cart-ctn">
+        <button class="add-to-cart">{{ section.settings.btn4 }}</button>
+      </div>
+      <div class="feature-list">
+        <div class="features-item">
+          <img src="{{ section.settings.check | image_url }}" alt="" srcset=""
+          ><span class="span">{{ section.settings.f1 }}</span>
+        </div>
+        <div class="features-item">
+          <img src="{{ section.settings.check | image_url }}" alt="" srcset=""
+          ><span class="span">{{ section.settings.f2 }}</span>
+        </div>
+        <div class="features-item">
+          <img src="{{ section.settings.check | image_url }}" alt="" srcset=""
+          ><span class="span">{{ section.settings.f3 }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Product Details",
+  "settings": [
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img"
+    },
+    {
+      "type":"image_picker",
+      "label":"Give Stars",
+      "id":"star1"
+    },
+    {
+      "type":"image_picker",
+      "label":"Give Stars",
+      "id":"star2"
+    },
+    {
+      "type":"image_picker",
+      "label":"Give Stars",
+      "id":"star3"
+    },
+    {
+      "type":"image_picker",
+      "label":"Give Stars",
+      "id":"star4"
+    },
+    {
+      "type":"image_picker",
+      "label":"Give Stars",
+      "id":"star5"
+    },
+    {
+      "type":"text",
+      "label":"Reviews",
+      "id":"reviews"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product-title"
+    },
+    {
+      "type":"text",
+      "label":"Weight",
+      "id":"weight"
+    },
+    {
+      "type":"text",
+      "label":"Product Description",
+      "id":"product-desc"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"smooth-icon"
+    },
+    {
+      "type":"text",
+      "label":"Desciption",
+      "id":"smooth-icon-desc"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"stomach"
+    },
+    {
+      "type":"text",
+      "label":"Desciption",
+      "id":"stomach-icon-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"more"
+    },
+    {
+      "type":"text",
+      "label":"Desciption",
+      "id":"more-icon-desc"
+    },
+    {
+      "type":"text",
+      "label":"Per Serving",
+      "id":"serving"
+    },
+    {
+      "type":"text",
+      "label":"Button One Text",
+      "id":"btn1"
+    },
+     {
+      "type":"text",
+      "label":"Button One Text",
+      "id":"btn2"
+    },
+     {
+      "type":"text",
+      "label":"Button One Text",
+      "id":"btn3"
+    },
+     {
+      "type":"text",
+      "label":"Button One Text",
+      "id":"btn4"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"check"
+    },
+    {
+      "type":"text",
+      "label":"Feature One",
+      "id":"f1"
+    },
+
+    {
+      "type":"text",
+      "label":"Feature two",
+      "id":"f2"
+    },
+    {
+      "type":"text",
+      "label":"Feature Three",
+      "id":"f3"
+    }
+  ],
+  "presets":[
+    {
+      "name":"Product Details"
+    }
+
+
+
+  ]
+}
+{% endschema %}

@@ -1,0 +1,58 @@
+<div class="bitterness-and-acid-ctn">
+        <h1 class="h1">{{ section.settings.section-heading }}</h1>
+        <div class="bitterness-and-acid-ctn-inner">
+            <div class="logo"> <img src="{{ section.settings.logo1 | image_url }}" alt="" srcset=""></div>
+            <div class="logo"> <img src="{{ section.settings.logo2 | image_url }}" alt="" srcset=""></div>
+            <div class="logo"> <img src="{{ section.settings.logo3 | image_url}}" alt="" srcset=""></div>
+            <div class="logo"><img src="{{ section.settings.logo4 | image_url }}" alt="" srcset=""></div>
+        </div>
+    </div>
+
+
+
+
+{% schema %}
+  {
+    "name": "No Bitterness",
+    "settings": [
+
+      {
+        "type":"text",
+        "label":"Section Heading",
+        "id":"section-heading"
+        
+      },
+      {
+        "type":"image_picker",
+        "label":"Logo 1",
+        "id":"logo1"
+      },
+       {
+        "type":"image_picker",
+        "label":"Logo 2",
+        "id":"logo2"
+      },
+       {
+        "type":"image_picker",
+        "label":"Logo 3",
+        "id":"logo3"
+      },
+       {
+        "type":"image_picker",
+        "label":"Logo 4",
+        "id":"logo4"
+      }
+    ],
+    "presets":[
+      {
+        "name":"No Bitterness"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

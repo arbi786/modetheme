@@ -1,0 +1,390 @@
+<div class="accessories-hero-section">
+  <img src="{{ section.settings.hero-bg | image_url}}" alt="" srcset="">
+</div>
+
+<div class="accessories-product-ctn">
+  <h2 class="h2">{{ section.settings.heading }}</h2>
+
+  <div class="accessories-product-ctn-inner">
+    <div class="accessories-single-product-ctn">
+      <div class="accessories-product-img">
+        <img src="{{ section.settings.product1-img | image_url}}" alt="" srcset="">
+      </div>
+
+      <div class="title-price">
+        <div class="title">
+          <h3 class="h3">{{ section.settings['product1-title'] }}</h3>
+        </div>
+        <div class="price">
+          <p>{{ section.settings['product1-price'] }}</p>
+        </div>
+      </div>
+      <button class="add-to-cart-yello-btn">{{ section.settings['btn1-text'] }}</button>
+    </div>
+
+    <div class="accessories-single-product-ctn">
+      <div class="accessories-product-img">
+        <img src="{{ section.settings.product2-img | image_url }}" alt="" srcset="">
+      </div>
+
+      <div class="title-price">
+        <div class="title">
+          <h3 class="h3">{{ section.settings['product2-title'] }}</h3>
+        </div>
+        <div class="price">
+          <p>{{ section.settings['product2-price'] }}</p>
+        </div>
+      </div>
+      <button class="add-to-cart-yello-btn">{{ section.settings['btn2-text'] }}</button>
+    </div>
+
+    <div class="accessories-single-product-ctn">
+      <div class="accessories-product-img">
+        <img src="{{ section.settings.product3-img | image_url }}" alt="" srcset="">
+      </div>
+
+      <div class="title-price">
+        <div class="title">
+          <h3 class="h3">{{ section.settings['product3-title'] }}</h3>
+        </div>
+        <div class="price">
+          <p>{{ section.settings['product3-price'] }}</p>
+        </div>
+      </div>
+      <button class="add-to-cart-yello-btn">{{ section.settings['btn3-text'] }}</button>
+    </div>
+
+    <div class="accessories-single-product-ctn">
+      <div class="accessories-product-img">
+        <img src="{{ section.settings.product4-img | image_url }}" alt="" srcset="">
+      </div>
+
+      <div class="title-price">
+        <div class="title">
+          <h3 class="h3">{{ section.settings['product4-title'] }}</h3>
+        </div>
+        <div class="price">
+          <p>{{ section.settings['product4-price'] }}</p>
+        </div>
+      </div>
+      <button class="add-to-cart-yello-btn">{{ section.settings['btn4-text'] }}</button>
+    </div>
+
+    <div class="accessories-single-product-ctn">
+      <div class="accessories-product-img">
+        <img src="{{ section.settings.product5-img | image_url }}" alt="" srcset="">
+      </div>
+
+      <div class="title-price">
+        <div class="title">
+          <h3 class="h3">{{ section.settings['product5-title'] }}</h3>
+        </div>
+        <div class="price">
+          <p>{{ section.settings['product5-price'] }}</p>
+        </div>
+      </div>
+      <button class="add-to-cart-yello-btn">{{ section.settings['btn5-text'] }}</button>
+    </div>
+
+    <div class="accessories-single-product-ctn">
+      <div class="accessories-product-img">
+        <img src="{{ section.settings.product6-img | image_url }}" alt="" srcset="">
+      </div>
+
+      <div class="title-price">
+        <div class="title">
+          <h3 class="h3">{{ section.settings['product6-title'] }}</h3>
+        </div>
+        <div class="price">
+          <p>{{ section.settings['product6-price'] }}</p>
+        </div>
+      </div>
+      <button class="add-to-cart-yello-btn">{{ section.settings['btn6-text'] }}</button>
+    </div>
+
+    <div class="accessories-single-product-ctn">
+      <div class="accessories-product-img">
+        <img src="{{ section.settings.product7-img | image_url }}" alt="" srcset="">
+      </div>
+
+      <div class="title-price">
+        <div class="title">
+          <h3 class="h3">{{ section.settings['product7-title'] }}</h3>
+        </div>
+        <div class="price">
+          <p>{{ section.settings['product7-price'] }}</p>
+        </div>
+      </div>
+      <button class="add-to-cart-yello-btn">{{ section.settings['btn7-text'] }}</button>
+    </div>
+
+    <div class="accessories-single-product-ctn">
+      <div class="accessories-product-img">
+        <img src="{{ section.settings.product8-img | image_url }}" alt="" srcset="">
+      </div>
+
+      <div class="title-price">
+        <div class="title">
+          <h3 class="h3">{{ section.settings['product8-title'] }}</h3>
+        </div>
+        <div class="price">
+          <p>{{ section.settings['product8-price'] }}</p>
+        </div>
+      </div>
+      <button class="add-to-cart-yello-btn">{{ section.settings['btn8-text'] }}</button>
+    </div>
+
+    <div class="accessories-single-product-ctn">
+      <div class="accessories-product-img">
+        <img src="{{ section.settings.product9-img | image_url }}" alt="" srcset="">
+      </div>
+
+      <div class="title-price">
+        <div class="title">
+          <h3 class="h3">{{ section.settings['product9-title'] }}</h3>
+        </div>
+        <div class="price">
+          <p>{{ section.settings['product9-price'] }}</p>
+        </div>
+      </div>
+      <button class="add-to-cart-yello-btn">{{ section.settings['btn9-text'] }}</button>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Accessories Hero Section",
+  "settings": [
+    {
+      "type":"image_picker",
+      "label":"Hero Image",
+      "id":"hero-bg"
+    },
+    {
+    "type":"text",
+    "label":"Heading",
+    "id":"heading"
+    },
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product1-img"
+    },
+    {
+      "type":"richtext",
+      "label":"Prodcut Title",
+      "id":"product1-title"
+    }
+    ,
+      {
+      "type":"text",
+      "label":"Product Price",
+      "id":"product1-price"
+    }
+      ,
+      {
+      "type":"text",
+      "label":"Button Text",
+      "id":"btn1-text"
+      },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product2-img"
+    },
+    {
+      "type":"richtext",
+      "label":"Prodcut Title",
+      "id":"product2-title"
+    }
+    ,
+      {
+      "type":"text",
+      "label":"Product Price",
+      "id":"product2-price"
+    }
+      ,
+      {
+      "type":"text",
+      "label":"Button Text",
+      "id":"btn2-text"
+      },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product3-img"
+    },
+    {
+      "type":"richtext",
+      "label":"Prodcut Title",
+      "id":"product3-title"
+    }
+    ,
+      {
+      "type":"text",
+      "label":"Product Price",
+      "id":"product3-price"
+    }
+      ,
+      {
+      "type":"text",
+      "label":"Button Text",
+      "id":"btn3-text"
+      },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product4-img"
+    },
+    {
+      "type":"richtext",
+      "label":"Prodcut Title",
+      "id":"product4-title"
+    }
+    ,
+      {
+      "type":"text",
+      "label":"Product Price",
+      "id":"product4-price"
+    }
+      ,
+      {
+      "type":"text",
+      "label":"Button Text",
+      "id":"btn4-text"
+      },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product5-img"
+    },
+    {
+      "type":"richtext",
+      "label":"Prodcut Title",
+      "id":"product5-title"
+    }
+    ,
+      {
+      "type":"text",
+      "label":"Product Price",
+      "id":"product5-price"
+    }
+      ,
+      {
+      "type":"text",
+      "label":"Button Text",
+      "id":"btn5-text"
+      },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product6-img"
+    },
+    {
+      "type":"richtext",
+      "label":"Prodcut Title",
+      "id":"product6-title"
+    }
+    ,
+      {
+      "type":"text",
+      "label":"Product Price",
+      "id":"product6-price"
+    }
+      ,
+      {
+      "type":"text",
+      "label":"Button Text",
+      "id":"btn6-text"
+      },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product7-img"
+    }
+    ,
+    {
+      "type":"richtext",
+      "label":"Prodcut Title",
+      "id":"product7-title"
+    }
+    ,
+      {
+      "type":"text",
+      "label":"Product Price",
+      "id":"product7-price"}
+      ,
+      {
+      "type":"text",
+      "label":"Button Text",
+      "id":"btn7-text"
+      },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product8-img"
+    },
+    {
+      "type":"richtext",
+      "label":"Prodcut Title",
+      "id":"product8-title"
+    }
+    ,
+      {
+      "type":"text",
+      "label":"Product Price",
+      "id":"product8-price"
+    }
+      ,
+      {
+      "type":"text",
+      "label":"Button Text",
+      "id":"btn8-text"
+      },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product9-img"
+    },
+    {
+      "type":"richtext",
+      "label":"Prodcut Title",
+      "id":"product9-title"
+    }
+    ,
+      {
+      "type":"text",
+      "label":"Product Price",
+      "id":"product9-price"
+    },
+      {
+      "type":"text",
+      "label":"Button Text",
+      "id":"btn9-text"
+      }
+
+
+
+  ],
+  "presets":[
+    {
+      "name":"Hero Section"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

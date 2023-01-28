@@ -1,0 +1,45 @@
+<div class="figure-your-mode-ctn">
+  <div class="figure-your-mode-ctn-inner">
+    <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+    <p>{{ section.settings['section-desc'] }}</p>
+    <div class="fig-your-mode-video">
+      <img src="{{ section.settings.video | image_url}}" alt="" srcset="">
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Find your mode",
+    "settings": [
+
+{
+  "type":"text",
+  "label":"Section Heading",
+  "id":"section-heading"
+},
+      {
+        "type":"text",
+        "label":"Section Desc",
+        "id":"section-desc"
+      },
+      {
+        "type":"image_picker",
+        "label":"Video image",
+        "id":"video"
+      }
+
+    ],
+    "presets":[
+      {
+        "name":"Find your mode"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

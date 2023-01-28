@@ -1,0 +1,57 @@
+<div class="tiktok-section-ctn">
+  <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+  <h2 class="h2 modecoldbrew">{{ section.settings['section-heading2'] }}</h2>
+
+  <div class="tiktok-section-ctn-inner">
+    <div class="tik1"><img src="{{ section.settings.video1 | image_url }}" alt="" srcset=""></div>
+    <div class="tik2"><img src="{{ section.settings.video2 | image_url}}" alt="" srcset=""></div>
+    <div class="tik3"><img src="{{ section.settings.video3 | image_url }}" alt="" srcset=""></div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name":"Tiktok",
+  "settings": [
+{
+      "type":"text",
+      "label":"Section Heading",
+      "id":"section-heading"
+    },
+    {
+      "type":"text",
+      "label":"Section Heading two",
+      "id":"section-heading2"
+    },
+    {
+      "type":"image_picker",
+      "label":"Video One",
+      "id":"video1"
+    },
+     {
+      "type":"image_picker",
+      "label":"Video Two",
+      "id":"video2"
+    },
+     {
+      "type":"image_picker",
+      "label":"Video Three",
+      "id":"video3"
+    }
+
+
+  ],
+  "presets":[
+    {
+    "name":"Tiktok"
+    }
+
+      ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

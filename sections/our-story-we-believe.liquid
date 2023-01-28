@@ -1,0 +1,112 @@
+<div class="we-believe-ctn">
+  <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+  <p>{{ section.settings['section-desc'] }}</p>
+
+  <div class="we-believe-ctn-inner">
+    <div class="wellbeing">
+      <img src="{{ section.settings.icon1 | image_url }}" alt="" srcset="">
+      <p class="Well">{{ section.settings.title }}</p>
+      <p>
+        {{ section.settings.desc }}
+      </p>
+    </div>
+
+    <div class="balance">
+      <img src="{{ section.settings.icon2 | image_url}}" alt="" srcset="">
+      <p class="bal">{{ section.settings.title2 }}</p>
+      <p>
+        {{ section.settings.desc2 }}
+      </p>
+    </div>
+
+    <div class="find-our-mode">
+      <img src="{{ section.settings.icon3 | image_url }}" alt="" srcset="">
+      <p class="find-mode">{{ section.settings.title3 }}</p>
+      <p>
+        {{ section.settings.desc3 }}
+      </p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "We Beleive",
+  "settings": [
+
+    {
+      "type":"richtext",
+      "label":"Section Heading",
+      "id":"section-heading"
+    },
+    {
+      "type":"richtext",
+      "label":"Section Description",
+      "id":"section-desc"
+    },
+
+
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"icon1"
+    },
+    {
+      "type":"richtext",
+      "label":"Title",
+      "id":"title"
+    },
+    {
+      "type":"richtext",
+      "label":"Desc",
+      "id":"desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"icon2"
+    },
+    {
+      "type":"richtext",
+      "label":"Title",
+      "id":"title2"
+    },
+    {
+      "type":"richtext",
+      "label":"Desc",
+      "id":"desc2"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"icon3"
+    },
+    {
+      "type":"richtext",
+      "label":"Title",
+      "id":"title3"
+    },
+    {
+      "type":"richtext",
+      "label":"Desc",
+      "id":"desc3"
+    }
+
+
+
+  ],
+  "presets":[
+    {
+      "name":"We Beleive"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

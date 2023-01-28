@@ -1,0 +1,189 @@
+<div class="best-seller-ctn">
+  <div class="best-seller-ctn-inner">
+    <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+
+    <div class="product-ctn">
+      <div class="procut1">
+        <div class="prodcuct-img">
+          <img src="{{  section.settings.best-seller-image1 | image_url}}" alt="" srcset="">
+        </div>
+
+        <div class="product-price-ctn">
+          <div class="product-title">
+            <h4>{{ section.settings['product-heading'] }}</h4>
+          </div>
+          <div class="product-price">
+            <p>{{ section.settings['product-price'] }}</p>
+          </div>
+        </div>
+
+        <button class="add-to-cart--btn-black">{{ section.settings['button-text'] }}</button>
+      </div>
+
+      <div class="procut1">
+        <div class="prodcuct-img">
+          <img src="{{ section.settings.best-seller-image2 | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="product-price-ctn">
+          <div class="product-title">
+            <h4>{{ section.settings.product2.heading }}</h4>
+          </div>
+          <div class="product-price">
+            <p>{{ section.settings['product2-price'] }}</p>
+          </div>
+        </div>
+        <button class="add-to-cart--btn-black">{{ section.settings['button2-text'] }}</button>
+      </div>
+
+      <div class="procut1">
+        <div class="prodcuct-img">
+          <img src="{{ section.settings.best-seller-image3 | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="product-price-ctn">
+          <div class="product-title">
+            <h4>{{ section.settings['product3-heading'] }}</h4>
+          </div>
+          <div class="product-price">
+            <p>{{ section.settings['product3-price'] }}</p>
+          </div>
+        </div>
+        <button class="add-to-cart--btn-black">{{ section.settings['button3-text'] }}</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Best seller",
+    "settings": [
+
+{
+  "type":"text",
+  "label":"section heading",
+  "id":"section-heading"
+},
+      {
+        "type":"image_picker",
+        "label":"Best Seller Image",
+        "id":"best-seller-image1"
+      },
+      {
+        "type":"text",
+        "label":"Product Heading",
+        "id":"product-heading"
+
+      },
+
+      {
+
+        "type":"text",
+        "label":"Product Price",
+        "id":"product-price"
+      },
+      {
+        "type":"text",
+        "label":"Button Text",
+        "id":"button-text"
+      },
+
+      {
+        "type":"image_picker",
+        "label":"Best Seller Image",
+        "id":"best-seller-image2"
+      },
+      {
+        "type":"text",
+        "label":"Product Heading",
+        "id":"product2-heading"
+
+      },
+
+      {
+
+        "type":"text",
+        "label":"Product Price",
+        "id":"product2-price"
+      },
+      {
+        "type":"text",
+        "label":"Button Text",
+        "id":"button2-text"
+      },
+
+      {
+        "type":"image_picker",
+        "label":"Best Seller Image",
+        "id":"best-seller-image3"
+      },
+      {
+        "type":"text",
+        "label":"Product Heading",
+        "id":"product3-heading"
+
+      },
+
+      {
+
+        "type":"text",
+        "label":"Product Price",
+        "id":"product3-price"
+      },
+      {
+        "type":"text",
+        "label":"Button Text",
+        "id":"button3-text"
+      }
+
+
+    ],
+
+    "presets":[
+{
+        "name":"Best Seller"
+
+}
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+  .best-seller-ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    width: 100vw;
+  }
+  .best-seller-ctn .best-seller-ctn-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-bottom: 4rem;
+  }
+  .best-seller-ctn .best-seller-ctn-inner .product-ctn {
+   display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 2rem;
+
+    width: 90vw;
+    margin-top: 2rem;
+  }
+  .best-seller-ctn .best-seller-ctn-inner .product-ctn .procut1 .prodcuct-img img {
+    width: 100%;
+  }
+  .best-seller-ctn .best-seller-ctn-inner .product-ctn .procut1 .product-price-ctn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

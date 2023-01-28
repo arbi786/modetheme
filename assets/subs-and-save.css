@@ -1,0 +1,250 @@
+
+.sub-and-save-hero {
+  background: url("./sub-and-save-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  width: 100vw;
+}
+.sub-and-save-hero h1 {
+  color: white;
+  text-align: center;
+}
+
+.services-ctn {
+  width: 100vw;
+  background-color: #FFF7DE;
+  padding: 2rem;
+}
+.services-ctn .services-ctn-inner {
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.services-ctn .services-ctn-inner .service {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #01787C;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+.services-ctn .services-ctn-inner .service .services-icon img {
+  width: 50px;
+}
+.services-ctn .services-ctn-inner .service .service-desc p {
+  color: white;
+}
+
+.subscribe-and-save-ctn {
+  width: 100vw;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.subscribe-and-save-ctn .subscribe-and-save-ctn-inner {
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4rem;
+}
+.subscribe-and-save-ctn .subscribe-and-save-ctn-inner .left img {
+  width: 100%;
+}
+.subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .reviews {
+  display: flex;
+  align-items: center;
+}
+.subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .reviews img {
+  margin-right: 10px;
+}
+.subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right h2 {
+  margin-bottom: 6rem;
+}
+.subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty .three-button-ctn button {
+  background-color: #01787C;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty .four-btn-ctn button {
+  background-color: #01787C;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  margin-right: 0px;
+}
+.subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty .start-subs-ctn .start-subs {
+  width: 75%;
+  background-color: #01787C;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.why-subscribe-ctn {
+  width: 100vw;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.why-subscribe-ctn h1 {
+  margin-bottom: 3rem;
+}
+.why-subscribe-ctn .why-subscribe-ctn-inner {
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+.why-subscribe-ctn .why-subscribe-ctn-inner .s1 {
+  background-color: black;
+  padding: 4rem;
+  border-radius: 16px;
+}
+.why-subscribe-ctn .why-subscribe-ctn-inner .s1 h3 {
+  color: white;
+  margin-top: 2rem;
+}
+.why-subscribe-ctn .why-subscribe-ctn-inner .s1 p {
+  color: white;
+}
+
+.words-from-sub-ctn {
+  background-color: #03594C;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+.words-from-sub-ctn h1 {
+  color: white;
+}
+.words-from-sub-ctn .ctn-inner {
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+}
+.words-from-sub-ctn .ctn-inner .slide {
+  width: 50%;
+  margin: auto;
+  background-color: #FFC9DE;
+  padding: 4rem;
+  border-radius: 16px;
+}
+.words-from-sub-ctn .be-the-part {
+  background-color: white;
+  border: none;
+  width: 30%;
+  border-radius: 50px;
+  margin-top: 3rem;
+  padding: 15px 20px;
+  color: #03594C;
+}
+
+.still-got-question-ctn {
+  background-color: #FFC9E2;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  width: 100vw;
+  text-align: center;
+}
+.still-got-question-ctn .still-got-question-ctn-inner {
+  width: 90vw;
+  margin: auto;
+}
+.still-got-question-ctn .still-got-question-ctn-inner .tab-ctn {
+  text-align: left;
+}
+
+.collapsible {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.active,
+.collapsible:hover {
+  background-color: transparent;
+}
+
+.collapsible:after {
+  content: "+";
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "−";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: transparent;
+}
+
+.content p {
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .sub-and-save-hero {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .services-ctn {
+    width: 100%;
+    padding: 1rem;
+  }
+  .services-ctn .services-ctn-inner {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  .services-ctn .services-ctn-inner .service {
+    height: 80px;
+    width: 80px;
+  }
+  .services-ctn .services-ctn-inner .service .services-icon img {
+    width: 30px;
+  }
+  .subscribe-and-save-ctn .subscribe-and-save-ctn-inner {
+    grid-template-columns: 1fr;
+  }
+  .why-subscribe-ctn .why-subscribe-ctn-inner {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  .why-subscribe-ctn .why-subscribe-ctn-inner .s1 {
+    padding: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */

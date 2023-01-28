@@ -1,0 +1,129 @@
+<div class="you-may-also-like-ctn">
+  <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+
+  <div class="you-may-also-like-ctn-inner">
+    <div class="product-like">
+      <img src="{{ section.settings.product-img1 | image_url }}" alt="" srcset="">
+      <h3 class="h3">{{ section.settings['product1-title'] }}</h3>
+      <div class="clock-time">
+        <div class="clock"><img src="{{ section.settings.icon1 |image_url }}" alt="" srcset=""></div>
+        <div class="timer">
+          <p>{{ section.settings['product1-timer'] }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-like">
+      <img src="{{ section.settings.product-img2 | image_url }}" alt="" srcset="">
+      <h3 class="h3">{{ section.settings['product2-title'] }}</h3>
+      <div class="clock-time">
+        <div class="clock"><img src="{{ section.settings.icon1 | image_url }}" alt="" srcset=""></div>
+        <div class="timer">
+          <p>{{ section.settings['product2-timer'] }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-like">
+      <img src="{{ section.settings.product-img3 | image_url }}" alt="" srcset="">
+      <h3 class="h3">{{ section.settings['product2-title'] }}</h3>
+      <div class="clock-time">
+        <div class="clock"><img src="{{ section.settings.icon1 | image_url }}" alt="" srcset=""></div>
+        <div class="timer">
+          <p>{{ section.settings['product3-timer'] }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "You may also like",
+  "settings": [
+
+    {
+      "type":"text",
+      "label":"Section Heading",
+      "id":"section-heading"
+    },
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img1"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product1-title"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"icon1"
+    },
+    {
+      "type":"richtext",
+      "label":"Time",
+      "id":"product1-timer"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img2"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product2-title"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"icon2"
+    },
+    {
+      "type":"richtext",
+      "label":"Time",
+      "id":"product2-timer"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img3"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product3-title"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"icon3"
+    },
+    {
+      "type":"richtext",
+      "label":"Time",
+      "id":"product3-timer"
+    }
+
+
+
+  ],
+  "presets":[
+
+    {
+      "name":"You may also like"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

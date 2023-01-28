@@ -1,0 +1,137 @@
+<div class="what-other-says-ctn">
+  <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+
+  <div class="what-other-says-ctn-inner">
+    <div class="what-other-say-left">
+      <div class="testimonials">
+        <div class="stars">
+          <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+          <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+          <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+          <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+          <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+          <p class="body-copy-bold">{{ section.settings['review-heading'] }}</p>
+          <p>{{ section.settings['review-desc'] }}</p>
+
+          <p class="body-copy-bold comment-writer">{{ section.settings['author-name'] }}</p>
+          <p class="verified">{{ section.settings.verify }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="what-other-say-right">
+      <img src="{{ section.settings.right-img | image_url }}" alt="" srcset="">
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "What others say",
+  "settings": [
+{
+      "type":"text",
+      "label":"Section Heading",
+      "id":"section-heading"
+    },
+    {
+      "type":"image_picker",
+      "label":"Rating",
+      "id":"rating"
+    },
+
+    {
+      "type":"text",
+      "label":"Review Heading",
+      "id":"review-heading"
+    },
+    {
+      "type":"text",
+      "label":"Review Desc",
+      "id":"review-desc"
+    },
+    {
+      "type":"text",
+      "label":"Author Name",
+      "id":"author-name"
+    },
+    {
+      "type":"text",
+      "label":"verification",
+      "id":"verify"
+    },
+    {
+      "type":"image_picker",
+      "label":"Right Image",
+      "id":"right-img"
+    },
+    {
+      "type":"image_picker",
+      "label":"Section Background Image",
+      "id":"bg-img"
+    }
+
+  ],
+
+  "presets":[
+    {
+      "name":"What others say"
+    }
+
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+  .what-other-says-ctn {
+    width: 100vw;
+
+    background-image: url("./bg.png");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .what-other-says-ctn h2 {
+    color: white;
+  }
+  .what-other-says-ctn .what-other-says-ctn-inner {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .what-other-says-ctn .what-other-says-ctn-inner .what-other-say-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .what-other-says-ctn .what-other-says-ctn-inner .what-other-say-left p {
+    text-align: left;
+  }
+  .what-other-says-ctn .what-other-says-ctn-inner .what-other-say-left .comment-writer {
+    margin-top: 3rem;
+  }
+  .what-other-says-ctn .what-other-says-ctn-inner .what-other-say-left .verified {
+    padding: 0;
+    margin-top: -1rem;
+  }
+  .what-other-says-ctn .what-other-says-ctn-inner .what-other-say-left .testimonials {
+    width: 370px;
+    height: 270px;
+    border-radius: 16px;
+    background-color: white;
+    padding: 2rem;
+  }
+  .what-other-says-ctn .what-other-says-ctn-inner .what-other-say-right img {
+    width: 100%;
+  }
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

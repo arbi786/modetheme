@@ -1,0 +1,176 @@
+<div class="community-ctn">
+  <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+  <div class="our-customer-ctn-inner">
+    <div class="reviews">
+      <div class="review-heading">
+        <h4 class="h4">{{ section.settings.head1 }}</h4>
+      </div>
+      <div class="review-comment">
+        <p>{{ section.settings.desc1 }}</p>
+      </div>
+      <div class="name-img">
+        <div class="review-writer">
+          <p class="body-copy-bold">{{ section.settings['writer-name1'] }}</p>
+          <p>{{ section.settings.verf1 }}</p>
+        </div>
+        <div class="user-image">
+          <img src="{{ section.settings.user-pic1 | image_url}}" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+       <div class="reviews">
+      <div class="review-heading">
+        <h4 class="h4">{{ section.settings.head2 }}</h4>
+      </div>
+      <div class="review-comment">
+        <p>{{ section.settings.desc2 }}</p>
+      </div>
+      <div class="name-img">
+        <div class="review-writer">
+          <p class="body-copy-bold">{{ section.settings['writer-name2'] }}</p>
+          <p>{{ section.settings.verf2 }}</p>
+        </div>
+        <div class="user-image">
+          <img src="{{ section.settings.user-pic2 | image_url }}" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+
+
+      <div class="reviews">
+      <div class="review-heading">
+        <h4 class="h4">{{ section.settings.head3 }}</h4>
+      </div>
+      <div class="review-comment">
+        <p>{{ section.settings.desc3 }}</p>
+      </div>
+      <div class="name-img">
+        <div class="review-writer">
+          <p class="body-copy-bold">{{ section.settings['writer-name3'] }}</p>
+          <p>{{ section.settings.verf3 }}</p>
+        </div>
+        <div class="user-image">
+          <img src="{{ section.settings.user-pic3 | image_url}}" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+{% schema %}
+  {
+    "name": "Community Says",
+    "settings": [
+
+{
+  "type":"text",
+  "label":"Section Heading",
+  "id":"section-heading"
+},
+
+      {
+        "type":"text",
+        "label":"Heading 1",
+        "id":"head1"
+      },
+
+       {
+        "type":"text",
+        "label":"Client Review",
+        "id":"desc1"
+      },
+
+       {
+        "type":"text",
+        "label":"Writer Name",
+        "id":"writer-name1"
+      },
+
+       {
+        "type":"text",
+        "label":"Verification",
+        "id":"verf1"
+      },
+      {
+        "type":"image_picker",
+        "label":"User Image",
+        "id":"user-pic1"
+
+      },
+
+      {
+        "type":"text",
+        "label":"Heading 1",
+        "id":"head2"
+      },
+
+       {
+        "type":"text",
+        "label":"Client Review",
+        "id":"desc2"
+      },
+
+       {
+        "type":"text",
+        "label":"Writer Name",
+        "id":"writer-name2"
+      },
+
+       {
+        "type":"text",
+        "label":"Verification",
+        "id":"verf2"
+      },
+      {
+        "type":"image_picker",
+        "label":"User Image",
+        "id":"user-pic2"
+
+      },
+
+      {
+        "type":"text",
+        "label":"Heading 1",
+        "id":"head3"
+      },
+
+       {
+        "type":"text",
+        "label":"Client Review",
+        "id":"desc3"
+      },
+
+       {
+        "type":"text",
+        "label":"Writer Name",
+        "id":"writer-name3"
+      },
+
+       {
+        "type":"text",
+        "label":"Verification",
+        "id":"verf3"
+      },
+      {
+        "type":"image_picker",
+        "label":"User Image",
+        "id":"user-pic3"
+
+      }
+
+
+
+    ],
+    "presets":[
+      {
+        "name":"Community Says"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

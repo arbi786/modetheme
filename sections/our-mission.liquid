@@ -1,0 +1,254 @@
+<div class="our-mission-ctn">
+  <div class="our-mission-ctn-inner">
+    <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+    <p class="our-mission-intro">{{ section.settings['sec-desc'] }}</p>
+    <div class="our-mission-ctn-inner-section1">
+      <div class="our-mission-section1-left-col">
+        <img src="{{ section.settings.left-img | image_url }}" alt="">
+      </div>
+
+      <div class="our-mission-section1-right-col">
+        <h3 class="h3">{{ section.settings['right-section-heading'] }}</h3>
+        <p>
+          {{ section.settings['right-sec-desc'] }}
+        </p>
+
+        <div class="our-mission-section-right-col-list">
+          <div>
+            <div class="list-item">
+              <img src="{{ section.settings.smooth-icon | image_url}}">
+              <p>{{ section.settings['smooth-icon-desc'] }}</p>
+            </div>
+            <div class="list-item">
+              <img src="{{ section.settings.stomach | image_url }}">
+              <p>{{ section.settings['stomach-icon-desc'] }}</p>
+            </div>
+          </div>
+          <div>
+            <div class="list-item">
+              <img src="{{ section.settings.more-coff | image_url }}">
+              <p>{{ section.settings['more-coff-icon-desc'] }}</p>
+            </div>
+            <div class="list-item">
+              <img src="{{ section.settings.nat | image_url }}">
+              <p>{{ section.settings['nat-icon-desc'] }}</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="shop-now">{{ section.settings['btn-text'] }}</button>
+      </div>
+    </div>
+
+    <div class="our-mission-ctn-inner-section2">
+      <div class="our-mission-section1-right-col">
+        <h3 class="h3">{{ section.settings['left-sec-heading'] }}</h3>
+        <p>{{ section.settings['left-sec-desc'] }}</p>
+
+        <div class="our-mission-section-right-col-list">
+          <div class="list-item">
+            <img src="{{ section.settings.stomach2 | image_url }}">
+            <p>{{ section.settings['stomach2-icon-desc'] }}</p>
+          </div>
+
+          <div class="list-item">
+            <img src="{{ section.settings.nat2 | image_url }}">
+            <p>{{ section.settings['nat-icon2-desc'] }}</p>
+          </div>
+          <div class="list-item">
+            <img src="{{ section.settings.smooth-icon2 |image_url }}">
+            <p>{{ section.settings['smooth-icon-desc'] }}</p>
+          </div>
+          <div class="list-item">
+            <img src="{{ section.settings.more-coff2 | image_url }}">
+            <p>{{ section.settings['more-coff-icon2-desc'] }}</p>
+          </div>
+        </div>
+
+        <button class="shop-now">{{ section.settings['btn2-text'] }}</button>
+      </div>
+
+      <div class="our-mission-section1-left-col">
+        <img src="{{ section.settings.right-img | image_url }}" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Our mission",
+  "settings": [
+    {
+    "type":"text",
+    "label":"Section Heading",
+    "id":"section-heading"
+    },
+
+    {
+
+      "type":"text",
+      "label":"Section Desc",
+      "id":"sec-desc"
+    },
+
+    {
+
+      "type":"image_picker",
+      "label":"Left Image",
+      "id":"left-img"
+    },
+
+    {
+      "type":"text",
+      "label":"Right Section Heading",
+      "id":"right-section-heading"
+    },
+    {
+      "type":"text",
+      "label":"Right Section Desc",
+      "id":"right-sec-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"smooth-icon"
+    },
+    {
+      "type":"text",
+      "label":"Desc",
+      "id":"smooth-icon-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"stomach"
+    },
+
+    {
+      "type":"text",
+      "label":"Desc",
+      "id":"stomach-icon-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"more-coff"
+    },
+    {
+      "type":"text",
+      "label":"Desc",
+      "id":"more-coff-icon-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"nat"
+
+    },
+    {
+      "type":"text",
+      "label":"Desc",
+      "id":"nat-icon-desc"
+    }
+    ,
+    {
+      "type":"text",
+      "label":"Button Text",
+      "id":"btn-text"
+
+    },
+
+
+
+
+
+    {
+
+      "type":"image_picker",
+      "label":"Right Image",
+      "id":"right-img"
+    },
+
+    {
+      "type":"text",
+      "label":"Left Section Heading",
+      "id":"left-sec-heading"
+    },
+    {
+      "type":"text",
+      "label":"Left Section Desc",
+      "id":"left-sec-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"smooth-icon2"
+    },
+    {
+      "type":"text",
+      "label":"Desc",
+      "id":"smooth-icon2-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"stomach2"
+    },
+
+    {
+      "type":"text",
+      "label":"Desc",
+      "id":"stomach2-icon-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"more-coff2"
+    },
+    {
+      "type":"text",
+      "label":"Desc",
+      "id":"more-coff-icon2-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"nat2"
+
+    },
+    {
+      "type":"text",
+      "label":"Desc",
+      "id":"nat-icon2-desc"
+    }
+    ,
+    {
+      "type":"text",
+      "label":"Button Text",
+      "id":"btn2-text"
+
+    }
+  ],
+  "presets":[
+
+    {
+      "name":"Our mission"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

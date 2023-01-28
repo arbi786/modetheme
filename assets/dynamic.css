@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'PPAgrandir-WideHeavy';
+  src: url("//cdn.shopify.com/s/files/1/0694/8310/2514/files/PPAgrandirWideHeavy.woff?v=1732421772822716946") format("woff");;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "MatterMonobold";
+  src: url("//cdn.shopify.com/s/files/1/0694/8310/2514/files/MatterMonoBold.woff?v=1057067572621437249") format("woff");
+}
+
+@font-face {
+  font-family: "MatterMono-Regular";
+  src: url("//cdn.shopify.com/s/files/1/0694/8310/2514/files/MatterMonoRegular.woff?v=9168526554047926495") format("woff");
+}
+
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.h1,h1 {
+  font-family: "PPAgrandir-WideHeavy" !important;
+  size: 64px;
+  line-height: 68px;
+  font-weight: 800;
+  word-break: break-word;
+}
+
+.h2,h2 {
+  font-size: 36px;
+  font-family: "PPAgrandir-WideHeavy" !important;
+  line-height: 38px;
+  word-break: break-word;
+}
+
+.h3 ,h3{
+  font-size: 24px;
+  font-family: "PPAgrandir-WideHeavy" !important;
+  line-height: 26px;
+  word-break: break-word;
+}
+
+p {
+  font-family: "MatterMono-Regular" !important;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.body-copy-bold {
+  font-family: "MatterMono-bold" !important;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+
+.hero-button {
+  border-radius: 60px;
+  padding: 21px 32px;
+  height: 70px;
+  background-color: #fff8a3;
+  color: #000000;
+  font-family: "PPAgrandir-WideHeavy";
+  font-size: 18px;
+  line-height: 19px;
+  border: none;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.add-to-cart--btn-black {
+  width: 100%;
+  border-radius: 60px;
+  padding: 21px 32px;
+  height: 70px;
+  background-color: #000;
+  color: #fff;
+  font-family: "PPAgrandir-WideHeavy";
+  font-size: 18px;
+  line-height: 19px;
+  border: none;
+  cursor: pointer;
+}
+
+.get-started-btn-black {
+  background-color: #000000;
+  color: white;
+  border-radius: 60px;
+  padding: 21px 32px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.shop-now {
+  background-color: #fff7de;
+  border-radius: 60px;
+  font-size: 18px;
+  font-family: "PPAgrandir-WideHeavy";
+  color: black;
+  border: none;
+  padding: 21px 32px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.explore-more-btn-pink {
+  background-color: #ffc9e2;
+  border-radius: 60px;
+  padding: 21px 32px 21px 32px;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.check-out-btn-pink {
+  width: 90%;
+  background-color: #ffc9e2;
+  border: none;
+  padding: 21px 32px 21px 32px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.coffee-title {
+  font-family: "PPAgrandir-WideHeavy";
+  text-align: center;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+button {
+  font-family: "PPAgrandir-WideHeavy";
+  font-size: 20px;
+}
+
+.add-to-cart-yello-btn {
+  border: none;
+  background-color: yellow;
+  border-radius: 30px;
+  cursor: pointer;
+  color: black;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.product-price {
+  font-family: "MatterMono-Bold";
+  font-size: 18px;
+}
+
+h4 {
+  font-family: "PPAgrandir-WideHeavy";
+  font-size: 20px;
+}
+

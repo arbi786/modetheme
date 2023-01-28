@@ -1,0 +1,105 @@
+
+#icon {
+  width: 30px;
+  height: 30px;
+  cursor:pointer;
+  /* Add some styling for the icon */
+}
+
+#menu {
+  position: absolute;
+  /* Add some more styling for the menu container */
+  width: 200px;
+  background-color: white;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+  cursor:pointer;
+}
+
+#menu.active {
+  transform: translateX(0);
+}
+
+#close-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#menu #menu-content ul{
+  list-style:none;
+  
+}
+
+
+
+.marquee-bar {
+  height: 50px;
+  background-color: black;
+  overflow: hidden;
+  display:flex;
+  align-items:center;
+  width:100%;
+  
+}
+
+.marquee-bar p {
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  animation: marquee 40s linear infinite;
+  width:100%;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+//Classes
+
+.style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.go-to-product-black {
+    border: none;
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.add-to-cart-black {
+    border: none;
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 3rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

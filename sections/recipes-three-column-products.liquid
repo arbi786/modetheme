@@ -1,0 +1,372 @@
+<div class="product-grid-ctn">
+  <div class="product-grid-ctn-inner">
+    <div class="product">
+      <img src="{{ section.settings.product-img1 | image_url }}" alt="" srcset="">
+      <h3 class="h3">{{ section.settings['product-title1'] }}</h3>
+      <div class="clock-timer">
+        <div class="clock">
+          <img src="{{ section.settings.time-icon1 | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="timer">
+          <p>{{ section.settings['time-detail1'] }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="{{ section.settings.product-img2 | image_url }}" alt="" srcset="">
+      <h3 class="h3">{{ section.settings['product-title2'] }}</h3>
+      <div class="clock-timer">
+        <div class="clock">
+          <img src="{{ section.settings.time-icon2 | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="timer">
+          <p>{{ section.settings['time-detail2'] }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="{{ section.settings.product-img3 | image_url }}" alt="" srcset="">
+      <h3 class="h3">{{ section.settings['product-title3'] }}</h3>
+      <div class="clock-timer">
+        <div class="clock">
+          <img src="{{ section.settings.time-icon3 | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="timer">
+          <p>{{ section.settings['time-detail3'] }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="{{ section.settings.product-img4 | image_url }}" alt="" srcset="">
+      <h3 class="h3">{{ section.settings['product-title4'] }}</h3>
+      <div class="clock-timer">
+        <div class="clock">
+          <img src="{{ section.settings.time-icon4 | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="timer">
+          <p>{{ section.settings['time-detail4'] }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="{{ section.settings.product-img5 | image_url }}" alt="" srcset="">
+      <h3 class="h3">{{ section.settings['product-title5'] }}</h3>
+      <div class="clock-timer">
+        <div class="clock">
+          <img src="{{ section.settings.time-icon5 | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="timer">
+          <p>{{ section.settings['time-detail5'] }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="{{ section.settings.product-img6 | image_url }}" alt="" srcset="">
+      <h3 class="h3">{{ section.settings['product-title6'] }}</h3>
+      <div class="clock-timer">
+        <div class="clock">
+          <img src="{{ section.settings.time-icon6 | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="timer">
+          <p>{{ section.settings['time-detail6'] }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="{{ section.settings.product-img7 | image_url }}" alt="" srcset="">
+      <h3 class="h3">{{ section.settings['product-title7'] }}</h3>
+      <div class="clock-timer">
+        <div class="clock">
+          <img src="{{ section.settings.time-icon7 | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="timer">
+          <p>{{ section.settings['time-detail7'] }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="{{ section.settings.product-img8 | image_url }}" alt="" srcset="">
+      <h3 class="h3">{{ section.settings['product-title8'] }}</h3>
+      <div class="clock-timer">
+        <div class="clock">
+          <img src="{{ section.settings.time-icon8 | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="timer">
+          <p>{{ section.settings['time-detail8'] }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="{{ section.settings.product-img9 | image_url }}" alt="" srcset="">
+      <h3 class="h3">{{ section.settings['product-title9'] }}</h3>
+      <div class="clock-timer">
+        <div class="clock">
+          <img src="{{ section.settings.time-icon9 | image_url }}" alt="" srcset="">
+        </div>
+
+        <div class="timer">
+          <p>{{ section.settings['time-detail9'] }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="see-more-rec">See more recipes</button>
+</div>
+
+{% schema %}
+{
+  "name": "Recipes 3 Column Products",
+  "settings": [
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img1"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product-title1"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"time-icon1"
+    },
+    {
+      "type":"text",
+      "label":"Time Details",
+      "id":"time-detail1"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img2"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product-title2"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"time-icon2"
+    },
+    {
+      "type":"text",
+      "label":"Time Details",
+      "id":"time-detail2"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img3"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product-title3"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"time-icon3"
+    },
+    {
+      "type":"text",
+      "label":"Time Details",
+      "id":"time-detail3"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img4"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product-title4"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"time-icon4"
+    },
+    {
+      "type":"text",
+      "label":"Time Details",
+      "id":"time-detail4"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img5"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product-title5"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"time-icon5"
+    },
+    {
+      "type":"text",
+      "label":"Time Details",
+      "id":"time-detail5"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img6"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product-title6"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"time-icon6"
+    },
+    {
+      "type":"text",
+      "label":"Time Details",
+      "id":"time-detail6"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img7"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product-title7"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"time-icon7"
+    },
+    {
+      "type":"text",
+      "label":"Time Details",
+      "id":"time-detail7"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img8"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product-title8"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"time-icon8"
+    },
+    {
+      "type":"text",
+      "label":"Time Details",
+      "id":"time-detail8"
+    },
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img9"
+    },
+    {
+      "type":"text",
+      "label":"Product Title",
+      "id":"product-title9"
+    },
+    {
+      "type":"image_picker",
+      "label":"Icon",
+      "id":"time-icon9"
+    },
+    {
+      "type":"text",
+      "label":"Time Details",
+      "id":"time-detail9"
+    }
+  ],
+  "presets":[
+    {
+      "name":"Recipes Three Column Products"
+    }
+  ]
+}
+{% endschema %}
+
+{% javascript %}
+
+      $(document).ready(function() {
+    function addButton(checkbox) {
+      if (checkbox.checked) {
+        var button = document.createElement("button");
+        button.innerHTML = checkbox.value + " &times;";
+        button.value = checkbox.value;
+        button.onclick = function() {
+          removeButton(this);
+        };
+        document.getElementById("selectedItems").appendChild(button);
+      } else {
+        removeButton(checkbox);
+      }
+    }
+
+    function removeButton(element) {
+      var buttons = document.getElementById("selectedItems").children;
+      for (var i = 0; i < buttons.length; i++) {
+        if (buttons[i].value === element.value) {
+          document.getElementById("selectedItems").removeChild(buttons[i]);
+          break;
+        }
+      }
+      var checkboxes = document.getElementsByTagName("input");
+      for (var i = 0; i < checkboxes.length; i++) {
+        if (checkboxes[i].value === element.value) {
+          checkboxes[i].checked = false;
+          break;
+        }
+      }
+    }
+  });
+
+
+{% endjavascript %}
+
+{% stylesheet %}
+{% endstylesheet %}

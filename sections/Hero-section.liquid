@@ -1,0 +1,65 @@
+<div class="hero-section">
+  <div class="hero-section-inner">
+    <h1 class="h1">{{ section.settings.hero_heading }}</h1>
+
+    <button class="hero-button">Explore Mode</button>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name":"hero_section",
+  "settings": [
+    {
+      "type":"image_picker",
+      "label":"Hero_Section_Background",
+      "id":"Hero_bg"
+    },
+    {
+      "type":"text",
+      "label":"hero_section_heading",
+      "id":"hero_heading"
+    }
+  ],
+  "presets":[
+
+    {
+
+      "name":"Hero",
+      "category":"bg"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+    .hero-section {
+      background-image: url("./Hero-section.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+
+      .hero-section-inner {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 90vw;
+
+          h1 {
+              color: white;
+              text-align: center;
+              margin: auto;
+              font-size: 60px;
+          }
+      }
+  }
+{% endstylesheet %}
+
+{% javascript %}
+  // your javascript code here
+{% endjavascript %}

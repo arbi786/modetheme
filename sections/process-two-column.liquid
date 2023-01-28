@@ -1,0 +1,187 @@
+<div class="from-bean-to-brew-left-right-ctn">
+  <div class="from-bean-to-brew-left-right-ctn-inner">
+    <div class="row1">
+      <div class="left">
+        <img src="{{ section.settings.product1-image | image_url }}" alt="" srcset="">
+      </div>
+
+      <div class="right">
+        <h2 class="h2">{{ section.settings['product1-heading'] }}</h2>
+        <p>{{ section.settings['product1-desc'] }}</p>
+      </div>
+    </div>
+
+    <div class="row2">
+      <div class="right">
+        <h2 class="h2">{{ section.settings['product2-heading'] }}</h2>
+        <p>{{ section.settings['product2-desc'] }}</p>
+      </div>
+
+      <div class="left">
+        <img src="{{ section.settings.product2-image | image_url }}" alt="" srcset="">
+      </div>
+    </div>
+
+    <div class="row3">
+      <div class="left">
+        <img src="{{ section.settings.product3-image | image_url }}" alt="" srcset="">
+      </div>
+
+      <div class="right">
+        <h2 class="h2">{{ section.settings['product3-heading'] }}</h2>
+        <p>{{ section.settings['product3-desc'] }}</p>
+      </div>
+    </div>
+
+    <div class="row4">
+      <div class="right">
+        <h2 class="h2">{{ section.settings['product4-heading'] }}</h2>
+        <p>{{ section.settings['product4-desc'] }}</p>
+      </div>
+
+      <div class="left">
+        <img src="{{ section.settings.product4-image | image_url }}" alt="" srcset="">
+      </div>
+    </div>
+
+    <!-- row 5 -->
+
+    <div class="row5">
+      <div class="left">
+        <img src="{{ section.settings.product5-image | image_url }}" alt="" srcset="">
+      </div>
+      <div class="right">
+        <h2 class="h2">{{ section.settings['product5-heading'] }}</h2>
+        <p>{{ section.settings['product5-desc'] }}</p>
+        <button class="go-to-product-black">Go to product</button>
+      </div>
+    </div>
+
+    <!-- row 6 -->
+
+    <div class="row6">
+      <div class="right">
+        <h2 class="h2">{{ section.settings['product6-heading'] }}</h2>
+        <p>{{ section.settings['product6-desc'] }}</p>
+        <button class="add-to-cart-black">Add to cart</button>
+      </div>
+
+      <div class="left">
+        <img src="{{ section.settings.product6-image | image_url }}" alt="" srcset="">
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Process Two Column",
+  "settings": [
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product1-image"
+    },
+    {
+      "type":"text",
+      "label":"Product Heading",
+      "id":"product1-heading"
+    },
+    {
+      "type":"richtext",
+      "label":"Product Description",
+      "id":"product1-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product2-image"
+    },
+    {
+      "type":"text",
+      "label":"Product Heading",
+      "id":"product2-heading"
+    },
+    {
+      "type":"richtext",
+      "label":"Product Description",
+      "id":"product2-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product3-image"
+    },
+    {
+      "type":"text",
+      "label":"Product Heading",
+      "id":"product3-heading"
+    },
+    {
+      "type":"richtext",
+      "label":"Product Description",
+      "id":"product3-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product4-image"
+    },
+    {
+      "type":"text",
+      "label":"Product Heading",
+      "id":"product4-heading"
+    },
+    {
+      "type":"richtext",
+      "label":"Product Description",
+      "id":"product4-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product5-image"
+    },
+    {
+      "type":"text",
+      "label":"Product Heading",
+      "id":"product5-heading"
+    },
+    {
+      "type":"richtext",
+      "label":"Product Description",
+      "id":"product5-desc"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product6-image"
+    },
+    {
+      "type":"text",
+      "label":"Product Heading",
+      "id":"product6-heading"
+    },
+    {
+      "type":"richtext",
+      "label":"Product Description",
+      "id":"product6-desc"
+    }
+  ],
+  "presets":[
+    {
+      "name":"process two column"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

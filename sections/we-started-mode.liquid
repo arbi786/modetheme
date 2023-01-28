@@ -1,0 +1,128 @@
+<div class="two-column-row">
+  <p class="two-column-row-heading">{{ section.settings['section-heading'] }}</p>
+
+  <div class="two-column-row-inner">
+    <div class="row1-col1">
+      <img src="{{ section.settings.r1-image1 | image_url }}" alt="" srcset="">
+    </div>
+
+    <div class="row1-col1">
+      <p>{{ section.settings['r1-desc1'] }}</p>
+    </div>
+
+    <div class="row1-col1">
+      <p>
+        {{ section.settings['r2-desc'] }}
+      </p>
+    </div>
+    <div class="row1-col1">
+      <img src="{{ section.settings.r2-image | image_url }}" alt="" srcset="">
+    </div>
+
+    <div class="row1-col1">
+      <img src="{{ section.settings.r3-image | image_url }}" alt="" srcset="">
+    </div>
+    <div class="row1-col1">
+      <p>
+        {{ section.settings['r3-desc'] }}
+      </p>
+    </div>
+
+    <div class="row1-col1">
+      <p>
+        {{ section.settings['r4-desc'] }}
+      </p>
+    </div>
+    <div class="row1-col1">
+      <img src="{{ section.settings.r4-image | image_url }}" alt="" srcset="">
+    </div>
+
+    <div class="row1-col1">
+      <img src="{{ section.settings.r5-image | image_url }}" alt="" srcset="">
+    </div>
+    <div class="row1-col1">
+      <p>{{ section.settings['r5-desc'] }}</p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "We Started Mode",
+  "settings": [
+
+    {
+      "type":"richtext",
+      "label":"Section Heading",
+      "id":"section-heading"
+    },
+    {
+      "type":"image_picker",
+      "label":"Left Image",
+      "id":"r1-image1"
+    },
+    {
+      "type":"text",
+      "label":"Description",
+      "id":"r1-desc1"
+    },
+    {
+      "type":"image_picker",
+      "label":"Left Image",
+      "id":"r2-image"
+    },
+    {
+      "type":"text",
+      "label":"Description",
+      "id":"r2-desc"
+    },
+    {
+      "type":"image_picker",
+      "label":"Left Image",
+      "id":"r3-image"
+    },
+    {
+      "type":"text",
+      "label":"Description",
+      "id":"r3-desc"
+    },
+    {
+      "type":"image_picker",
+      "label":"Left Image",
+      "id":"r4-image"
+    },
+    {
+      "type":"text",
+      "label":"Description",
+      "id":"r4-desc"
+    },
+    {
+      "type":"image_picker",
+      "label":"Left Image",
+      "id":"r5-image"
+    },
+    {
+      "type":"text",
+      "label":"Description",
+      "id":"r5-desc"
+    }
+
+
+
+
+
+  ],
+  "presets":[
+
+    {
+      "name":"We started Mode"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,156 @@
+<div class="good-vibes-ctn">
+  <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+  <p>{{ section.settings['section-desc'] }}</p>
+
+  <div class="good-vibes-ctn-inner">
+    <div class="two-section-column">
+      <div class="section1">
+        <div class="func-benefits">
+          <div class="icon"><img src="{{ section.settings.fb-icon | image_url }}" alt=""></div>
+          <div class="func-benefits-heading">
+            <h3 class="h3">{{ section.settings['fb-heading'] }}</h3>
+          </div>
+          <div class="func-desc">
+            <p>{{ section.settings['fb-desc'] }}</p>
+          </div>
+        </div>
+
+        <div class="cold-brew">
+          <div class="icon"><img src="{{ section.settings.cb-icon |image_url }}" alt=""></div>
+          <div class="cold-brew-heading">
+            <h3 class="h3">{{ section.settings['cb-heading'] }}</h3>
+          </div>
+          <div class="cold-brew-desc">
+            <p>{{ section.settings['cb-desc'] }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="section2">
+        <img src="{{ section.settings.center-image | image_url }}" alt="" srcset="">
+      </div>
+    </div>
+    <div class="single-section-column">
+      <div class="smooth-taste">
+        <div class="icon"><img src="{{ section.settings.smooth-icon | image_url }}" alt=""></div>
+        <div class="smooth-taste-heading">
+          <h3 class="h3">{{ section.settings['smooth-heading'] }}</h3>
+        </div>
+        <div class="smooth-taste-desc">
+          <p>{{ section.settings['smooth-desc'] }}</p>
+        </div>
+      </div>
+      <div class="natural">
+        <div class="icon"><img src="{{ section.settings.nat-icon | image_url }}" alt=""></div>
+        <div class="nat-heading">
+          <h3 class="h3">{{ section.settings['nat-heading'] }}</h3>
+        </div>
+        <div class="cold-brew-desc">
+          <p>
+            {{ section.settings['nat-desc'] }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Good Vibes Begin",
+    "settings": [
+{
+
+      "type":"text",
+      "label":"Section Heading",
+      "id":"section-heading"
+},
+      {
+        "type":"text",
+        "label":"Section Desc",
+        "id":"section-desd"
+      },
+  {
+    "type":"image_picker",
+    "label":"Icon",
+    "id":"fb-icon"
+  },
+      {
+        "type":"text",
+        "label":"Heading",
+        "id":"fb-heading"
+      },
+      {
+        "type":"text",
+        "label":"Description",
+        "id":"fb-desc"
+      },
+
+
+      {
+    "type":"image_picker",
+    "label":"Icon",
+    "id":"cb-icon"
+  },
+      {
+        "type":"text",
+        "label":"Heading",
+        "id":"cb-heading"
+      },
+      {
+        "type":"text",
+        "label":"Description",
+        "id":"cb-desc"
+      },
+
+       {
+    "type":"image_picker",
+    "label":"Icon",
+    "id":"smooth-icon"
+  },
+      {
+        "type":"text",
+        "label":"Heading",
+        "id":"smooth-heading"
+      },
+      {
+        "type":"text",
+        "label":"Description",
+        "id":"smooth-desc"
+      },
+
+       {
+    "type":"image_picker",
+    "label":"Icon",
+    "id":"nat-icon"
+  },
+      {
+        "type":"text",
+        "label":"Heading",
+        "id":"nat-heading"
+      },
+      {
+        "type":"text",
+        "label":"Description",
+        "id":"nat-desc"
+      },
+      {
+        "type":"image_picker",
+        "label":"Center Image",
+        "id":"center-image"
+      }
+
+
+    ],
+    "presets":[
+      {
+        "name":"Good Vibes Begin"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
