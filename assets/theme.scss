@@ -397,6 +397,7 @@ table {
 				border-radius: 16px;
 				background-color: $background_color_2;
 				padding: 3rem;
+                text-align: left;
 			}
 		}
 		.what-other-say-right {
@@ -435,16 +436,16 @@ table {
 	}
 	.our-story-ctn-inner {
 		margin: auto;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		display: grid;
+        grid-template-columns: 1fr 1fr;
 		padding-top: 3rem;
+        grid-gap: 3rem;
 		.our-story-info {
 			background-color: $background_color_3;
-			width: 400px;
-			height: 450px;
+			
+			height: 510px;
 			border-radius: 30px;
-			padding: 2rem;
+			padding: 3rem;
 			p {
 				text-align: left;
 			}
