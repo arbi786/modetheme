@@ -105,8 +105,9 @@ h3 {
 // menu setting
 
 #menu{
-    width: 300px;
-    height: 400px;
+    width: 600px;
+    height: max-content;
+    padding: 2rem;
 
 
     #menu-content{
