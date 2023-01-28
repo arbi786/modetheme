@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'PPAgrandir-WideHeavy';
-  src: url("{{ 'PPAgrandirWideHeavy.woff' | file_url }}") format("woff");;
+  src: url("{{ 'PPAgrandirWideHeavy.woff' | file_url }}") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -8,7 +8,7 @@
 
 
 @font-face {
-  font-family: "MatterMonobold";
+  font-family: "MatterMono-bold";
   src: url("{{ 'MatterMonoBold.woff' | file_url }}") format("woff");
 }
 
@@ -20,12 +20,13 @@
 
 
 body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   overflow-x: hidden;
 }
 
-.h1,h1 {
+.h1,
+h1 {
   font-family: "PPAgrandir-WideHeavy" !important;
   size: 64px;
   line-height: 68px;
@@ -33,14 +34,16 @@ body {
   word-break: break-word;
 }
 
-.h2,h2 {
+.h2,
+h2 {
   font-size: 36px;
   font-family: "PPAgrandir-WideHeavy" !important;
   line-height: 38px;
   word-break: break-word;
 }
 
-.h3 ,h3{
+.h3,
+h3 {
   font-size: 24px;
   font-family: "PPAgrandir-WideHeavy" !important;
   line-height: 26px;
@@ -113,7 +116,7 @@ p {
 .explore-more-btn-pink {
   background-color: #ffc9e2;
   border-radius: 60px;
-  padding: 21px 32px 21px 32px;
+  padding: 21px 32px;
   cursor: pointer;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -123,7 +126,7 @@ p {
   width: 90%;
   background-color: #ffc9e2;
   border: none;
-  padding: 21px 32px 21px 32px;
+  padding: 21px 32px;
   border-radius: 60px;
   cursor: pointer;
 }
@@ -159,4 +162,3 @@ h4 {
   font-family: "PPAgrandir-WideHeavy";
   font-size: 20px;
 }
-
