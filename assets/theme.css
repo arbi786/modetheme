@@ -99,7 +99,7 @@ h3 {
   transition: transform 0.5s ease;
   cursor: pointer;
   padding: 100px;
-  height: 800px;
+  height: 700px;
 }
 
 #menu.active {
@@ -116,9 +116,10 @@ h3 {
   list-style: none;
 }
 #menu #menu-content ul li {
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 36px;
   line-height: 38px;
+  font-family: "PPAgrandir-WideHeavy";
 }
 
 .hero-section {
