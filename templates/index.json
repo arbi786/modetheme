@@ -34,9 +34,9 @@
       "settings": {
         "section-heading": "Best sellers",
         "best-seller-image1": "shopify:\/\/shop_images\/product1.png",
-        "product-heading": "Ready to mix",
-        "product-price": "$39.90",
-        "button-text": "Add to cart",
+        "product1-heading": "Ready to mix",
+        "product1-price": "$39.90",
+        "button1-text": "Add to cart",
         "best-seller-image2": "shopify:\/\/shop_images\/product2_a91a6562-0e73-4d43-ae9b-be7a13aec805.png",
         "product2-heading": "Ready to drink",
         "product2-price": "$39.90",
