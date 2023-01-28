@@ -531,8 +531,8 @@ table:not([class]) th {
   margin: auto;
 }
 .footer-section .footer-section-inner .footer-row {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
 }
 .footer-section .footer-section-inner .footer-row .footer-col1 h4 {
   color: white;

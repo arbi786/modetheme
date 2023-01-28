@@ -567,8 +567,10 @@ table {
 	.footer-section-inner {
 		margin: auto;
 		.footer-row {
-			display: flex;
-			justify-content: space-between;
+		
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            
 			.footer-col1 {
 				h4 {
 					color: $color_1;
