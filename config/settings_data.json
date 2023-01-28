@@ -14,9 +14,13 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "col1-heading": "",
-          "col2-heading": "",
-          "col3-heading": ""
+          "col1-heading": "Shop",
+          "col2-heading": "Help",
+          "col3-heading": "Join us",
+          "sm-fb": "shopify:\/\/shop_images\/Vector.png",
+          "sm-twitter": "shopify:\/\/shop_images\/Group.png",
+          "sm-insta": "shopify:\/\/shop_images\/insta_573774a8-b956-4617-b504-d59548e01b31.png",
+          "sm-tiktok": "shopify:\/\/shop_images\/tiktok_af8ac636-e1da-4cb9-8a0d-46809731dbbe.png"
         }
       }
     },
