@@ -332,7 +332,7 @@ table:not([class]) th {
 
 .what-other-says-ctn {
   width: 100vw;
-  background: url("./what-other-says-bg.svg");
+  background: url("./what-other-says-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
