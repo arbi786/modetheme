@@ -1,6 +1,6 @@
 
 .section-width{
-  width: 1250px;
+  width: 1250px !important; 
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -469,7 +469,6 @@ table:not([class]) th {
   color: #fff7de;
 }
 .get-inspired-ctn .get-inspired-ctn-inner {
-  width: 90vw;
   margin: auto;
   display: flex;
   align-items: center;
