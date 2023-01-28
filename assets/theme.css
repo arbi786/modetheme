@@ -826,6 +826,9 @@ table:not([class]) th {
   text-align: center;
   padding-top: 3rem;
 }
+.accessories-product-ctn .h1 {
+  font-size: 64px;
+}
 .accessories-product-ctn .accessories-product-ctn-inner {
   padding-top: 2rem;
   margin: auto;
