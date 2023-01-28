@@ -81,6 +81,8 @@
 }
 .product-ctn .product-ctn-inner .subscribe-and-save-ctn {
   width: 100%;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 .product-ctn .product-ctn-inner .subscribe-and-save-ctn .subs-and-save-btn {
   width: 100%;
