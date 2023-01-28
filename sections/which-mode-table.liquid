@@ -1,17 +1,19 @@
-<div class="mode-select-ctn">
+<div class="mode-select-ctn section-width">
   <div class="selected-items-ctn">
     <div class="left">
       <div class="selection-heading">
         <p>Which mode</p>
       </div>
-      <div id="selectedItems">
-        <!-- checkbox selections will be added here as buttons -->
+      <div id="selectedItems"><!-- checkbox selections will be added here as buttons -->
       </div>
     </div>
 
     <div class="right">
       <div class="search-ctn">
-        <input type="text" placeholder="Search recipe" style="flex: 1; padding: 0.5rem; border: none;">
+        <input
+          type="text"
+          placeholder="Search recipe"
+          style="flex: 1; padding: 0.5rem; border: none;">
         <button style="background-color: transparent; border: none;">
           <img src="{{ section.settings.search | image_url }}">
         </button>
@@ -19,7 +21,7 @@
     </div>
   </div>
 
-  <div class="mode-select-ctn-inner">
+  <div class="mode-select-ctn-inner section-width">
     <div class="layout-container">
       <div class="column">
         <div class="heading">Mode</div>
@@ -29,65 +31,113 @@
             id="mode1"
             value="Morning"
             class="cutom-check-box"
-            onclick="addButton(this)"
-          >
-          <label for="mode1">Morning </label>
+            onclick="addButton(this)">
+          <label for="mode1">Morning
+          </label>
         </div>
         <div class="row">
-          <input type="checkbox" id="mode2" value="Lunch" onclick="addButton(this)">
+          <input
+            type="checkbox"
+            id="mode2"
+            value="Lunch"
+            onclick="addButton(this)">
           <label for="mode2">Lunch</label>
         </div>
         <div class="row">
-          <input type="checkbox" id="mode3" value="Mid-day" onclick="addButton(this)">
+          <input
+            type="checkbox"
+            id="mode3"
+            value="Mid-day"
+            onclick="addButton(this)">
           <label for="mode3">Mid-day</label>
         </div>
         <div class="row">
-          <input type="checkbox" id="mode4" value="Night" onclick="addButton(this)">
+          <input
+            type="checkbox"
+            id="mode4"
+            value="Night"
+            onclick="addButton(this)">
           <label for="mode4">Night</label>
         </div>
       </div>
       <div class="column">
         <div class="heading">Seconds</div>
         <div class="row">
-          <input type="checkbox" id="seconds1" value="1-5" onclick="addButton(this)">
+          <input
+            type="checkbox"
+            id="seconds1"
+            value="1-5"
+            onclick="addButton(this)">
           <label for="seconds1">1-15</label>
         </div>
         <div class="row">
-          <input type="checkbox" id="seconds2" value="1-30" onclick="addButton(this)">
+          <input
+            type="checkbox"
+            id="seconds2"
+            value="1-30"
+            onclick="addButton(this)">
           <label for="seconds2">1-30</label>
         </div>
         <div class="row">
-          <input type="checkbox" id="seconds3" value="1-45" onclick="addButton(this)">
+          <input
+            type="checkbox"
+            id="seconds3"
+            value="1-45"
+            onclick="addButton(this)">
           <label for="seconds3">1-45</label>
         </div>
         <div class="row">
-          <input type="checkbox" id="seconds4" value="1-1000" onclick="addButton(this)">
+          <input
+            type="checkbox"
+            id="seconds4"
+            value="1-1000"
+            onclick="addButton(this)">
           <label for="seconds4">1-100</label>
         </div>
       </div>
       <div class="column">
         <div class="heading">Level</div>
         <div class="row">
-          <input type="checkbox" id="level1" value="Easypeasy" onclick="addButton(this)">
+          <input
+            type="checkbox"
+            id="level1"
+            value="Easypeasy"
+            onclick="addButton(this)">
           <label for="level1">Easypeasy</label>
         </div>
         <div class="row">
-          <input type="checkbox" id="level2" value="Intermediate" onclick="addButton(this)">
+          <input
+            type="checkbox"
+            id="level2"
+            value="Intermediate"
+            onclick="addButton(this)">
           <label for="level2">Intermediate</label>
         </div>
         <div class="row">
-          <input type="checkbox" id="level3" value="Masterclass" onclick="addButton(this)">
+          <input
+            type="checkbox"
+            id="level3"
+            value="Masterclass"
+            onclick="addButton(this)">
           <label for="level3">Masterclass</label>
         </div>
       </div>
       <div class="column">
         <div class="heading">Hard Stuff</div>
         <div class="row">
-          <input type="checkbox" id="hardstuff1" value="No thanks" onclick="addButton(this)">
+          <input
+            type="checkbox"
+            id="hardstuff1"
+            value="No thanks"
+            onclick="addButton(this)">
           <label for="hardstuff1">No thanks</label>
         </div>
         <div class="row">
-          <input type="checkbox" id="hardstuff2" value="Yes please" onclick="addButton(this)">
+          <input
+            type="checkbox"
+            id="hardstuff2"
+            value="Yes please"
+            onclick="addButton(this)">
           <label for="hardstuff2">Yes please</label>
         </div>
       </div>
@@ -96,60 +146,58 @@
 </div>
 
 {% schema %}
-{
-  "name": "Table Section",
-  "settings": [
-    {
-    "type":"image_picker",
-      "label":"Search Icon",
-      "id":"search"
-    }
-  ],
-  "presets":[
-    {
-      "name":"Table Section"
-    }
-  ]
-}
+  {
+    "name": "Table Section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "label": "Search Icon",
+        "id": "search"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Table Section"
+      }
+    ]
+  }
 {% endschema %}
 
 {% javascript %}
-    <script>
+  <script>
 
 
-      $(document).ready(function() {
-    function addButton(checkbox) {
-      if (checkbox.checked) {
-        var button = document.createElement("button");
-        button.innerHTML = checkbox.value + " &times;";
-        button.value = checkbox.value;
-        button.onclick = function() {
-          removeButton(this);
-        };
-        document.getElementById("selectedItems").appendChild(button);
-      } else {
-        removeButton(checkbox);
-      }
-    }
-
-    function removeButton(element) {
-      var buttons = document.getElementById("selectedItems").children;
-      for (var i = 0; i < buttons.length; i++) {
-        if (buttons[i].value === element.value) {
-          document.getElementById("selectedItems").removeChild(buttons[i]);
-          break;
+    $(document).ready(function() {
+      function addButton(checkbox) {
+        if (checkbox.checked) {
+          var button = document.createElement("button");
+          button.innerHTML = checkbox.value + " &times;";
+          button.value = checkbox.value;
+          button.onclick = function() {
+            removeButton(this);
+          };
+          document.getElementById("selectedItems").appendChild(button);
+        } else {
+          removeButton(checkbox);
         }
       }
-      var checkboxes = document.getElementsByTagName("input");
-      for (var i = 0; i < checkboxes.length; i++) {
-        if (checkboxes[i].value === element.value) {
-          checkboxes[i].checked = false;
-          break;
+
+      function removeButton(element) {
+        var buttons = document.getElementById("selectedItems").children;
+        for (var i = 0; i < buttons.length; i++) {
+          if (buttons[i].value === element.value) {
+            document.getElementById("selectedItems").removeChild(buttons[i]);
+            break;
+          }
+        }
+        var checkboxes = document.getElementsByTagName("input");
+        for (var i = 0; i < checkboxes.length; i++) {
+          if (checkboxes[i].value === element.value) {
+            checkboxes[i].checked = false;
+            break;
+          }
         }
       }
-    }
-  });
-
-
-      </script>
+    });
+  </script>
 {% endjavascript %}
