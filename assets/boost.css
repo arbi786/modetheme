@@ -75,6 +75,7 @@
   border-radius: 30px;
   height: 50px;
   cursor: pointer;
+  font-size: 14px;
 }
 .product-ctn .product-ctn-inner .subscribe-and-save-ctn {
   width: 100%;
