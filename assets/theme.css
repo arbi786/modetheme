@@ -1467,4 +1467,8 @@ table:not([class]) th {
   .still-got-question-ctn .tab-ctn .collapsible h3 {
     font-size: 18px;
   }
+  .better-func-world-ctn-boost .better-func-world-ctn-inner img {
+    width: 100% !important;
+    margin-top: 2rem !important;
+  }
 }/*# sourceMappingURL=theme.css.map */
