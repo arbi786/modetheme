@@ -293,9 +293,14 @@ h3 {
   color: white;
   text-align: left;
 }
+.our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section1 .our-mission-section1-right-col .our-mission-section-right-col-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section1 .our-mission-section1-right-col .our-mission-section-right-col-list .list-item {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 .our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section1 .our-mission-section1-right-col .our-mission-section-right-col-list .list-item img {
   margin-right: 2rem;
