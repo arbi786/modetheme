@@ -122,11 +122,14 @@
 }
 
 @media screen and (max-width: 400px) {
-  .h2 {
-    font-size: 24px;
-  }
-  .h4 {
-    font-size: 18px;
-    line-height: 19px;
-  }
+  .product-ctn .product-ctn-inner .product-details-ctn .product-tit .heading .h2 {
+    text-align: center;
+ }
+  .product-ctn .product-ctn-inner .product-details-ctn .serving .body-copy-bold {
+    text-align: left;
+ }
+  .product-ctn .product-ctn-inner .product-details-ctn .serving .three-button-ctn .button1, .product-ctn .product-ctn-inner .product-details-ctn .serving .three-button-ctn .button1, .product-ctn .product-ctn-inner .product-details-ctn .serving .three-button-ctn .button3 {
+    height: auto;
+ }
+  
 }
