@@ -1575,15 +1575,15 @@ table:not([class]) th {
     display: flex;
     flex-direction: column;
   }
-  .two-column-row .two-column-row-inner .row1 {
+  .two-column-row .two-column-row-inner .row2 {
     display: flex;
     flex-direction: column-reverse;
   }
-  .two-column-row .two-column-row-inner .row1 {
+  .two-column-row .two-column-row-inner .row3 {
     display: flex;
     flex-direction: column;
   }
-  .two-column-row .two-column-row-inner .row1 {
+  .two-column-row .two-column-row-inner .row4 {
     display: flex;
     flex-direction: column-reverse;
   }
