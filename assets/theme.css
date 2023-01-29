@@ -1241,4 +1241,10 @@ table:not([class]) th {
   table tbody tr td .body-copy-bold {
     font-size: 13px !important;
   }
+  table tbody tr td img {
+    width: 18px;
+  }
+  .coffee-smarter-ctn .coffee-smarter-ctn-inner table tr td:nth-child(1) {
+    padding-left: 15px;
+  }
 }/*# sourceMappingURL=theme.css.map */

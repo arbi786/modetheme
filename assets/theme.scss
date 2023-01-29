@@ -1647,9 +1647,17 @@ table {
 					.body-copy-bold {
 						font-size: 13px !important;
 					}
+
+					img{
+						width: 18px;
+					}
 				}
 			}
 		}
+	}
+
+	.coffee-smarter-ctn .coffee-smarter-ctn-inner table tr td:nth-child(1) {
+		padding-left: 15px;
 	}
 
 }
