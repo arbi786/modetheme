@@ -228,8 +228,10 @@ h3 {
 }
 .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner {
   width: 100vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: auto;
 }
 .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner h2 {
@@ -1066,6 +1068,8 @@ table:not([class]) th {
   }
   .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner {
     width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner h2 {
     font-size: 24px;

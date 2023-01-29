@@ -249,10 +249,10 @@ h3 {
 	text-align: center;
 	.smart-cup-coffee-ctn-inner {
 		width: 100vw;
-		
-	
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 		margin: auto;
 		h2 {
 			width: 60%;
@@ -1239,6 +1239,8 @@ table {
     .smart-cup-coffee-ctn {
         .smart-cup-coffee-ctn-inner {
             width: 90vw;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
 
 
             h2 {
