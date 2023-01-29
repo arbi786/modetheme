@@ -722,6 +722,11 @@ table:not([class]) th {
   grid-template-columns: 1fr 1fr;
   width: 100%;
 }
+.two-column-row .two-column-row-inner .row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .two-column-row .two-column-row-inner .row1 .row1-col1 img {
   width: 100%;
 }
@@ -729,6 +734,11 @@ table:not([class]) th {
   line-height: 44px;
   padding-left: 5rem;
   padding-right: 5rem;
+}
+.two-column-row .two-column-row-inner .row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .two-column-row .two-column-row-inner .row2 .row2-col1 p {
   line-height: 44px;
@@ -738,6 +748,11 @@ table:not([class]) th {
 .two-column-row .two-column-row-inner .row2 .row2-col2 img {
   width: 100%;
 }
+.two-column-row .two-column-row-inner .row3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .two-column-row .two-column-row-inner .row3 .row3-col1 img {
   width: 100%;
 }
@@ -746,6 +761,11 @@ table:not([class]) th {
   padding-left: 5rem;
   padding-right: 5rem;
 }
+.two-column-row .two-column-row-inner .row4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .two-column-row .two-column-row-inner .row4 .row4-col1 p {
   line-height: 44px !important;
   padding-left: 5rem !important;
@@ -753,6 +773,11 @@ table:not([class]) th {
 }
 .two-column-row .two-column-row-inner .row4 .row4-col2 img {
   width: 100%;
+}
+.two-column-row .two-column-row-inner .row5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .two-column-row .two-column-row-inner .row5 .row5-col1 img {
   width: 100%;

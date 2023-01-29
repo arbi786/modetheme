@@ -929,6 +929,9 @@ table {
 		width: 100%;
 
 		.row1 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			.row1-col1 {
 				img {
 					width: 100%;
@@ -948,6 +951,9 @@ table {
 		}
 
 		.row2 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 
 			.row2-col1 {
 				p {
@@ -966,6 +972,9 @@ table {
 		}
 
 		.row3 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 
 			.row3-col1 {
 				img {
@@ -985,6 +994,9 @@ table {
 
 
 		.row4 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			.row4-col1 {
 				p {
 					line-height: 44px !important;
@@ -1002,6 +1014,10 @@ table {
 		}
 
 		.row5 {
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			.row5-col1 {
 				img {
 					width: 100%;
