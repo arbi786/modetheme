@@ -1569,7 +1569,7 @@ table:not([class]) th {
   }
   .two-column-row .two-column-row-inner {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .two-column-row .two-column-row-inner .row1 {
     display: flex;
