@@ -1656,8 +1656,24 @@ table {
 		}
 	}
 
-	table:not([class]) td {
-		padding: 1px!important;
-	}
+	// what other says
+.what-other-says-ctn{
+	.what-other-says-ctn-inner{
+		flex-direction:column-reverse;
+		.what-other-say-left{
+			.testimonials{
+			width:280px;
+			margin-top:-3rem;
+			border-top-right-radius:0px;
+			border-top-left-radius:0px;
+			}
+			
 
+
+	}
+}
+
+
+
+}
 }

@@ -1244,7 +1244,13 @@ table:not([class]) th {
   table tbody tr td img {
     width: 18px;
   }
-  table:not([class]) td {
-    padding: 1px !important;
+  .what-other-says-ctn .what-other-says-ctn-inner {
+    flex-direction: column-reverse;
+  }
+  .what-other-says-ctn .what-other-says-ctn-inner .what-other-say-left .testimonials {
+    width: 280px;
+    margin-top: -3rem;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
   }
 }/*# sourceMappingURL=theme.css.map */
