@@ -1238,7 +1238,7 @@ table:not([class]) th {
   .coffee-smarter-ctn .coffee-smarter-ctn-inner {
     padding: 0px !important;
   }
-  .table tr td .body-copy-bold {
+  table tr td .body-copy-bold {
     font-size: 13px !important;
   }
 }/*# sourceMappingURL=theme.css.map */
