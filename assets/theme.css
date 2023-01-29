@@ -778,7 +778,6 @@ table:not([class]) th {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 .two-column-row .two-column-row-inner .row5 .row5-col1 img {
   width: 100%;
