@@ -1644,6 +1644,7 @@ table:not([class]) th {
   }
   .product-ctn .product-ctn-inner .product-details-ctn .product-tit .heading .h2 {
     text-align: left;
+    word-break: inherit;
   }
   .product-ctn .product-ctn-inner .product-details-ctn .serving .body-copy-bold {
     text-align: left;
