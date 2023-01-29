@@ -753,9 +753,9 @@ table:not([class]) th {
   padding-right: 5rem;
 }
 .two-column-row .two-column-row-inner .row3-col1 .row4-col1 p {
-  line-height: 44px;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  line-height: 44px !important;
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
 }
 .two-column-row .two-column-row-inner .row3-col1 .row4-col2 img {
   width: 100%;

@@ -929,21 +929,22 @@ table {
 		width: 100%;
 
 		.row1-col1 {
-			
+
 			display: flex;
-		
+
 			flex-direction: column;
-			
+
 			align-items: center;
 			justify-content: center;
+
 			img {
 				width: 100%;
 			}
 
-			
+
 		}
 
-		.row1-col2{
+		.row1-col2 {
 			p {
 				line-height: 44px;
 				padding-left: 5rem;
@@ -952,7 +953,7 @@ table {
 
 		}
 
-		.row2-col1{
+		.row2-col1 {
 			p {
 				line-height: 44px;
 				padding-left: 5rem;
@@ -961,51 +962,52 @@ table {
 
 		}
 
-		.row2-col2{
-			img{
+		.row2-col2 {
+			img {
 				width: 100%;
 			}
 		}
 
-		.row3-col1{
-			img{
+		.row3-col1 {
+			img {
 				width: 100%;
 			}
 
-			.row3-col2{
-				p{
+			.row3-col2 {
+				p {
 					line-height: 44px;
-				padding-left: 5rem;
-				padding-right: 5rem;
-
-				}
-			}
-			.row4-col1{
-				p{
-					line-height: 44px;
-				padding-left: 5rem;
-				padding-right: 5rem;
+					padding-left: 5rem;
+					padding-right: 5rem;
 
 				}
 			}
 
-			.row4-col2{
-				img{
+			.row4-col1 {
+				p {
+					line-height: 44px !important;
+					padding-left: 5rem !important;
+					padding-right: 5rem !important	;
+
+				}
+			}
+
+			.row4-col2 {
+				img {
 					width: 100%;
 				}
 			}
 
-			.row5-col1{
-				img{
+			.row5-col1 {
+				img {
 					width: 100%;
 				}
 			}
 
-			.row5-col2{
-				p{
+			.row5-col2 {
+				p {
 					line-height: 44px;
-				padding-left: 5rem;
-				padding-right: 5rem;
+					padding-left: 5rem;
+					padding-right: 5rem;
 
 				}
 			}
@@ -2250,7 +2252,7 @@ table {
 			grid-template-columns: 1fr;
 
 			.row1-col1 {
-				
+
 				img {
 					width: 100%;
 				}
@@ -2296,7 +2298,8 @@ table {
 			}
 
 			.ceo-words {
-				margin-top:1rem;
+				margin-top: 1rem;
+
 				p {
 					width: 100%;
 				}
