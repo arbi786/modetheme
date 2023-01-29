@@ -990,6 +990,13 @@ table:not([class]) th {
     align-items: center;
     width: 90%;
   }
+  .hero-section .hero-section-inner h1 {
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    line-height: 38px;
+  }
   .hero-section .hero-section-inner .hero-button {
     padding: 15px 22px 16px 22px;
     font-size: 14px;
