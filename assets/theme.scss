@@ -1656,8 +1656,8 @@ table {
 		}
 	}
 
-	.coffee-smarter-ctn .coffee-smarter-ctn-inner table tr td:nth-child(1) {
-		padding-left: 15px;
+	table:not([class]) td {
+		padding: 1px 1!important;
 	}
 
 }
