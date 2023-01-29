@@ -372,6 +372,10 @@ table:not([class]) th {
   border: none !important;
 }
 
+.table tr td p {
+  font-size: 13px;
+}
+
 .what-other-says-ctn {
   width: 100vw;
   background: url("./what-other-says-bg.png");
@@ -1233,5 +1237,8 @@ table:not([class]) th {
   }
   .coffee-smarter-ctn .coffee-smarter-ctn-inner {
     padding: 0px !important;
+  }
+  .table tr td p {
+    font-size: 13px;
   }
 }/*# sourceMappingURL=theme.css.map */

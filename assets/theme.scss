@@ -405,6 +405,16 @@ table {
 		}
 	}
 }
+
+.table{
+	tr{
+		td{
+			p{
+				font-size: 13px;
+			}
+		}
+	}
+}
 .what-other-says-ctn {
 	width: 100vw;
 	background: url("./what-other-says-bg.png");
@@ -1463,5 +1473,14 @@ table {
 	}
 }
 
+.table{
+	tr{
+		td{
+			p{
+				font-size: 13px;
+			}
+		}
+	}
+}
 
 }
