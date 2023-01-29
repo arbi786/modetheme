@@ -1015,9 +1015,8 @@ table {
 
 		.row5 {
 
-			display: flex;
-			justify-content: center;
-			align-items: center;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
 			.row5-col1 {
 				img {
 					width: 100%;
