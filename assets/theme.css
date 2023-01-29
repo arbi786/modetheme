@@ -1471,4 +1471,23 @@ table:not([class]) th {
     width: 100% !important;
     margin-top: 2rem !important;
   }
+  .footer-section .footer-section-inner .footer-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-section .footer-section-inner .footer-row .footer-col2 .copyright-sec2 {
+    display: none;
+  }
+  .footer-section .footer-section-inner .footer-row .footer-col3 {
+    width: 180%;
+  }
+  .footer-section .footer-section-inner .footer-row .footer-col3 .copyright-sec3 {
+    margin-top: 2rem;
+  }
+  .footer-section .footer-section-inner .footer-row .footer-col3 .copyright-sec3 .copyright-sec2-join-us {
+    display: block;
+    margin-top: 3rem;
+  }
+  .footer-section .footer-section-inner .footer-row .footer-col3 .copyright-sec3 .copyright-sec2-join-us p {
+    color: beige;
+  }
 }/*# sourceMappingURL=theme.css.map */

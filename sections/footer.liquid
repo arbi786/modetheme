@@ -1,62 +1,90 @@
+
+
+
 <div class="footer-section">
-  <div class="footer-section-inner section-width">
+<div class="footer-section-inner">
     <div class="footer-row">
-      <div class="footer-col1">
-        <h4>{{ section.settings['col1-heading'] }}</h4>
-        <ul>
-          <li>Buy your Mode</li>
-          <li>Gift cards</li>
-          <li>Store locator</li>
-          <li>Refer a friend</li>
-        </ul>
-      </div>
-      <div class="footer-col2">
-        <h4>{{ section.settings['col2-heading'] }}</h4>
-        <ul>
-          <li>Contact us</li>
-          <li>FAQ</li>
-          <li>Shipping & delivery</li>
-          <li>Refund policy</li>
-          <li>Privacy policy</li>
-          <li>Terms of service</li>
-        </ul>
-      </div>
-      <div class="footer-col3">
-        <h4>{{ section.settings['col3-heading'] }}</h4>
-        <p>Be the first one to receive news special offer and more</p>
+        <div class="footer-col1">
+            <div class="shop-list">
+                <h4>{{ section.settings['col1-heading'] }}</h4>
+                <ul>
+                    <li>Buy your Mode</li>
+                    <li>Gift cards</li>
+                    <li>Store locator</li>
+                    <li>Refer a friend</li>
+                </ul>
+            </div>
 
-        <input type="email" class="email" placeholder="your@email.com">
-      </div>
+            <div class="copyright-sec1">
+
+                <select id="language">
+                    <option value="en" selected>EN</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                    <!-- more options -->
+                </select>
+
+                <select id="currency">
+                    <option value="USD" selected>USD</option>
+                    <option value="EUR">EUR - Euro</option>
+                    <option value="GBP">GBP - British Pound</option>
+                    <!-- more options -->
+                </select>
+
+
+            </div>
+
+        </div>
+        <div class="footer-col2">
+
+            <div class="help-list">
+                <h4>{{ section.settings['col2-heading'] }}</h4>
+
+                <ul>
+
+                    <li>Contact us</li>
+                    <li>FAQ</li>
+                    <li>Shipping & delivery</li>
+                    <li>Refund policy</li>
+                    <li>Privacy policy</li>
+                    <li>Terms of service</li>
+                </ul>
+            </div>
+
+            <div class="copyright-sec2">
+                <p>All rights reserved to @Mode Cold Brew</p>
+            </div>
+
+
+
+        </div>
+        <div class="footer-col3">
+            <div class="join-us">
+                <h4>{{ section.settings['col3-heading'] }}</h4>
+                <p>Be the first one to receive news special offer and more</p>
+
+                <input type="email" class="email" placeholder="your@email.com">
+            </div>
+            <div class="copyright-sec3">
+                <img src="{{ section.settings.sm-fb | image_url }}" alt="">
+                <img src="{{ section.settings.sm-twitter | image_url}}" alt="" srcset="">
+                <img src="{{ section.settings.sm-insta | image_url }}" alt="" srcset="">
+                <img src="{{ section.settings.sm-tiktok | image_url }}" alt="" srcset="">
+                <div class="copyright-sec2-join-us">
+                    <p>All rights reserved to @Mode Cold Brew</p>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="copyright-section">
-      <div class="copyright-sec1">
-        <select id="language">
-          <option value="en" selected>EN</option>
-          <option value="fr">French</option>
-          <option value="de">German</option>
-          <!-- more options -->
-        </select>
-
-        <select id="currency">
-          <option value="USD" selected>USD</option>
-          <option value="EUR">EUR - Euro</option>
-          <option value="GBP">GBP - British Pound</option>
-          <!-- more options -->
-        </select>
-      </div>
-      <div class="copyright-sec2">
-        <p>All rights reserved to @Mode Cold Brew</p>
-      </div>
-      <div class="copyright-sec3">
-        <img src="{{ section.settings.sm-fb | image_url }}" alt="">
-        <img src="{{ section.settings.sm-twitter | image_url}}" alt="" srcset="">
-        <img src="{{ section.settings.sm-insta | image_url }}" alt="" srcset="">
-        <img src="{{ section.settings.sm-tiktok | image_url }}" alt="" srcset="">
-      </div>
-    </div>
-  </div>
 </div>
+</div>
+</div>
+
+
+
+
+
+
 {% schema %}
 {
 "name":"Footer",
