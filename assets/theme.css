@@ -1514,4 +1514,48 @@ table:not([class]) th {
   .accessories-product-ctn .accessories-product-ctn-inner {
     grid-template-columns: 1fr;
   }
+  .two-column-row .two-column-row-heading {
+    font-size: 24px;
+    width: 100%;
+  }
+  .two-column-row .two-column-row-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .two-column-row .two-column-row-inner .row1-col1 img {
+    width: 100%;
+  }
+  .two-column-row .two-column-row-inner .row1-col1 p {
+    padding: 2rem;
+  }
+  .we-believe-ctn {
+    margin-top: 0rem;
+    padding-top: 2rem;
+  }
+  .we-believe-ctn .we-believe-ctn-inner {
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+  }
+  .words-from-ceo-ctn .words-from-ceo-ctn-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .words-from-ceo-ctn .words-from-ceo-ctn-inner .ceo-img img {
+    width: 100%;
+  }
+  .words-from-ceo-ctn .words-from-ceo-ctn-inner .ceo-words p {
+    width: 100%;
+  }
+  .our-mode-fam-ctn {
+    padding-top: 2rem;
+  }
+  .our-mode-fam-ctn .our-mode-fam-ctn-inner {
+    grid-template-columns: 1fr;
+  }
+  .our-mode-fam-ctn .our-mode-fam-ctn-inner .our-mode-fam-right img {
+    width: 100%;
+  }
+  .tiktok-section-ctn .modecoldbrew {
+    margin-top: 0px;
+  }
 }/*# sourceMappingURL=theme.css.map */
