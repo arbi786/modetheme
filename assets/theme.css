@@ -1643,7 +1643,7 @@ table:not([class]) th {
     grid-template-columns: 1fr;
   }
   .product-ctn .product-ctn-inner .product-details-ctn .product-tit .heading .h2 {
-    text-align: center;
+    text-align: left;
   }
   .product-ctn .product-ctn-inner .product-details-ctn .serving .body-copy-bold {
     text-align: left;
