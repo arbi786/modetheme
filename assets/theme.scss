@@ -249,10 +249,10 @@ h3 {
 	text-align: center;
 	.smart-cup-coffee-ctn-inner {
 		width: 100vw;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
+		
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 		margin: auto;
 		h2 {
 			width: 60%;
@@ -1173,7 +1173,7 @@ table {
 
         .best-seller-ctn-inner {
 
-            padding-bottom: 4rem;
+            padding-bottom: 0rem;
             padding-left: 1rem;
             padding-right: 1rem;
 
@@ -1183,6 +1183,7 @@ table {
                 width: 100vw;
                 grid-gap: 10px;
                 margin-top: 2rem;
+				padding-top: 0px;
 
                 .procut1 {
                     .prodcuct-img {
@@ -1243,7 +1244,11 @@ table {
             h2 {
                 font-size: 24px;
                 line-height: 26px;
+				width: 100%;
             }
+			p{
+				width: 100%;
+			}
 
             .coffe-qualities-list1 {
                 display: grid;

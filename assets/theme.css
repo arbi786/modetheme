@@ -228,10 +228,8 @@ h3 {
 }
 .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner {
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
 }
 .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner h2 {
@@ -1029,7 +1027,7 @@ table:not([class]) th {
     width: 100vw;
   }
   .best-seller-ctn .best-seller-ctn-inner {
-    padding-bottom: 4rem;
+    padding-bottom: 0rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1039,6 +1037,7 @@ table:not([class]) th {
     width: 100vw;
     grid-gap: 10px;
     margin-top: 2rem;
+    padding-top: 0px;
   }
   .best-seller-ctn .best-seller-ctn-inner .product-ctn .procut1 .prodcuct-img img {
     width: 100%;
@@ -1071,6 +1070,10 @@ table:not([class]) th {
   .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner h2 {
     font-size: 24px;
     line-height: 26px;
+    width: 100%;
+  }
+  .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner p {
+    width: 100%;
   }
   .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner .coffe-qualities-list1 {
     display: grid;
