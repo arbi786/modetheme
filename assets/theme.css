@@ -1497,11 +1497,12 @@ table:not([class]) th {
     color: beige;
   }
   .accessories-hero-section {
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-  }
-  .accessories-hero-section img {
-    width: 50%;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    background-image: url("./Hero-section.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
   .accessories-product-ctn {
     padding-top: 0rem;
