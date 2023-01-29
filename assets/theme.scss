@@ -929,6 +929,7 @@ table {
 		.row1 {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
+			align-items: center;
 			.row1-col1 {
 				img {
 					width: 100%;
@@ -950,6 +951,8 @@ table {
 		.row2 {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
+			align-items: center;
+
 
 			.row2-col1 {
 				p {
@@ -970,6 +973,8 @@ table {
 		.row3 {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
+			align-items: center;
+
 
 			.row3-col1 {
 				img {
@@ -991,6 +996,8 @@ table {
 		.row4 {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
+			align-items: center;
+
 			.row4-col1 {
 				p {
 					line-height: 44px !important;
@@ -1011,6 +1018,8 @@ table {
 
 			display: grid;
 			grid-template-columns: 1fr 1fr;
+			align-items: center;
+
 			.row5-col1 {
 				img {
 					width: 100%;

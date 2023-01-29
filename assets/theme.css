@@ -722,6 +722,7 @@ table:not([class]) th {
 .two-column-row .two-column-row-inner .row1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .two-column-row .two-column-row-inner .row1 .row1-col1 img {
   width: 100%;
@@ -734,6 +735,7 @@ table:not([class]) th {
 .two-column-row .two-column-row-inner .row2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .two-column-row .two-column-row-inner .row2 .row2-col1 p {
   line-height: 44px;
@@ -746,6 +748,7 @@ table:not([class]) th {
 .two-column-row .two-column-row-inner .row3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .two-column-row .two-column-row-inner .row3 .row3-col1 img {
   width: 100%;
@@ -758,6 +761,7 @@ table:not([class]) th {
 .two-column-row .two-column-row-inner .row4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .two-column-row .two-column-row-inner .row4 .row4-col1 p {
   line-height: 44px !important;
@@ -770,6 +774,7 @@ table:not([class]) th {
 .two-column-row .two-column-row-inner .row5 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .two-column-row .two-column-row-inner .row5 .row5-col1 img {
   width: 100%;
