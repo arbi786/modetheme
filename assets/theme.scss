@@ -2154,13 +2154,21 @@ table {
 
 
 	.accessories-hero-section {
-		padding-top: 7rem;
-		padding-bottom: 7rem;
+		padding-top: 0rem;
+		padding-bottom: 0rem;
+		img{
+			width: 100%;
+		}
 	}
 
 
 
 	.accessories-product-ctn {
+		padding-top: 0rem;
+
+		.h1{
+			font-size: 36px;
+		}
 		.accessories-product-ctn-inner {
 			grid-template-columns: 1fr;
 		}
