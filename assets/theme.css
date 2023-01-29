@@ -1269,4 +1269,8 @@ table:not([class]) th {
     color: white;
     text-align: center;
   }
+  .get-inspired-ctn .get-inspired-ctn-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }/*# sourceMappingURL=theme.css.map */

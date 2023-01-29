@@ -1690,12 +1690,23 @@ table {
 				height: auto;
 				background: none;
 				padding: 0px;
-				p{
+
+				p {
 					color: white;
 					text-align: center;
 				}
 			}
 
 		}
+	}
+
+	// get inspired
+
+	.get-inspired-ctn {
+		.get-inspired-ctn-inner {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
+
 	}
 }
