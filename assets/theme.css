@@ -443,6 +443,9 @@ table:not([class]) th {
   margin-bottom: 2rem;
   text-align: center;
 }
+.figure-your-mode-ctn .figure-your-mode-ctn-inner .fig-your-mode-video img {
+  width: 100%;
+}
 
 .our-story-ctn {
   background-color: #03594c;
