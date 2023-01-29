@@ -1280,4 +1280,7 @@ table:not([class]) th {
   .get-inspired-ctn .get-inspired-ctn-inner .racepes1 p {
     margin-top: -1rem;
   }
+  .better-func-world-ctn .better-func-world-ctn-inner img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=theme.css.map */

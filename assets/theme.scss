@@ -1705,18 +1705,31 @@ table {
 	.get-inspired-ctn {
 		.get-inspired-ctn-inner {
 
-			.racepes1{
-				h4{
+			.racepes1 {
+				h4 {
 					color: #FFF7DE;
 				}
-				p{
+
+				p {
 					margin-top: -1rem;
 				}
 			}
+
 			display: grid;
 			grid-template-columns: 1fr 1fr;
 			row-gap:2rem;
 		}
 
+	}
+
+	// better func world
+
+	.better-func-world-ctn {
+
+		.better-func-world-ctn-inner {
+			img {
+				width: 100%;
+			}
+		}
 	}
 }
