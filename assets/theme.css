@@ -731,7 +731,39 @@ table:not([class]) th {
 .two-column-row .two-column-row-inner .row1-col1 img {
   width: 100%;
 }
-.two-column-row .two-column-row-inner .row1-col1 p {
+.two-column-row .two-column-row-inner .row1-col2 p {
+  line-height: 44px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.two-column-row .two-column-row-inner .row2-col1 p {
+  line-height: 44px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.two-column-row .two-column-row-inner .row2-col2 img {
+  width: 100%;
+}
+.two-column-row .two-column-row-inner .row3-col1 img {
+  width: 100%;
+}
+.two-column-row .two-column-row-inner .row3-col1 .row3-col2 p {
+  line-height: 44px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.two-column-row .two-column-row-inner .row3-col1 .row4-col1 p {
+  line-height: 44px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.two-column-row .two-column-row-inner .row3-col1 .row4-col2 img {
+  width: 100%;
+}
+.two-column-row .two-column-row-inner .row3-col1 .row5-col1 img {
+  width: 100%;
+}
+.two-column-row .two-column-row-inner .row3-col1 .row5-col2 p {
   line-height: 44px;
   padding-left: 5rem;
   padding-right: 5rem;
