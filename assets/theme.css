@@ -900,68 +900,23 @@ table:not([class]) th {
 
 @media only screen and (max-width: 600px) {
   .h1 {
-    font-family: "PPAgrandir-WideHeavy" !important;
+    font-family: "PPAgrandir";
     size: 36px;
-    line-height: 38px;
-    font-weight: 800;
-    font-family: "PPAgrandir";
-    font-size: 36px;
-    line-height: 38px;
-    font-weight: 800;
-    font-family: "PPAgrandir";
-    font-size: 36px;
-    line-height: 38px;
-    font-weight: 800;
-    font-family: "PPAgrandir";
-    font-size: 36px;
     line-height: 38px;
     font-weight: 800;
   }
   .h2 {
     font-size: 36px;
     text-align: center;
-    font-family: "PPAgrandir-WideHeavy" !important;
+    font-family: "PPAgrandir";
     line-height: 38px;
-    font-size: 18px;
-    text-align: center;
-    font-family: "PPAgrandir";
-    line-height: 19px;
-    font-size: 18px;
-    text-align: center;
-    font-family: "PPAgrandir";
-    line-height: 19px;
-    font-size: 18px;
-    text-align: center;
-    font-family: "PPAgrandir";
-    line-height: 19px;
   }
   .h3 {
-    font-size: 24px;
-    font-family: "PPAgrandir-WideHeavy" !important;
-    line-height: 26px;
-    font-size: 24px;
-    font-family: "PPAgrandir";
-    line-height: 26px;
-    font-size: 24px;
-    font-family: "PPAgrandir";
-    line-height: 26px;
     font-size: 24px;
     font-family: "PPAgrandir";
     line-height: 26px;
   }
   p {
-    text-align: center;
-    font-family: "PPAgrandir-WideHeavy" !important;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    font-family: "MatterMono-reg";
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    font-family: "MatterMono-reg";
-    font-size: 16px;
-    line-height: 20px;
     text-align: center;
     font-family: "MatterMono-reg";
     font-size: 16px;
@@ -972,51 +927,18 @@ table:not([class]) th {
     font-weight: 700;
     font-size: 18px;
     color: #000000;
-    font-family: "MatterMonot-bold";
-    font-weight: 700;
-    font-size: 18px;
-    color: #000000;
-    font-family: "MatterMonot-bold";
-    font-weight: 700;
-    font-size: 18px;
-    color: #000000;
-    font-family: "MatterMonot-bold";
-    font-weight: 700;
-    font-size: 18px;
-    color: #000000;
   }
   .h4 {
-    font-size: 18px;
-    line-height: 19px;
-    font-size: 18px;
-    line-height: 19px;
-    font-size: 18px;
-    line-height: 19px;
     font-size: 18px;
     line-height: 19px;
   }
   .h6 {
     font-size: 14px;
     line-height: 18px;
-    font-size: 14px;
-    line-height: 18px;
-    font-size: 14px;
-    line-height: 18px;
-    font-size: 14px;
-    line-height: 18px;
   }
   .button-text-mob {
     font-size: 14px;
     line-height: 18px;
-    font-size: 14px;
-    line-height: 18px;
-    font-size: 14px;
-    line-height: 18px;
-    font-size: 14px;
-    line-height: 18px;
-  }
-  .figure-your-mode-ctn .figure-your-mode-ctn-inner .fig-your-mode-video img {
-    width: 100%;
   }
   .nav-bar-section {
     width: 100vw;
@@ -1066,6 +988,7 @@ table:not([class]) th {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
   }
   .hero-section .hero-section-inner .hero-button {
     padding: 15px 22px 16px 22px;
@@ -1079,7 +1002,7 @@ table:not([class]) th {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #fff7de;
+    background-color: #FFF7DE;
     width: 100vw;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -1135,6 +1058,9 @@ table:not([class]) th {
   .best-seller-ctn .best-seller-ctn-inner h2 {
     font-size: 18px;
   }
+  .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner {
+    width: 90vw;
+  }
   .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner h2 {
     font-size: 24px;
     line-height: 26px;
@@ -1143,6 +1069,7 @@ table:not([class]) th {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
+    width: 90vw;
     margin-top: 2rem;
   }
   .smart-cup-coffee-ctn .smart-cup-coffee-ctn-inner .coffe-qualities-list1 .quality1 {
@@ -1174,11 +1101,13 @@ table:not([class]) th {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #03594c;
+    background-color: #03594C;
     width: 100vw;
     padding-top: 2rem;
     padding-bottom: 4rem;
-    text-align: center;
+  }
+  .our-mission-ctn .our-mission-ctn-inner {
+    width: 90vw;
   }
   .our-mission-ctn .our-mission-ctn-inner h2 {
     font-size: 18px;
@@ -1200,7 +1129,7 @@ table:not([class]) th {
   }
   .our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section1 .our-mission-section1-right-col {
     width: 100%;
-    text-align: left;
+    text-align: center;
   }
   .our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section1 .our-mission-section1-right-col img {
     width: 100%;
@@ -1244,7 +1173,7 @@ table:not([class]) th {
   }
   .our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section2 .our-mission-section1-right-col {
     width: 100%;
-    text-align: left;
+    text-align: center;
   }
   .our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section2 .our-mission-section1-right-col img {
     width: 100%;
@@ -1272,95 +1201,5 @@ table:not([class]) th {
     line-height: 18px;
     padding: 15px 22px;
     border: none;
-  }
-  .text-smooth-taste {
-    font-size: 13px;
-    line-height: 17px;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 17px;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 17px;
-    font-weight: 700;
-  }
-  button {
-    font-size: 14px;
-    font-size: 14px;
-    font-size: 14px;
-  }
-  .two-column-row .two-column-row-heading {
-    font-size: 24px;
-    width: 100%;
-  }
-  .two-column-row .two-column-row-inner {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-  }
-  .two-column-row .two-column-row-inner .row1-col1 img {
-    width: 100%;
-  }
-  .two-column-row .two-column-row-inner .row1-col1 p {
-    padding: 2rem;
-  }
-  .we-believe-ctn {
-    margin-top: 0rem;
-    padding-top: 2rem;
-  }
-  .we-believe-ctn .we-believe-ctn-inner {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    margin-top: 2rem;
-  }
-  .words-from-ceo-ctn .words-from-ceo-ctn-inner {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-  .words-from-ceo-ctn .words-from-ceo-ctn-inner .ceo-img img {
-    width: 100%;
-  }
-  .words-from-ceo-ctn .words-from-ceo-ctn-inner .ceo-words p {
-    width: 100%;
-  }
-  .our-mode-fam-ctn {
-    padding-top: 2rem;
-  }
-  .our-mode-fam-ctn .our-mode-fam-ctn-inner {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-  }
-  .our-mode-fam-ctn .our-mode-fam-ctn-inner .our-mode-fam-right img {
-    width: 100%;
-  }
-  .tiktok-section-ctn .modecoldbrew {
-    margin-top: 0px;
-  }
-  .accessories-hero-section {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-  }
-  .accessories-product-ctn .accessories-product-ctn-inner {
-    grid-template-columns: 1fr;
-  }
-  .single-product-desc-ctn .single-product-desc-ctn-inner {
-    grid-template-columns: 1fr;
-  }
-  .single-product-desc-ctn .single-product-desc-ctn-inner .single-product-img img {
-    width: 99%;
-  }
-  .single-product-desc-ctn .single-product-desc-ctn-inner .single-product-desc {
-    padding-right: 0px;
-  }
-  .single-product-desc-ctn .single-product-desc-ctn-inner .single-product-desc p {
-    text-align: left;
-  }
-  .single-product-desc-ctn .single-product-desc-ctn-inner .single-product-desc .h2 {
-    text-align: left;
-  }
-  .view-more-ctn .view-more-ctn-inner .prodcuts-ctn {
-    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=theme.css.map */
