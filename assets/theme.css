@@ -722,12 +722,6 @@ table:not([class]) th {
   grid-template-columns: 1fr 1fr;
   width: 100%;
 }
-.two-column-row .two-column-row-inner .row1-col1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 .two-column-row .two-column-row-inner .row1-col1 img {
   width: 100%;
 }
@@ -747,23 +741,23 @@ table:not([class]) th {
 .two-column-row .two-column-row-inner .row3-col1 img {
   width: 100%;
 }
-.two-column-row .two-column-row-inner .row3-col1 .row3-col2 p {
+.two-column-row .two-column-row-inner .row3-col2 p {
   line-height: 44px;
   padding-left: 5rem;
   padding-right: 5rem;
 }
-.two-column-row .two-column-row-inner .row3-col1 .row4-col1 p {
+.two-column-row .two-column-row-inner .row4-col1 p {
   line-height: 44px !important;
   padding-left: 5rem !important;
   padding-right: 5rem !important;
 }
-.two-column-row .two-column-row-inner .row3-col1 .row4-col2 img {
+.two-column-row .two-column-row-inner .row4-col2 img {
   width: 100%;
 }
-.two-column-row .two-column-row-inner .row3-col1 .row5-col1 img {
+.two-column-row .two-column-row-inner .row5-col1 img {
   width: 100%;
 }
-.two-column-row .two-column-row-inner .row3-col1 .row5-col2 p {
+.two-column-row .two-column-row-inner .row5-col2 p {
   line-height: 44px;
   padding-left: 5rem;
   padding-right: 5rem;

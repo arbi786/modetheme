@@ -929,14 +929,6 @@ table {
 		width: 100%;
 
 		.row1-col1 {
-
-			display: flex;
-
-			flex-direction: column;
-
-			align-items: center;
-			justify-content: center;
-
 			img {
 				width: 100%;
 			}
@@ -972,6 +964,7 @@ table {
 			img {
 				width: 100%;
 			}
+		}
 
 			.row3-col2 {
 				p {
@@ -1013,7 +1006,6 @@ table {
 			}
 		}
 	}
-}
 
 .we-believe-ctn {
 	background-color: $background_color_3;
