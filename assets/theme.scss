@@ -1411,7 +1411,7 @@ table {
 
                     p {
                         color: white;
-                        text-align: left;
+                        text-align:center;
                         font-size: 16px;
                         line-height: 19px;
                     }
@@ -1429,6 +1429,9 @@ table {
                                 width: 92px;
 
                             }
+							p{
+								text-align: center;
+							}
                         }
                     }
 

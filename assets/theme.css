@@ -1201,7 +1201,7 @@ table:not([class]) th {
   }
   .our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section2 .our-mission-section1-right-col p {
     color: white;
-    text-align: left;
+    text-align: center;
     font-size: 16px;
     line-height: 19px;
   }
@@ -1216,6 +1216,9 @@ table:not([class]) th {
   }
   .our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section2 .our-mission-section1-right-col .our-mission-section-right-col-list .list-item img {
     width: 92px;
+  }
+  .our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section2 .our-mission-section1-right-col .our-mission-section-right-col-list .list-item p {
+    text-align: center;
   }
   .our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section2 .our-mission-section1-right-col .shop-now {
     font-size: 14px;
