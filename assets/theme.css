@@ -616,7 +616,7 @@ table:not([class]) th {
 .footer-section .footer-section-inner .footer-row .footer-col1 ul li {
   color: beige;
   margin-top: 1rem;
-  font-family: "MatterMono-reg";
+  font-family: "MatterMono-Regular";
 }
 .footer-section .footer-section-inner .footer-row .footer-col2 {
   display: flex;
@@ -641,7 +641,7 @@ table:not([class]) th {
 .footer-section .footer-section-inner .footer-row .footer-col2 ul li {
   color: beige;
   margin-top: 1rem;
-  font-family: "MatterMono-reg";
+  font-family: "MatterMono-Regular";
 }
 .footer-section .footer-section-inner .footer-row .footer-col3 {
   display: flex;
@@ -672,15 +672,15 @@ table:not([class]) th {
 }
 .footer-section .footer-section-inner .footer-row .footer-col3 input::-moz-placeholder {
   color: beige;
-  font-family: "MatterMono-reg";
+  font-family: "MatterMono-Regular";
 }
 .footer-section .footer-section-inner .footer-row .footer-col3 input:-ms-input-placeholder {
   color: beige;
-  font-family: "MatterMono-reg";
+  font-family: "MatterMono-Regular";
 }
 .footer-section .footer-section-inner .footer-row .footer-col3 input::placeholder {
   color: beige;
-  font-family: "MatterMono-reg";
+  font-family: "MatterMono-Regular";
 }
 
 .ourstory-hero-section {
