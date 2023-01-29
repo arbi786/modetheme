@@ -1341,6 +1341,9 @@ table:not([class]) th {
   .our-customers-ctn .our-customer-ctn-inner .reviews .review-comment p {
     text-align: left;
   }
+  .our-customers-ctn .our-customer-ctn-inner .reviews .name-img .review-writer p {
+    text-align: left !important;
+  }
   .good-vibes-ctn .h2 {
     font-size: 24px;
     line-height: 25px;
