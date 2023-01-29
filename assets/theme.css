@@ -1558,4 +1558,22 @@ table:not([class]) th {
   .tiktok-section-ctn .modecoldbrew {
     margin-top: 0px;
   }
+  .single-product-desc-ctn .single-product-desc-ctn-inner {
+    grid-template-columns: 1fr;
+  }
+  .single-product-desc-ctn .single-product-desc-ctn-inner .single-product-img img {
+    width: 100%;
+  }
+  .single-product-desc-ctn .single-product-desc-ctn-inner .single-product-desc {
+    padding-right: 0px;
+  }
+  .single-product-desc-ctn .single-product-desc-ctn-inner .single-product-desc p {
+    text-align: left;
+  }
+  .single-product-desc-ctn .single-product-desc-ctn-inner .single-product-desc .h2 {
+    text-align: left;
+  }
+  .view-more-ctn .view-more-ctn-inner .prodcuts-ctn {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=theme.css.map */
