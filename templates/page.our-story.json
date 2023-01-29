@@ -1,1 +1,83 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":0,"padding_bottom":0}},"4ec0bd52-7409-46a7-8c45-68bdaf767374":{"type":"our-story-hero-section","settings":{"section-heading":"Our Story"}},"bde78f02-d374-48dc-b0d3-76b560161dd2":{"type":"we-started-mode","settings":{"section-heading":"<p>We started Mode in 2016 to help people function better naturally with a smarter and healthier alternative to coffee and energy drinks.<\/p>","r1-image1":"shopify:\/\/shop_images\/pic1.png","r1-desc1":"Mode Cold Brew elevates all the things we love about coffee, and none of the things we don’t","r2-image":"shopify:\/\/shop_images\/pic2.png","r2-desc":"When our friend and co-founder Tim Bergling, tragically passed away only two years later, our purpose grew clearer than ever: Not only do we want to help people function better naturally, we want to help them feel better too.","r3-image":"shopify:\/\/shop_images\/pic3.png","r3-desc":"With our “Find your mode” philosophy, we seek to inspire people to live life in balance, with less stress and more time for your passions and the things you love.","r4-image":"shopify:\/\/shop_images\/pic4.png","r4-desc":"Today, besides offering a growing range of functional coffee beverages based on our beloved cold brew, we work closely with Tim’s family and donate 10% of our profit to the TIM BERGLING FOUNDATION each year to raise mental health awareness among young people.","r5-image":"shopify:\/\/shop_images\/pic5.png","r5-desc":"Making coffee smarter is great. But contributing to a better functioning world is even greater."}},"3cd2d3eb-8989-4242-94bf-8415afe0ffcf":{"type":"our-story-we-believe","settings":{"section-heading":"<p>We believe<\/p>","section-desc":"<p>Living life at a hectic pace, chased by a never-ending list of must-dos is no fun. It’s not sustainable either. In fact, chronic stress can be super damaging to our physical and mental wellbeing.<\/p>","icon1":"shopify:\/\/shop_images\/person-sitting.png","title":"<p>Wellbeing<\/p>","desc":"<p>Our physical and mental health is our top priority. We strive to create a sustainable balance between work, play and rest. Because it’s only when we’re feeling good that we can truly wake up and live our happiest life.<\/p>","icon2":"shopify:\/\/shop_images\/balance.png","title2":"<p>Balance<\/p>","desc2":"<p>We believe that it’s only by living life in balance, surrounding ourselves with positive vibes, and making time for our passions that we can truly wake up—and feel and function better in the long run.<\/p>","icon3":"shopify:\/\/shop_images\/person-sitting_3d0285e0-2c20-4d1e-ad00-f5505f3c2f97.png","title3":"<p>Find our mode naturally<\/p>","desc3":"<p>We care about what we put in our bodies. And there’s no way we’re making compromises! That’s why we look to nature for the functional ingredients that boost our wellbeing and help us find our mode.<\/p>"}},"90df60ec-56e2-41ad-909d-c3550c2713e0":{"type":"word-from-ceo","settings":{"ceo":"shopify:\/\/shop_images\/ceo_365b7f2a-78e1-4732-aa39-18ec1ed00e58.png","heading":"<p>Words from CEO<\/p>","desc":"<p>We started Mode in 2016 to help people function better naturally with a smarter and healthier alternative to coffee and energy drinks.<\/p>"}},"d3eaa27b-273c-48c7-90c5-efffbfc71674":{"type":"our-mode-fam","settings":{"heading":"<p>Ourmode <br\/>fam<\/p>","img":"shopify:\/\/shop_images\/our-mode-fam_b247a999-bec3-4346-9b81-f105ed7bfcfe.png"}},"9943ebe9-903e-4f5d-b1db-0b18f39f2c65":{"type":"tiktok","settings":{"section-heading":"Follow us on Tiktok","section-heading2":"@modecoldbrew","video1":"shopify:\/\/shop_images\/tik1_01c22c0d-e4b3-46f2-a8f4-55f039231dd4.png","video2":"shopify:\/\/shop_images\/tik2_2993ee55-5ee7-4dc4-9068-021272cf2005.png","video3":"shopify:\/\/shop_images\/tik3_0294e015-b144-484e-ab25-11076d244069.png"}}},"order":["main","4ec0bd52-7409-46a7-8c45-68bdaf767374","bde78f02-d374-48dc-b0d3-76b560161dd2","3cd2d3eb-8989-4242-94bf-8415afe0ffcf","90df60ec-56e2-41ad-909d-c3550c2713e0","d3eaa27b-273c-48c7-90c5-efffbfc71674","9943ebe9-903e-4f5d-b1db-0b18f39f2c65"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4ec0bd52-7409-46a7-8c45-68bdaf767374": {
+      "type": "our-story-hero-section",
+      "settings": {
+        "section-heading": "Our Story"
+      }
+    },
+    "bde78f02-d374-48dc-b0d3-76b560161dd2": {
+      "type": "we-started-mode",
+      "settings": {
+        "section-heading": "We started Mode in 2016 to help people function better naturally with a smarter and healthier alternative to coffee and energy drinks.",
+        "r1-image1": "shopify:\/\/shop_images\/pic1.png",
+        "r1-desc1": "Mode Cold Brew elevates all the things we love about coffee, and none of the things we don’t",
+        "r2-image": "shopify:\/\/shop_images\/pic2.png",
+        "r2-desc": "When our friend and co-founder Tim Bergling, tragically passed away only two years later, our purpose grew clearer than ever: Not only do we want to help people function better naturally, we want to help them feel better too.",
+        "r3-image": "shopify:\/\/shop_images\/pic3.png",
+        "r3-desc": "With our “Find your mode” philosophy, we seek to inspire people to live life in balance, with less stress and more time for your passions and the things you love.",
+        "r4-image": "shopify:\/\/shop_images\/pic4.png",
+        "r4-desc": "Today, besides offering a growing range of functional coffee beverages based on our beloved cold brew, we work closely with Tim’s family and donate 10% of our profit to the TIM BERGLING FOUNDATION each year to raise mental health awareness among young people.",
+        "r5-image": "shopify:\/\/shop_images\/pic5.png",
+        "r5-desc": "Making coffee smarter is great. But contributing to a better functioning world is even greater."
+      }
+    },
+    "3cd2d3eb-8989-4242-94bf-8415afe0ffcf": {
+      "type": "our-story-we-believe",
+      "settings": {
+        "section-heading": "<p>We believe<\/p>",
+        "section-desc": "<p>Living life at a hectic pace, chased by a never-ending list of must-dos is no fun. It’s not sustainable either. In fact, chronic stress can be super damaging to our physical and mental wellbeing.<\/p>",
+        "icon1": "shopify:\/\/shop_images\/person-sitting.png",
+        "title": "<p>Wellbeing<\/p>",
+        "desc": "<p>Our physical and mental health is our top priority. We strive to create a sustainable balance between work, play and rest. Because it’s only when we’re feeling good that we can truly wake up and live our happiest life.<\/p>",
+        "icon2": "shopify:\/\/shop_images\/balance.png",
+        "title2": "<p>Balance<\/p>",
+        "desc2": "<p>We believe that it’s only by living life in balance, surrounding ourselves with positive vibes, and making time for our passions that we can truly wake up—and feel and function better in the long run.<\/p>",
+        "icon3": "shopify:\/\/shop_images\/person-sitting_3d0285e0-2c20-4d1e-ad00-f5505f3c2f97.png",
+        "title3": "<p>Find our mode naturally<\/p>",
+        "desc3": "<p>We care about what we put in our bodies. And there’s no way we’re making compromises! That’s why we look to nature for the functional ingredients that boost our wellbeing and help us find our mode.<\/p>"
+      }
+    },
+    "90df60ec-56e2-41ad-909d-c3550c2713e0": {
+      "type": "word-from-ceo",
+      "settings": {
+        "ceo": "shopify:\/\/shop_images\/ceo_365b7f2a-78e1-4732-aa39-18ec1ed00e58.png",
+        "heading": "<p>Words from CEO<\/p>",
+        "desc": "<p>We started Mode in 2016 to help people function better naturally with a smarter and healthier alternative to coffee and energy drinks.<\/p>"
+      }
+    },
+    "d3eaa27b-273c-48c7-90c5-efffbfc71674": {
+      "type": "our-mode-fam",
+      "settings": {
+        "heading": "<p>Ourmode <br\/>fam<\/p>",
+        "img": "shopify:\/\/shop_images\/our-mode-fam_b247a999-bec3-4346-9b81-f105ed7bfcfe.png"
+      }
+    },
+    "9943ebe9-903e-4f5d-b1db-0b18f39f2c65": {
+      "type": "tiktok",
+      "settings": {
+        "section-heading": "Follow us on Tiktok",
+        "section-heading2": "@modecoldbrew",
+        "video1": "shopify:\/\/shop_images\/tik1_01c22c0d-e4b3-46f2-a8f4-55f039231dd4.png",
+        "video2": "shopify:\/\/shop_images\/tik2_2993ee55-5ee7-4dc4-9068-021272cf2005.png",
+        "video3": "shopify:\/\/shop_images\/tik3_0294e015-b144-484e-ab25-11076d244069.png"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4ec0bd52-7409-46a7-8c45-68bdaf767374",
+    "bde78f02-d374-48dc-b0d3-76b560161dd2",
+    "3cd2d3eb-8989-4242-94bf-8415afe0ffcf",
+    "90df60ec-56e2-41ad-909d-c3550c2713e0",
+    "d3eaa27b-273c-48c7-90c5-efffbfc71674",
+    "9943ebe9-903e-4f5d-b1db-0b18f39f2c65"
+  ]
+}
