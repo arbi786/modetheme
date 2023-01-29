@@ -1454,8 +1454,8 @@ table:not([class]) th {
     text-align: center;
   }
   .better-func-world-ctn .better-func-world-ctn-inner img {
-    margin-top: 2rem;
-    width: 100%;
+    margin-top: 2rem !important;
+    width: 100% !important;
   }
   .still-got-question-ctn .h2 {
     font-size: 24px;
