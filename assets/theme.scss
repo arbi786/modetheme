@@ -1027,6 +1027,7 @@ table {
 		-ms-grid-columns: 1fr 1fr;
 		grid-template-columns: 1fr 1fr;
 		margin: auto;
+		grid-gap: 3rem;
 
 		.ceo-words {
 			margin-top: 6rem;
@@ -2192,6 +2193,7 @@ table {
 			grid-template-columns: 1fr;
 
 			.row1-col1 {
+				
 				img {
 					width: 100%;
 				}

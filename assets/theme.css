@@ -797,6 +797,7 @@ table:not([class]) th {
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   margin: auto;
+  grid-gap: 3rem;
 }
 .words-from-ceo-ctn .words-from-ceo-ctn-inner .ceo-words {
   margin-top: 6rem;
