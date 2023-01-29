@@ -1272,5 +1272,9 @@ table:not([class]) th {
   .get-inspired-ctn .get-inspired-ctn-inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+  .get-inspired-ctn .get-inspired-ctn-inner .racepes1 h4 {
+    color: #FFF7DE;
   }
 }/*# sourceMappingURL=theme.css.map */
