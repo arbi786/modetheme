@@ -552,7 +552,8 @@ table {
 			margin-top: 6rem;
 			margin-bottom: 2rem;
 			text-align: center;
-			img{
+
+			img {
 				width: 100%;
 			}
 		}
@@ -1651,7 +1652,7 @@ table {
 						font-size: 13px !important;
 					}
 
-					img{
+					img {
 						width: 18px;
 					}
 				}
@@ -1660,23 +1661,37 @@ table {
 	}
 
 	// what other says
-.what-other-says-ctn{
-	.what-other-says-ctn-inner{
-		flex-direction:column-reverse;
-		.what-other-say-left{
-			.testimonials{
-			width:100%;
-			margin-top:-3rem;
-			border-top-right-radius:0px;
-			border-top-left-radius:0px;
+	.what-other-says-ctn {
+		.what-other-says-ctn-inner {
+			flex-direction: column-reverse;
+
+			.what-other-say-left {
+				.testimonials {
+					width: 100%;
+					margin-top: -3rem;
+					border-top-right-radius: 0px;
+					border-top-left-radius: 0px;
+				}
+
+
+
 			}
-			
-
-
+		}
 	}
-}
 
+	// our story
 
+	.our-story-ctn {
+		.our-story-ctn-inner {
+			grid-template-columns: 1fr;
+			padding-top: 0rem;
 
-}
+			.our-story-info {
+				height: auto;
+				background: none;
+				padding: none;
+			}
+
+		}
+	}
 }
