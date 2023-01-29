@@ -1476,8 +1476,8 @@ table {
 .table{
 	tr{
 		td{
-			p{
-				font-size: 13px;
+			.body-copy-bold{
+				font-size: 13px !important;
 			}
 		}
 	}
