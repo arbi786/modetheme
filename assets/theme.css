@@ -1153,7 +1153,7 @@ table:not([class]) th {
   }
   .our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section1 .our-mission-section1-right-col p {
     color: white;
-    text-align: left;
+    text-align: center;
     font-size: 16px;
     line-height: 19px;
   }
