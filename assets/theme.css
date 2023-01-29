@@ -1176,8 +1176,8 @@ table:not([class]) th {
     border: none;
   }
   .our-mission-ctn .our-mission-ctn-inner .our-mission-ctn-inner-section2 {
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    flex-direction: column-reverse;
     padding-top: 4rem;
     grid-auto-flow: dense;
   }
