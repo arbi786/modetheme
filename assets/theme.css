@@ -1202,4 +1202,9 @@ table:not([class]) th {
     padding: 15px 22px;
     border: none;
   }
+  .section-width {
+    width: 100% !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }/*# sourceMappingURL=theme.css.map */
