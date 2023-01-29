@@ -129,6 +129,8 @@
   padding:2rem;
 }
 
+
+
 .product-grid-ctn .product-grid-ctn-inner .product h3 {
   text-align: left;
 }
@@ -151,55 +153,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .h1 {
-    font-family: "PPAgrandir";
-    font-size: 36px;
-    line-height: 38px;
-    font-weight: 800;
-  }
-  .h2 {
-    font-size: 18px;
-    text-align: center;
-    font-family: "PPAgrandir";
-    line-height: 19px;
-  }
-  .h3 {
-    font-size: 24px;
-    font-family: "PPAgrandir";
-    line-height: 26px;
-  }
-  p {
-    text-align: center;
-    font-family: "MatterMono-reg";
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .text-smooth-taste {
-    font-size: 13px;
-    line-height: 17px;
-    font-weight: 700;
-  }
-  .body-copy-bold {
-    font-family: "MatterMonot-bold";
-    font-weight: 700;
-    font-size: 18px;
-    color: #000000;
-  }
-  .h4 {
-    font-size: 18px;
-    line-height: 19px;
-  }
-  .h6 {
-    font-size: 14px;
-    line-height: 18px;
-  }
-  .button-text-mob {
-    font-size: 14px;
-    line-height: 18px;
-  }
-  button {
-    font-size: 14px;
-  }
+ 
   .recipe1-hero-ctn {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -230,4 +184,16 @@
   .product-grid-ctn .product-grid-ctn-inner .product img {
     width: 100%;
   }
+
+  
+    .product-grid-ctn .product-grid-ctn-inner .product {
+      padding: 0rem;
+    }
+
+    .product-grid-ctn .product-grid-ctn-inner .product .h3{
+      font-size: 14px;
+      word-break: inherit;
+    }
+   
+  
 }
