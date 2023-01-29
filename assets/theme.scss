@@ -927,9 +927,8 @@ table {
 		width: 100%;
 
 		.row1 {
-			display: flex;
-			justify-content: center;
-			align-items: center;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
 			.row1-col1 {
 				img {
 					width: 100%;
@@ -949,9 +948,8 @@ table {
 		}
 
 		.row2 {
-			display: flex;
-			justify-content: center;
-			align-items: center;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
 
 			.row2-col1 {
 				p {
@@ -970,9 +968,8 @@ table {
 		}
 
 		.row3 {
-			display: flex;
-			justify-content: center;
-			align-items: center;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
 
 			.row3-col1 {
 				img {
@@ -992,9 +989,8 @@ table {
 
 
 		.row4 {
-			display: flex;
-			justify-content: center;
-			align-items: center;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
 			.row4-col1 {
 				p {
 					line-height: 44px !important;
