@@ -1733,3 +1733,310 @@ table {
 		}
 	}
 }
+
+
+
+// Boost mob responsivenesss
+
+
+@media (max-width:400px) {
+
+	.product-ctn {
+		width: 100vw;
+
+		.product-ctn-inner {
+			display: grid;
+			grid-template-columns: 1fr;
+
+			.product-img-ctn {
+				img {
+					width: 100%;
+				}
+			}
+
+			.product-details-ctn {
+				.reviws-and-price {
+					.reviews {
+						.stars {
+							img {
+								width: 16px;
+							}
+						}
+
+						.reviews-count {
+							p {
+								font-size: 16px;
+							}
+						}
+					}
+
+					.price {
+						p {
+							font-size: 16px;
+						}
+					}
+				}
+
+				.product-tit {
+					.h2 {
+						font-size: 24px;
+						line-height: 25px;
+					}
+
+				}
+
+				.product-desc {
+					p {
+						font-size: 16px;
+					}
+				}
+
+				.what-mode {
+					.h3 {
+						font-size: 18px;
+						line-height: 18px;
+					}
+				}
+
+				.how-much {
+					.h3 {
+						font-size: 18px;
+						line-height: 18px;
+					}
+				}
+
+				.two-button-ctn {
+					.button1 {
+						.white-btn {
+							font-size: 14px;
+							line-height: 18px;
+						}
+					}
+				}
+
+				.feature-list {
+					display: none;
+				}
+			}
+		}
+	}
+
+	//    our ccustomer
+
+	.our-customers-ctn {
+		.h2 {
+			font-size: 24px;
+			line-height: 25px;
+		}
+
+		.our-customer-ctn-inner {
+			flex-direction: column;
+
+			.reviews {
+				height: auto;
+				width: auto;
+			}
+		}
+
+	}
+
+	// good vibes section
+
+	.good-vibes-ctn {
+
+		.h2 {
+			font-size: 24px;
+			line-height: 25px;
+		}
+
+		.good-vibes-ctn-inner {
+			grid-template-columns: 1fr;
+
+
+			.two-section-column {
+				display: flex;
+				flex-direction: column-reverse;
+
+				.section1 {
+					.func-benefits {
+						text-align: center;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+					}
+
+					.cold-brew {
+						text-align: center;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+					}
+				}
+
+				.section2 {
+					margin-top: 0;
+
+					img {
+						width: 100%;
+					}
+				}
+
+
+			}
+
+			.single-section-column {
+				.smooth-taste {
+					text-align: center;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.natural {
+					text-align: center;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+			}
+		}
+
+
+
+	}
+
+	// ingredients section
+
+
+	.ingredients-ctn {
+
+		.h2 {
+			font-size: 24px;
+			line-height: 25px;
+		}
+
+		.ingredients-ctn-inner {
+			grid-template-columns: 1fr;
+
+			.ingredients-left-img {
+				img {
+					width: 100%;
+				}
+			}
+
+			.ing-tabs {
+				.ing-tabs-inner {
+					.ing-two-section {
+						.img-info-section {
+							width: 70%;
+
+							.tab-image {
+								margin-right: 20px;
+							}
+
+							.name-and-weight {
+								.h3 {
+									font-size: 18px;
+									line-height: 18px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+	// bitterness section
+
+	.bitterness-and-acid-ctn {
+		padding-top: 6rem;
+
+		.h1 {
+			width: 100%;
+			font-size: 36px;
+			line-height: 38px;
+		}
+
+		.bitterness-and-acid-ctn-inner {
+			.logo {
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	// Community section
+
+	.community-ctn {
+		.h2 {
+			font-size: 24px;
+			line-height: 25px;
+		}
+
+		.our-customer-ctn-inner {
+			flex-direction: column;
+
+			.reviews {
+				height: auto;
+				width: auto;
+
+				.h4 {
+					font-size: 18px;
+					line-height: 18px;
+				}
+			}
+		}
+	}
+
+	// our dm section
+
+	.our-dm-section-ctn {
+		.h2 {
+			font-size: 24px;
+			line-height: 25px;
+		}
+
+		.our-dm-section-ctn-inner {
+			display: none;
+		}
+	}
+
+
+	//    better world
+
+	.better-func-world-ctn {
+		padding-top: 2rem;
+		padding-bottom: 4rem;
+
+		.better-func-world-ctn-inner {
+			.h2 {
+				font-size: 24px;
+				line-height: 25px;
+				width: 100%;
+			}
+
+			img {
+				margin-top: 2rem;
+				width: 100%
+			}
+
+		}
+	}
+
+	// still got question
+
+	.still-got-question-ctn {
+		.h2 {
+			font-size: 24px;
+			line-height: 25px;
+		}
+	}
+
+
+
+
+}

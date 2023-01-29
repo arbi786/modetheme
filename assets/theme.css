@@ -1283,4 +1283,169 @@ table:not([class]) th {
   .better-func-world-ctn .better-func-world-ctn-inner img {
     width: 100%;
   }
+}
+@media (max-width: 400px) {
+  .product-ctn {
+    width: 100vw;
+  }
+  .product-ctn .product-ctn-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .product-ctn .product-ctn-inner .product-img-ctn img {
+    width: 100%;
+  }
+  .product-ctn .product-ctn-inner .product-details-ctn .reviws-and-price .reviews .stars img {
+    width: 16px;
+  }
+  .product-ctn .product-ctn-inner .product-details-ctn .reviws-and-price .reviews .reviews-count p {
+    font-size: 16px;
+  }
+  .product-ctn .product-ctn-inner .product-details-ctn .reviws-and-price .price p {
+    font-size: 16px;
+  }
+  .product-ctn .product-ctn-inner .product-details-ctn .product-tit .h2 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .product-ctn .product-ctn-inner .product-details-ctn .product-desc p {
+    font-size: 16px;
+  }
+  .product-ctn .product-ctn-inner .product-details-ctn .what-mode .h3 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .product-ctn .product-ctn-inner .product-details-ctn .how-much .h3 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .product-ctn .product-ctn-inner .product-details-ctn .two-button-ctn .button1 .white-btn {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .product-ctn .product-ctn-inner .product-details-ctn .feature-list {
+    display: none;
+  }
+  .our-customers-ctn .h2 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .our-customers-ctn .our-customer-ctn-inner {
+    flex-direction: column;
+  }
+  .our-customers-ctn .our-customer-ctn-inner .reviews {
+    height: auto;
+    width: auto;
+  }
+  .good-vibes-ctn .h2 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .good-vibes-ctn .good-vibes-ctn-inner {
+    grid-template-columns: 1fr;
+  }
+  .good-vibes-ctn .good-vibes-ctn-inner .two-section-column {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .good-vibes-ctn .good-vibes-ctn-inner .two-section-column .section1 .func-benefits {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .good-vibes-ctn .good-vibes-ctn-inner .two-section-column .section1 .cold-brew {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .good-vibes-ctn .good-vibes-ctn-inner .two-section-column .section2 {
+    margin-top: 0;
+  }
+  .good-vibes-ctn .good-vibes-ctn-inner .two-section-column .section2 img {
+    width: 100%;
+  }
+  .good-vibes-ctn .good-vibes-ctn-inner .single-section-column .smooth-taste {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .good-vibes-ctn .good-vibes-ctn-inner .single-section-column .natural {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ingredients-ctn .h2 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .ingredients-ctn .ingredients-ctn-inner {
+    grid-template-columns: 1fr;
+  }
+  .ingredients-ctn .ingredients-ctn-inner .ingredients-left-img img {
+    width: 100%;
+  }
+  .ingredients-ctn .ingredients-ctn-inner .ing-tabs .ing-tabs-inner .ing-two-section .img-info-section {
+    width: 70%;
+  }
+  .ingredients-ctn .ingredients-ctn-inner .ing-tabs .ing-tabs-inner .ing-two-section .img-info-section .tab-image {
+    margin-right: 20px;
+  }
+  .ingredients-ctn .ingredients-ctn-inner .ing-tabs .ing-tabs-inner .ing-two-section .img-info-section .name-and-weight .h3 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .bitterness-and-acid-ctn {
+    padding-top: 6rem;
+  }
+  .bitterness-and-acid-ctn .h1 {
+    width: 100%;
+    font-size: 36px;
+    line-height: 38px;
+  }
+  .bitterness-and-acid-ctn .bitterness-and-acid-ctn-inner .logo img {
+    width: 100%;
+  }
+  .community-ctn .h2 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .community-ctn .our-customer-ctn-inner {
+    flex-direction: column;
+  }
+  .community-ctn .our-customer-ctn-inner .reviews {
+    height: auto;
+    width: auto;
+  }
+  .community-ctn .our-customer-ctn-inner .reviews .h4 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .our-dm-section-ctn .h2 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner {
+    display: none;
+  }
+  .better-func-world-ctn {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  .better-func-world-ctn .better-func-world-ctn-inner .h2 {
+    font-size: 24px;
+    line-height: 25px;
+    width: 100%;
+  }
+  .better-func-world-ctn .better-func-world-ctn-inner img {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .still-got-question-ctn .h2 {
+    font-size: 24px;
+    line-height: 25px;
+  }
 }/*# sourceMappingURL=theme.css.map */
