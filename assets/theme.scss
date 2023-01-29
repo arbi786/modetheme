@@ -2150,5 +2150,22 @@ table {
 
 	}
 
+	// accossries 
+
+
+	.accessories-hero-section {
+		padding-top: 7rem;
+		padding-bottom: 7rem;
+	}
+
+
+
+	.accessories-product-ctn {
+		.accessories-product-ctn-inner {
+			grid-template-columns: 1fr;
+		}
+	}
+
+
 
 }

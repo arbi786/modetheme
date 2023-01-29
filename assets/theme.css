@@ -1496,4 +1496,11 @@ table:not([class]) th {
   .footer-section .footer-section-inner .footer-row .footer-col3 .copyright-sec3 .copyright-sec2-join-us p {
     color: beige;
   }
+  .accessories-hero-section {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  .accessories-product-ctn .accessories-product-ctn-inner {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=theme.css.map */
