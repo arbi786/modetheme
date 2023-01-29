@@ -928,43 +928,50 @@ table {
 		grid-template-columns: 1fr 1fr;
 		width: 100%;
 
-		.row1-col1 {
-			img {
-				width: 100%;
+		.row1 {
+			.row1-col1 {
+				img {
+					width: 100%;
+				}
+
+
 			}
 
+			.row1-col2 {
+				p {
+					line-height: 44px;
+					padding-left: 5rem;
+					padding-right: 5rem;
+				}
 
-		}
-
-		.row1-col2 {
-			p {
-				line-height: 44px;
-				padding-left: 5rem;
-				padding-right: 5rem;
-			}
-
-		}
-
-		.row2-col1 {
-			p {
-				line-height: 44px;
-				padding-left: 5rem;
-				padding-right: 5rem;
-			}
-
-		}
-
-		.row2-col2 {
-			img {
-				width: 100%;
 			}
 		}
 
-		.row3-col1 {
-			img {
-				width: 100%;
+		.row2 {
+
+			.row2-col1 {
+				p {
+					line-height: 44px;
+					padding-left: 5rem;
+					padding-right: 5rem;
+				}
+
+			}
+
+			.row2-col2 {
+				img {
+					width: 100%;
+				}
 			}
 		}
+
+		.row3 {
+
+			.row3-col1 {
+				img {
+					width: 100%;
+				}
+			}
 
 			.row3-col2 {
 				p {
@@ -974,12 +981,15 @@ table {
 
 				}
 			}
+		}
 
+
+		.row4 {
 			.row4-col1 {
 				p {
 					line-height: 44px !important;
 					padding-left: 5rem !important;
-					padding-right: 5rem !important	;
+					padding-right: 5rem !important;
 
 				}
 			}
@@ -989,7 +999,9 @@ table {
 					width: 100%;
 				}
 			}
+		}
 
+		.row5 {
 			.row5-col1 {
 				img {
 					width: 100%;
@@ -1006,6 +1018,7 @@ table {
 			}
 		}
 	}
+}
 
 .we-believe-ctn {
 	background-color: $background_color_3;
