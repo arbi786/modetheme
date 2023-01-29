@@ -1263,6 +1263,10 @@ table:not([class]) th {
   .our-story-ctn .our-story-ctn-inner .our-story-info {
     height: auto;
     background: none;
-    padding: none;
+    padding: 0px;
+  }
+  .our-story-ctn .our-story-ctn-inner .our-story-info p {
+    color: white;
+    text-align: center;
   }
 }/*# sourceMappingURL=theme.css.map */
