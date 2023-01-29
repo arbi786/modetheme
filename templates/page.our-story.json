@@ -38,8 +38,8 @@
         "title": "Wellbeing",
         "desc": "Our physical and mental health is our top priority. We strive to create a sustainable balance between work, play and rest. Because it’s only when we’re feeling good that we can truly wake up and live our happiest life.",
         "icon2": "shopify:\/\/shop_images\/balance.png",
-        "title2": "<p>Balance<\/p>",
-        "desc2": "<p>We believe that it’s only by living life in balance, surrounding ourselves with positive vibes, and making time for our passions that we can truly wake up—and feel and function better in the long run.<\/p>",
+        "title2": "Balance",
+        "desc2": "We believe that it’s only by living life in balance, surrounding ourselves with positive vibes, and making time for our passions that we can truly wake up—and feel and function better in the long run.",
         "icon3": "shopify:\/\/shop_images\/person-sitting_3d0285e0-2c20-4d1e-ad00-f5505f3c2f97.png",
         "title3": "Find our mode naturally",
         "desc3": "We care about what we put in our bodies. And there’s no way we’re making compromises! That’s why we look to nature for the functional ingredients that boost our wellbeing and help us find our mode."
@@ -56,7 +56,7 @@
     "d3eaa27b-273c-48c7-90c5-efffbfc71674": {
       "type": "our-mode-fam",
       "settings": {
-        "heading": "Ourmode<br> fam",
+        "heading": "Ourmode fam",
         "img": "shopify:\/\/shop_images\/our-mode-fam_b247a999-bec3-4346-9b81-f105ed7bfcfe.png"
       }
     },
