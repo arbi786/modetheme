@@ -1245,6 +1245,6 @@ table:not([class]) th {
     width: 18px;
   }
   table:not([class]) td {
-    padding: 1px 1 !important;
+    padding: 1px !important;
   }
 }/*# sourceMappingURL=theme.css.map */
