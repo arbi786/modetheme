@@ -30,7 +30,7 @@
   padding-bottom: 6rem;
 }
 .mode-select-ctn .selected-items-ctn {
-  width: 90%;
+  width: 100%;
   margin: auto;
   padding-bottom: 2rem;
   display: flex;
@@ -121,7 +121,6 @@
 .product-grid-ctn .product-grid-ctn-inner {
   width: 90vw;
   text-align: center;
-  margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
