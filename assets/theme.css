@@ -1503,6 +1503,7 @@ table:not([class]) th {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    width: 100% !important;
   }
   .accessories-product-ctn {
     padding-top: 0rem;
