@@ -1544,6 +1544,9 @@ table:not([class]) th {
   .words-from-ceo-ctn .words-from-ceo-ctn-inner .ceo-img img {
     width: 100%;
   }
+  .words-from-ceo-ctn .words-from-ceo-ctn-inner .ceo-words {
+    margin-top: 1rem;
+  }
   .words-from-ceo-ctn .words-from-ceo-ctn-inner .ceo-words p {
     width: 100%;
   }
