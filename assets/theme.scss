@@ -2536,5 +2536,8 @@ table {
 // how it works
 
 .how-it-works-ctn{
-	background-image: red;
+	background-image:url('./save-bg.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
