@@ -1374,6 +1374,12 @@ table:not([class]) th {
   height: max-content;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  color: #FFF7DE;
+  font-size: 15px;
+}
+
 @media (max-width: 600px) {
   .product-ctn {
     width: 100vw;
