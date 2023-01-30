@@ -118,6 +118,8 @@ var mySwiper = new Swiper('.swiper-container', {
     bulletActiveClass: 'custom-bullet-active'
   },
 });
-
+var mySwiper = new Swiper('.swiper', {
+  slidesPerView: 1,
+});
 
 
