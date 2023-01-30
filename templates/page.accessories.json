@@ -1,1 +1,58 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":36,"padding_bottom":36}},"27082fc3-6238-4869-b0c2-e91f72f4a92c":{"type":"accessories-hero-section","settings":{"heading":"Accessories","product1-img":"shopify:\/\/shop_images\/product-image.png","product1-title":"<p>Ready to drink<\/p>","product1-price":"$30.90","btn1-text":"Add to cart","product2-img":"shopify:\/\/shop_images\/product-image.png","product2-title":"<p>Ready to drink<\/p>","product2-price":"$30.90","btn2-text":"Add to cart","product3-img":"shopify:\/\/shop_images\/product-image.png","product3-title":"<p>Ready to drink<\/p>","product3-price":"$30.90","btn3-text":"Add to cart","product4-img":"shopify:\/\/shop_images\/product-image.png","product4-title":"<p>Ready to drink<\/p>","product4-price":"$39.90","btn4-text":"Add to cart","product5-img":"shopify:\/\/shop_images\/product-image.png","product5-title":"<p>Ready to drink<\/p>","product5-price":"$39.90","btn5-text":"Add to cart","product6-img":"shopify:\/\/shop_images\/product-image.png","product6-title":"<p>Ready to drink<\/p>","product6-price":"$39.90","btn6-text":"Add to cart","product7-img":"shopify:\/\/shop_images\/product-image.png","product7-title":"<p>Ready to drink<\/p>","product7-price":"$39.90","btn7-text":"Ad to cart","product8-img":"shopify:\/\/shop_images\/product-image.png","product8-title":"<p>Ready to drink<\/p>","product8-price":"$39.90","btn8-text":"Add to cart","product9-img":"shopify:\/\/shop_images\/product-image.png","product9-title":"<p>Ready to drink<\/p>","product9-price":"$39.90","btn9-text":"Add to cart","hero-bg":"shopify:\/\/shop_images\/access-hero.png"}}},"order":["main","27082fc3-6238-4869-b0c2-e91f72f4a92c"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "27082fc3-6238-4869-b0c2-e91f72f4a92c": {
+      "type": "accessories-hero-section",
+      "settings": {
+        "hero-bg": "shopify:\/\/shop_images\/access-hero.png",
+        "heading": "Accessories",
+        "product1-img": "shopify:\/\/shop_images\/product-image.png",
+        "product1-title": "<p>Ready to drink<\/p>",
+        "product1-price": "$30.90",
+        "btn1-text": "Add to cart",
+        "product2-img": "shopify:\/\/shop_images\/product-image.png",
+        "product2-title": "<p>Ready to drink<\/p>",
+        "product2-price": "$30.90",
+        "btn2-text": "Add to cart",
+        "product3-img": "shopify:\/\/shop_images\/product-image.png",
+        "product3-title": "<p>Ready to drink<\/p>",
+        "product3-price": "$30.90",
+        "btn3-text": "Add to cart",
+        "product4-img": "shopify:\/\/shop_images\/product-image.png",
+        "product4-title": "<p>Ready to drink<\/p>",
+        "product4-price": "$39.90",
+        "btn4-text": "Add to cart",
+        "product5-img": "shopify:\/\/shop_images\/product-image.png",
+        "product5-title": "<p>Ready to drink<\/p>",
+        "product5-price": "$39.90",
+        "btn5-text": "Add to cart",
+        "product6-img": "shopify:\/\/shop_images\/product-image.png",
+        "product6-title": "<p>Ready to drink<\/p>",
+        "product6-price": "$39.90",
+        "btn6-text": "Add to cart",
+        "product7-img": "shopify:\/\/shop_images\/product-image.png",
+        "product7-title": "<p>Ready to drink<\/p>",
+        "product7-price": "$39.90",
+        "btn7-text": "Ad to cart",
+        "product8-img": "shopify:\/\/shop_images\/product-image.png",
+        "product8-title": "<p>Ready to drink<\/p>",
+        "product8-price": "$39.90",
+        "btn8-text": "Add to cart",
+        "product9-img": "shopify:\/\/shop_images\/product-image.png",
+        "product9-title": "<p>Ready to drink<\/p>",
+        "product9-price": "$39.90",
+        "btn9-text": "Add to cart"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "27082fc3-6238-4869-b0c2-e91f72f4a92c"
+  ]
+}
