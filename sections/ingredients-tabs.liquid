@@ -4,7 +4,7 @@
 
   <div class="ingredients-ctn-inner">
     <div class="ingredients-left-img">
-      <img src="./veg.png" alt="" srcset="">
+      <img src="{{ section.settings.product-img | image_url }}" alt="" srcset="">
     </div>
     <div class="tabs">
       <div class="ing-tabs">
@@ -155,7 +155,12 @@
       "type":"text",
       "label":"Description",
       "id":"section-desc"
-    }
+    },
+      {
+        "type":"image_picker",
+        "label":"Product Image",
+        "id":"product-img"
+      }
   ],
   "presets":[
 
