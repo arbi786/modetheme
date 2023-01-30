@@ -135,6 +135,12 @@ h3 {
   font-size: 36px;
   line-height: 38px;
   font-family: "PPAgrandir-WideHeavy";
+  text-decoration: none;
+  color: black;
+}
+
+#menu #menu-content ul li a {
+  color: #000000;
 }
 
 #menu #menu-content ul li a:hover {
