@@ -79,7 +79,8 @@
       "type": "ingredients-tabs",
       "settings": {
         "section-heading": "Only ingredients you can pronounce",
-        "section-desc": "Our vision is to create the world’s smartest coffee brand for the next generation"
+        "section-desc": "Our vision is to create the world’s smartest coffee brand for the next generation",
+        "product-img": "shopify:\/\/shop_images\/veg.png"
       }
     },
     "dcbc96cc-8889-40d5-93c2-b8dac08a70d5": {
