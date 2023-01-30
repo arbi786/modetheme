@@ -137,7 +137,7 @@ h3 {
 	height: 700px;
 }
 
-#menu{
+#menu {
 	width: auto;
 	height: max-content;
 }
@@ -2479,64 +2479,72 @@ table {
 
 	.expresso-ctn .expresso-ctn-inner {
 		grid-template-columns: 1fr;
-	  }
-	  .expresso-ctn .expresso-ctn-inner .left-img img {
+	}
+
+	.expresso-ctn .expresso-ctn-inner .left-img img {
 		width: 100%;
-	  }
-	  .expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom {
+	}
+
+	.expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom {
 		width: 100%;
-	  }
-	  .expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom .social-icons img {
+	}
+
+	.expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom .social-icons img {
 		margin-right: 20px;
-	  }
-	  .how-to-make-section .inner-section .h2 {
+	}
+
+	.how-to-make-section .inner-section .h2 {
 		border-bottom: 2px solid #FFF7DE;
-	  }
-	  .how-to-make-section .inner-section .how-to-make-list p {
+	}
+
+	.how-to-make-section .inner-section .how-to-make-list p {
 		text-align: left;
-	  }
-	  .you-may-also-like-ctn .you-may-also-like-ctn-inner {
+	}
+
+	.you-may-also-like-ctn .you-may-also-like-ctn-inner {
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 1rem;
 
-		.product-like{
+		.product-like {
 			text-align: left;
 		}
-	  }
-	  .you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like img {
+	}
+
+	.you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like img {
 		width: 100%;
-	  }
-	  .you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like .clock-time .clock img {
+	}
+
+	.you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like .clock-time .clock img {
 		width: 18px;
-	  }
+	}
 
 
 	//   menu resp
 
 
-	#menu{
+	#menu {
 		width: auto;
 		height: max-content;
 	}
-	
+
 	#menu #menu-content ul {
 		list-style: none;
-	
+
 		li {
 			margin-top: 2rem;
 			font-size: 26px;
-	
+
 		}
-	
+
 	}
-	
+
 
 }
 
 // how it works
 
-.how-it-works-ctn{
-	background-image:url('./save-bg.png');
+.how-it-works-ctn {
+	background-image: url('./save-bg.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -2545,20 +2553,22 @@ table {
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 
-	.how-it-works-ctn-inner{
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 2rem;
+	.how-it-works-ctn-inner {
+		.row1 {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 2rem;
 
-		.row1-right{
-			.box{
-				width: 200px;
-			height: 200px;
-			padding: 2rem;
-			background-color: #FFF7DE;
+			.row1-right {
+				.box {
+					width: 200px;
+					height: 200px;
+					padding: 2rem;
+					background-color: #FFF7DE;
+				}
+
+
 			}
-
-
 		}
 
 	}

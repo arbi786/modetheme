@@ -1724,12 +1724,12 @@ table:not([class]) th {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-.how-it-works-ctn .how-it-works-ctn-inner {
+.how-it-works-ctn .how-it-works-ctn-inner .row1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
 }
-.how-it-works-ctn .how-it-works-ctn-inner .row1-right .box {
+.how-it-works-ctn .how-it-works-ctn-inner .row1 .row1-right .box {
   width: 200px;
   height: 200px;
   padding: 2rem;
