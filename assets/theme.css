@@ -1712,6 +1712,10 @@ table:not([class]) th {
   #menu #menu-content ul li {
     margin-top: 2rem;
     font-size: 26px;
+    text-decoration: none;
+  }
+  #menu #menu-content ul li a {
+    color: #65b8c7;
   }
 }
 .how-it-works-ctn {
