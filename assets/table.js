@@ -109,3 +109,14 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
+
+// cutom color
+
+var mySwiper = new Swiper('.swiper-container', {
+  pagination: {
+    el: '.swiper-pagination',
+    bulletActiveClass: 'custom-bullet-active'
+  },
+});
+
+

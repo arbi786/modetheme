@@ -1416,6 +1416,12 @@ table:not([class]) th {
     width: 240px !important;
     padding: 2rem;
   }
+  .swiper-pagination-bullet {
+    background: gray;
+  }
+  .custom-bullet-active {
+    background: red;
+  }
   .product-ctn {
     width: 100vw;
   }
