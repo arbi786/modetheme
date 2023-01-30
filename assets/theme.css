@@ -1804,4 +1804,8 @@ table:not([class]) th {
   text-align: left;
   padding: 2rem;
   background-color: #FFF7DE;
+}
+.how-it-works-ctn .row1-col1 {
+  border-radius: 30px;
+  padding: 2rem;
 }/*# sourceMappingURL=theme.css.map */
