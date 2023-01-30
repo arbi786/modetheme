@@ -137,6 +137,23 @@ h3 {
 	height: 700px;
 }
 
+#menu{
+	width: auto;
+	height: max-content;
+}
+
+#menu #menu-content ul {
+	list-style: none;
+
+	li {
+		margin-top: 2rem;
+		font-size: 26px;
+
+	}
+
+}
+
+
 #menu.active {
 	transform: translateX(0);
 }
@@ -2492,5 +2509,26 @@ table {
 	  .you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like .clock-time .clock img {
 		width: 18px;
 	  }
+
+
+	//   menu resp
+
+
+	#menu{
+		width: auto;
+		height: max-content;
+	}
+	
+	#menu #menu-content ul {
+		list-style: none;
+	
+		li {
+			margin-top: 2rem;
+			font-size: 26px;
+	
+		}
+	
+	}
+	
 
 }

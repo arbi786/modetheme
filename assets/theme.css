@@ -102,6 +102,21 @@ h3 {
   height: 700px;
 }
 
+#menu {
+  width: auto;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+#menu #menu-content ul {
+  list-style: none;
+}
+#menu #menu-content ul li {
+  margin-top: 2rem;
+  font-size: 26px;
+}
+
 #menu.active {
   transform: translateX(0);
 }
@@ -1684,5 +1699,18 @@ table:not([class]) th {
   }
   .you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like .clock-time .clock img {
     width: 18px;
+  }
+  #menu {
+    width: auto;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  #menu #menu-content ul {
+    list-style: none;
+  }
+  #menu #menu-content ul li {
+    margin-top: 2rem;
+    font-size: 26px;
   }
 }/*# sourceMappingURL=theme.css.map */
