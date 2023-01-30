@@ -1398,12 +1398,12 @@ table:not([class]) th {
   color: beige;
 }
 
-.mob-swiper {
+.slider-swiper {
   display: none;
 }
 
 @media (max-width: 600px) {
-  .mob-swiper {
+  .slider-swiper {
     display: block;
   }
   .product-ctn {
