@@ -1931,7 +1931,7 @@ table {
 	.swiper-slide {
 		background-color: white;
 		border-radius: 30px;
-		width: 420px !important;
+		width: min-content !important;
 		padding: 2rem;
 	}
 
