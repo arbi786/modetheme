@@ -2212,6 +2212,9 @@ table {
 	.our-dm-section-ctn {
 
 		padding: 2rem;
+
+
+
 		.h2 {
 			font-size: 24px;
 			line-height: 25px;
@@ -2219,6 +2222,20 @@ table {
 
 		.our-dm-section-ctn-inner {
 			display: none;
+
+			.slider-swiper{
+
+				.swiper{
+					.swiper-wrapper{
+						.swiper{
+							.row1-col1{
+								border-radius: 30px;
+								padding: 2rem;
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 

@@ -1571,6 +1571,10 @@ table:not([class]) th {
   .our-dm-section-ctn .our-dm-section-ctn-inner {
     display: none;
   }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .slider-swiper .swiper .swiper-wrapper .swiper .row1-col1 {
+    border-radius: 30px;
+    padding: 2rem;
+  }
   .better-func-world-ctn {
     padding-top: 2rem;
     padding-bottom: 4rem;
