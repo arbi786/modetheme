@@ -1900,18 +1900,28 @@ table {
 
 	.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
 		color:beige;
-		font-size: 30px;
+		font-size: 30px !important;
 	}
 
 	.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
-		font-size: 30px;
+		font-size: 30px !important;
 		color: beige;
 	}
+
+
+	.mob-swiper{
+		display:none;
+		}
 
 // Boost mob responsivenesss
 
 
 @media (max-width:600px) {
+
+
+	.mob-swiper{
+		display:block;
+		}
 
 	.product-ctn {
 		width: 100vw;
