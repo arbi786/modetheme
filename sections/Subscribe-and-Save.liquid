@@ -48,7 +48,7 @@
 <div class="subscribe-and-save-ctn">
   <div class="subscribe-and-save-ctn-inner">
     <div class="left">
-      <img src="./product-sub.png" alt="" srcset="">
+      <img src="{{section.settings.product-img | img_url: 'medium'}}" alt="" srcset="">
     </div>
 
     <div class="right">
@@ -208,6 +208,12 @@
       "type":"text",
       "label":"Section Heading",
       "id":"section-heading"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Product Image",
+      "id":"product-img"
     }
   ],
   "presets":[
