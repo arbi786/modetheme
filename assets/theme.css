@@ -1719,4 +1719,19 @@ table:not([class]) th {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100vw;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.how-it-works-ctn .how-it-works-ctn-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+.how-it-works-ctn .how-it-works-ctn-inner .row1-right .box {
+  width: 200px;
+  height: 200px;
+  padding: 2rem;
+  background-color: #FFF7DE;
 }/*# sourceMappingURL=theme.css.map */
