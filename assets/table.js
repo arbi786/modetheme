@@ -43,3 +43,44 @@ function removeButton(element) {
   closeButton.addEventListener("click", () => {
     menu.classList.remove("active");
   });
+
+
+
+  // still got question
+
+
+  var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+}
+// Function for ingredients tabs
+
+
+let answers = document.querySelectorAll(".tabs");
+answers.forEach((event) => {
+    event.addEventListener("click", function () {
+
+        let src = document.getElementById("toggle-icon").src;
+        if (src.indexOf('plus-01.svg') != -1) {
+            document.getElementById('toggle-icon').src = "./Icon.svg";
+            document.getElementById("ingredients-tab-content").style.display = "block";
+        }
+        else {
+            document.getElementById('toggle-icon').src = "./plus-01.svg";
+            document.getElementById("ingredients-tab-content").style.display = "none";
+
+        }
+
+    });
+});
+
