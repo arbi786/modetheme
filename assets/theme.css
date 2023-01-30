@@ -1674,7 +1674,10 @@ table:not([class]) th {
   }
   .you-may-also-like-ctn .you-may-also-like-ctn-inner {
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
+  }
+  .you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like {
+    text-align: left;
   }
   .you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like img {
     width: 100%;
