@@ -141,6 +141,7 @@ h3 {
 
 #menu #menu-content ul li a {
   color: #000000;
+  text-decoration: none;
 }
 
 #menu #menu-content ul li a:hover {
