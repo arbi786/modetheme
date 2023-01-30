@@ -1,6 +1,6 @@
 <div class="ingredients-ctn">
-  <h2 class="h2">Only ingredients you can pronounce</h2>
-  <p>Our vision is to create the world’s smartest coffee brand for the next generation</p>
+  <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
+  <p>{{ section.settings['section-desc'] }}</p>
 
   <div class="ingredients-ctn-inner">
     <div class="ingredients-left-img">
@@ -144,8 +144,25 @@
 
 {% schema %}
 {
-  "name": "Section name",
-  "settings": []
+  "name": "Ingredients Tabs",
+  "settings": [
+    {
+      "type":"text",
+      "label":"Section Heading",
+      "id":"section-heading"
+    },
+    {
+      "type":"text",
+      "label":"Description",
+      "id":"section-desc"
+    }
+  ],
+  "presets":[
+
+    {
+      "name":"Ingredients Tabs"
+    }
+  ]
 }
 {% endschema %}
 
