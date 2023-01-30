@@ -1654,4 +1654,32 @@ table:not([class]) th {
 .product-ctn .product-ctn-inner .product-details-ctn .serving .three-button-ctn .button3 {
     height: auto;
   }
+  .expresso-ctn .expresso-ctn-inner {
+    grid-template-columns: 1fr;
+  }
+  .expresso-ctn .expresso-ctn-inner .left-img img {
+    width: 100%;
+  }
+  .expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom {
+    width: 100%;
+  }
+  .expresso-ctn .expresso-ctn-inner .how-to-make-details .bottom .social-icons img {
+    margin-right: 20px;
+  }
+  .how-to-make-section .inner-section .h2 {
+    border-bottom: 2px solid #FFF7DE;
+  }
+  .how-to-make-section .inner-section .how-to-make-list p {
+    text-align: left;
+  }
+  .you-may-also-like-ctn .you-may-also-like-ctn-inner {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  .you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like img {
+    width: 100%;
+  }
+  .you-may-also-like-ctn .you-may-also-like-ctn-inner .product-like .clock-time .clock img {
+    width: 18px;
+  }
 }/*# sourceMappingURL=theme.css.map */
