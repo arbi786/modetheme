@@ -1730,8 +1730,7 @@ table:not([class]) th {
   grid-gap: 2rem;
 }
 .how-it-works-ctn .how-it-works-ctn-inner .row1 .row1-right .box {
-  width: 200px;
-  height: 200px;
+  text-align: left;
   padding: 2rem;
   background-color: #FFF7DE;
 }/*# sourceMappingURL=theme.css.map */
