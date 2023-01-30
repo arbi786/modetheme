@@ -1388,6 +1388,16 @@ table:not([class]) th {
   right: 100px;
 }
 
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  color: beige;
+  font-size: 30px;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  font-size: 30px;
+  color: beige;
+}
+
 @media (max-width: 600px) {
   .product-ctn {
     width: 100vw;
