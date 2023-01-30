@@ -99,14 +99,12 @@ h3 {
   transition: transform 0.5s ease;
   cursor: pointer;
   padding: 4rem;
-  height: 100vh;
+  height: 100vh !important;
 }
 
 #menu {
   width: auto;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
+  height: 100vh;
 }
 
 #menu #menu-content ul {
@@ -1709,9 +1707,7 @@ table:not([class]) th {
   }
   #menu {
     width: auto;
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
+    height: 100vh;
   }
   #menu #menu-content ul {
     list-style: none;
