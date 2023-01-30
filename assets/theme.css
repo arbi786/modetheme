@@ -1377,7 +1377,7 @@ table:not([class]) th {
 .swiper-button-prev,
 .swiper-button-next {
   color: #FFF7DE;
-  font-size: 15px;
+  font-size: 10px !important;
 }
 
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
