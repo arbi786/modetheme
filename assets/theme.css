@@ -1367,6 +1367,11 @@ table:not([class]) th {
     width: 100%;
   }
 }
+.swiper {
+  width: 900px;
+  height: 300px;
+}
+
 @media (max-width: 600px) {
   .product-ctn {
     width: 100vw;

@@ -1,27 +1,103 @@
 <div class="what-other-says-ctn">
   <h2 class="h2">{{ section.settings['section-heading'] }}</h2>
 
-  <div class="what-other-says-ctn-inner section-width">
-    <div class="what-other-say-left">
-      <div class="testimonials">
-        <div class="stars">
-          <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
-          <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
-          <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
-          <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
-          <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
-          <p class="body-copy-bold">{{ section.settings['review-heading'] }}</p>
-          <p>{{ section.settings['review-desc'] }}</p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
 
-          <p class="body-copy-bold comment-writer">{{ section.settings['author-name'] }}</p>
-          <p class="verified">{{ section.settings.verify }}</p>
+                <div class="what-other-says-ctn-inner section-width">
+                    <div class="what-other-say-left">
+                        <div class="testimonials">
+                            <div class="stars">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <p class="body-copy-bold">{{ section.settings['review-heading'] }}</p>
+                                <p>{{ section.settings['review-desc'] }}</p>
+
+                                <p class="body-copy-bold comment-writer">{{ section.settings['author-name'] }}</p>
+                                <p class="verified">{{ section.settings.verify }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="what-other-say-right">
+                        <img src="{{ section.settings.right-img | image_url }}" alt="" srcset="">
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="swiper-slide">
+
+
+                <div class="what-other-says-ctn-inner section-width">
+                    <div class="what-other-say-left">
+                        <div class="testimonials">
+                            <div class="stars">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <p class="body-copy-bold">{{ section.settings['review-heading'] }}</p>
+                                <p>{{ section.settings['review-desc'] }}</p>
+
+                                <p class="body-copy-bold comment-writer">{{ section.settings['author-name'] }}</p>
+                                <p class="verified">{{ section.settings.verify }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="what-other-say-right">
+                        <img src="{{ section.settings.right-img | image_url }}" alt="" srcset="">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-slide">
+
+                <div class="what-other-says-ctn-inner section-width">
+                    <div class="what-other-say-left">
+                        <div class="testimonials">
+                            <div class="stars">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <img src="{{ section.settings.rating | image_url }}" alt="" srcset="">
+                                <p class="body-copy-bold">{{ section.settings['review-heading'] }}</p>
+                                <p>{{ section.settings['review-desc'] }}</p>
+
+                                <p class="body-copy-bold comment-writer">{{ section.settings['author-name'] }}</p>
+                                <p class="verified">{{ section.settings.verify }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="what-other-say-right">
+                        <img src="{{ section.settings.right-img | image_url }}" alt="" srcset="">
+                    </div>
+                </div>
+
+
+            </div>
+            
         </div>
-      </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
     </div>
-    <div class="what-other-say-right">
-      <img src="{{ section.settings.right-img | image_url }}" alt="" srcset="">
-    </div>
-  </div>
 </div>
 
 {% schema %}
