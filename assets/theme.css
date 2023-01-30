@@ -1413,9 +1413,9 @@ table:not([class]) th {
   .swiper-slide {
     background-color: white;
     border-radius: 30px;
-    width: -webkit-min-content !important;
-    width: -moz-min-content !important;
-    width: min-content !important;
+    width: -webkit-max-content !important;
+    width: -moz-max-content !important;
+    width: max-content !important;
     padding: 2rem;
   }
   .swiper-pagination-bullet {
