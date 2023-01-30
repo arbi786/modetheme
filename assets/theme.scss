@@ -143,7 +143,7 @@ h3 {
 	background-color: white;
 }
 
-#menu #menu-content{
+#menu #menu-content {
 	background-color: white;
 }
 
@@ -184,7 +184,7 @@ h3 {
 
 }
 
-#menu #menu-content ul li a{
+#menu #menu-content ul li a {
 	color: #000000;
 	text-decoration: none;
 }
@@ -863,6 +863,7 @@ table {
 
 				.copyright-sec3 {
 					text-align: right;
+
 					.copyright-sec2-join-us {
 						display: none;
 					}
@@ -1883,35 +1884,39 @@ table {
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: #FFF7DE;
-  font-size: 10px !important;
+	color: #FFF7DE;
+	font-size: 10px !important;
 }
 
 
-.swiper-button-prev, .swiper-rtl .swiper-button-next{
-	left:700px
-	}
-	
-	
-	.swiper-button-next, .swiper-rtl .swiper-button-prev{
-	
-	right:100px;
-	}
-
-	.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
-		color:beige;
-		font-size: 30px !important;
-	}
-
-	.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
-		font-size: 30px !important;
-		color: beige;
-	}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+	left: 700px
+}
 
 
-	.slider-swiper{
-		display:none;
-		}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+
+	right: 100px;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+	color: beige;
+	font-size: 30px !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+	font-size: 30px !important;
+	color: beige;
+}
+
+
+.slider-swiper {
+	display: none;
+}
 
 // Boost mob responsivenesss
 
@@ -1919,13 +1924,13 @@ table {
 @media (max-width:600px) {
 
 
-	.slider-swiper{
-		display:block;
-		}
+	.slider-swiper {
+		display: block;
+	}
 
-		.swiper-slide{
-			background-color: white;
-		}
+	.swiper-slide {
+		background-color: white;
+	}
 
 	.product-ctn {
 		width: 100vw;
@@ -2223,12 +2228,12 @@ table {
 		.our-dm-section-ctn-inner {
 			display: none;
 
-			.slider-swiper{
+			.slider-swiper {
 
-				.swiper{
-					.swiper-wrapper{
-						.swiper{
-							.row1-col1{
+				.swiper {
+					.swiper-wrapper {
+						.swiper-slide {
+							.row1-col1 {
 								border-radius: 30px;
 								padding: 2rem;
 							}
@@ -2615,7 +2620,7 @@ table {
 			font-size: 26px;
 			text-decoration: none;
 
-			a{
+			a {
 				color: black;
 				text-decoration: none;
 
@@ -2646,8 +2651,8 @@ table {
 			grid-template-columns: 1fr 1fr;
 			grid-gap: 2rem;
 
-			.row1-left-img{
-				img{
+			.row1-left-img {
+				img {
 					width: 80%;
 				}
 			}

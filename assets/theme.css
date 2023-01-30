@@ -1380,20 +1380,24 @@ table:not([class]) th {
   font-size: 10px !important;
 }
 
-.swiper-button-prev, .swiper-rtl .swiper-button-next {
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
   left: 700px;
 }
 
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
   right: 100px;
 }
 
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
   color: beige;
   font-size: 30px !important;
 }
 
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
   font-size: 30px !important;
   color: beige;
 }
@@ -1571,7 +1575,7 @@ table:not([class]) th {
   .our-dm-section-ctn .our-dm-section-ctn-inner {
     display: none;
   }
-  .our-dm-section-ctn .our-dm-section-ctn-inner .slider-swiper .swiper .swiper-wrapper .swiper .row1-col1 {
+  .our-dm-section-ctn .our-dm-section-ctn-inner .slider-swiper .swiper .swiper-wrapper .swiper-slide .row1-col1 {
     border-radius: 30px;
     padding: 2rem;
   }
