@@ -1713,4 +1713,7 @@ table:not([class]) th {
     margin-top: 2rem;
     font-size: 26px;
   }
+}
+.how-it-works-ctn {
+  background-image: red;
 }/*# sourceMappingURL=theme.css.map */
