@@ -218,7 +218,7 @@
 
   .from-bean-to-brew-left-right-ctn .from-bean-to-brew-left-right-ctn-inner .row1 {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -236,7 +236,7 @@
 
   .from-bean-to-brew-left-right-ctn .from-bean-to-brew-left-right-ctn-inner .row2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
@@ -254,7 +254,7 @@
 
   .from-bean-to-brew-left-right-ctn .from-bean-to-brew-left-right-ctn-inner .row3 {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -272,7 +272,7 @@
 
   .from-bean-to-brew-left-right-ctn .from-bean-to-brew-left-right-ctn-inner .row4 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
@@ -290,7 +290,7 @@
 
   .from-bean-to-brew-left-right-ctn .from-bean-to-brew-left-right-ctn-inner .row5 {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -308,7 +308,7 @@
 
   .from-bean-to-brew-left-right-ctn .from-bean-to-brew-left-right-ctn-inner .row6 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
