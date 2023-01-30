@@ -1729,6 +1729,9 @@ table:not([class]) th {
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
 }
+.how-it-works-ctn .how-it-works-ctn-inner .row1 .row1-left-img img {
+  width: 80%;
+}
 .how-it-works-ctn .how-it-works-ctn-inner .row1 .row1-right .box {
   text-align: left;
   padding: 2rem;

@@ -2559,6 +2559,12 @@ table {
 			grid-template-columns: 1fr 1fr;
 			grid-gap: 2rem;
 
+			.row1-left-img{
+				img{
+					width: 80%;
+				}
+			}
+
 			.row1-right {
 				.box {
 					text-align: left;
