@@ -11,7 +11,9 @@
       "type": "Subscribe-and-Save",
       "settings": {
         "section-heading": "Subscribe and Save",
-        "product-img": "shopify:\/\/shop_images\/Screenshot_2022-09-28_at_15.31_7.png"
+        "product-img": "shopify:\/\/shop_images\/Screenshot_2022-09-28_at_15.31_7.png",
+        "top-icon1": "shopify:\/\/shop_images\/percent.png",
+        "top-icon2": "shopify:\/\/shop_images\/v2.png"
       }
     }
   },
