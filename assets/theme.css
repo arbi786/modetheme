@@ -1420,7 +1420,7 @@ table:not([class]) th {
     background: gray;
   }
   .swiper-pagination-bullet-active {
-    background: red;
+    background: white;
   }
   .product-ctn {
     width: 100vw;
