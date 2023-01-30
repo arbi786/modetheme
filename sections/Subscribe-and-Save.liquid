@@ -8,7 +8,7 @@
   <div class="services-ctn-inner section-width">
     <div class="service">
       <div class="services-icon">
-        <img src="./setting.png" alt="" srcset="">
+        <img src="{{section.settings.top-icon1 | img_url}}" alt="" srcset="">
       </div>
       <div class="service-desc">
         <p>Save 20% on every order</p>
@@ -17,7 +17,7 @@
 
     <div class="service">
       <div class="services-icon">
-        <img src="./clock.png" alt="" srcset="">
+        <img src="{{section.settings.top-icon2 | img_url}}" alt="" srcset="">
       </div>
       <div class="service-desc">
         <p>Pause or cancel anytime</p>
@@ -26,7 +26,7 @@
 
     <div class="service">
       <div class="services-icon">
-        <img src="./usb.png" alt="" srcset="">
+        <img src="{{section.settings.top-icon3 | img_url}}" alt="" srcset="">
       </div>
       <div class="service-desc">
         <p>Free mason jar kit</p>
@@ -35,7 +35,7 @@
 
     <div class="service">
       <div class="services-icon">
-        <img src="./van.png" alt="" srcset="">
+        <img src="{{section.settings.top-icon4 | img_url}}" alt="" srcset="">
       </div>
       <div class="service-desc">
         <p>Free home delivery</p>
@@ -89,25 +89,25 @@
 
   <div class="why-subscribe-ctn-inner">
     <div class="s1">
-      <img src="./percent.png" alt="" srcset="">
+      <img src="{{section.settings.b-icon1 | img_url}}" alt="" srcset="">
       <h3 class="h3">Mason jar kit</h3>
       <p>Included with your first delivery</p>
     </div>
 
     <div class="s1">
-      <img src="./v2.png" alt="" srcset="">
+      <img src="{{section.settings.b-icon2 | img_url}}" alt="" srcset="">
       <h3 class="h3">Save 20%</h3>
       <p>Only 4,95kr/serving</p>
     </div>
 
     <div class="s1">
-      <img src="./usb.png" alt="" srcset="">
+      <img src="{{section.settings.b-icon3 | img_url}}" alt="" srcset="">
       <h3 class="h3">Free shipping</h3>
       <p>Delivery straight to your door</p>
     </div>
 
     <div class="s1">
-      <img src="./clock.png" alt="" srcset="">
+      <img src="{{section.settings.b-icon4 | img_url}}" alt="" srcset="">
       <h3 class="h3">No risk</h3>
       <p>Pause, adjust or cancel anytime</p>
     </div>
@@ -214,7 +214,57 @@
       "type":"image_picker",
       "label":"Product Image",
       "id":"product-img"
+    },
+    {
+      "type":"image_picker",
+      "label":"Save Icon",
+      "id":"top-icon1"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Cancel Anytime",
+      "id":"top-icon2"
+    },
+    {
+      "type":"image_picker",
+      "label":"Free Kit Icon",
+      "id":"top-icon3"
+    },
+    {
+      "type":"image_picker",
+      "label":"Home Devlivery",
+      "id":"top-icon4"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Jar kit",
+      "id":"b-icon1"
+    },
+
+    {
+      "type":"image_picker",
+      "label":"Save",
+      "id":"b-icon2"
+    },
+    {
+      "type":"image_picker",
+      "label":"Free Shipping",
+      "id":"b-icon3"
+    },
+    {
+      "type":"image_picker",
+      "label":"No Risk",
+      "id":"b-icon4"
     }
+
+
+
+
+
+
+
   ],
   "presets":[
     {
