@@ -1419,7 +1419,7 @@ table:not([class]) th {
   .swiper-pagination-bullet {
     background: gray;
   }
-  .custom-bullet-active {
+  .swiper-pagination-bullet-active {
     background: red;
   }
   .product-ctn {
