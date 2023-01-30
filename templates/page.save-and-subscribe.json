@@ -15,7 +15,11 @@
         "top-icon1": "shopify:\/\/shop_images\/percent.png",
         "top-icon2": "shopify:\/\/shop_images\/clock_8ad5bc44-e9d1-4e34-ae92-e22afd869169.png",
         "top-icon3": "shopify:\/\/shop_images\/usb.png",
-        "top-icon4": "shopify:\/\/shop_images\/v2.png"
+        "top-icon4": "shopify:\/\/shop_images\/v2.png",
+        "b-icon1": "shopify:\/\/shop_images\/percent.png",
+        "b-icon2": "shopify:\/\/shop_images\/v2.png",
+        "b-icon3": "shopify:\/\/shop_images\/usb.png",
+        "b-icon4": "shopify:\/\/shop_images\/clock_8ad5bc44-e9d1-4e34-ae92-e22afd869169.png"
       }
     }
   },
