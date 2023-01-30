@@ -99,7 +99,7 @@ h3 {
   transition: transform 0.5s ease;
   cursor: pointer;
   padding: 4rem;
-  height: 700px;
+  height: 100vh;
 }
 
 #menu {
@@ -137,7 +137,7 @@ h3 {
   font-family: "PPAgrandir-WideHeavy";
 }
 
-#menu #menu-content ul li:hover {
+#menu #menu-content ul li a:hover {
   color: #FFC9E2;
 }
 
@@ -1715,7 +1715,8 @@ table:not([class]) th {
     text-decoration: none;
   }
   #menu #menu-content ul li a {
-    color: #65b8c7;
+    color: black;
+    text-decoration: none;
   }
 }
 .how-it-works-ctn {
