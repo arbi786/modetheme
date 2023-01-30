@@ -673,6 +673,9 @@ table:not([class]) th {
   flex-direction: column;
   justify-content: space-between;
 }
+.footer-section .footer-section-inner .footer-row .footer-col3 .copyright-sec3 {
+  text-align: right;
+}
 .footer-section .footer-section-inner .footer-row .footer-col3 .copyright-sec3 .copyright-sec2-join-us {
   display: none;
 }
