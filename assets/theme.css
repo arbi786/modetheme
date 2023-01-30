@@ -1413,8 +1413,7 @@ table:not([class]) th {
   .swiper-slide {
     background-color: white;
     border-radius: 30px;
-    width: 240px !important;
-    padding: 2rem;
+    width: 100% !important;
   }
   .swiper-pagination-bullet {
     background: gray;
