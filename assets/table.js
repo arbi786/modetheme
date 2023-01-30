@@ -66,7 +66,7 @@ for (i = 0; i < coll.length; i++) {
 // Function for ingredients tabs
 
 
-let answers = document.querySelectorAll(".tabs");
+let answers = document.querySelectorAll(".ing-tabs");
 answers.forEach((event) => {
     event.addEventListener("click", function () {
 
