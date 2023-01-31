@@ -292,7 +292,19 @@
     padding-left: 0px;
   }
 
+  .subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right h2{
+    text-align: left;
+  }
 
+  .three-button-ctn {
+    display: flex;
+}
+
+.subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty .three-button-ctn button{
+  padding: 10px 25px;
+  margin-right: 30px;
+    margin-top: 20px;
+}
   
 }
 
