@@ -88,6 +88,15 @@ p {
   cursor: pointer;
 }
 
+
+.add-to-cart--btn-black :hover{
+ 
+  background-color: #000;
+  color: #fff;
+  opacity: 0.6;
+ 
+}
+
 .get-started-btn-black {
   background-color: #000000;
   color: white;
@@ -96,6 +105,13 @@ p {
   margin-top: 3rem;
   margin-bottom: 2rem;
   cursor: pointer;
+}
+
+.get-started-btn-black:hover {
+  background-color: #000000;
+  opacity: 0.6;
+  color: white;
+ 
 }
 
 .shop-now {
