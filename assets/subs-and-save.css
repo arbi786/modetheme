@@ -266,12 +266,12 @@
   }
 
   .services-ctn .services-ctn-inner .service {
-    height: 80px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
   }
 
   .services-ctn .services-ctn-inner .service .services-icon img {
-    width: 30px;
+    width: 20px;
   }
 
   .subscribe-and-save-ctn .subscribe-and-save-ctn-inner {
@@ -286,6 +286,12 @@
   .why-subscribe-ctn .why-subscribe-ctn-inner .s1 {
     padding: 1rem;
   }
+
+  .services-ctn-inner {
+
+    padding-left: 0px;
+  }
+
 
   
 }
