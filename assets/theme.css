@@ -1817,4 +1817,14 @@ table:not([class]) th {
   padding-bottom: 4rem;
   background-color: #FFF7DE;
   border-radius: 30px;
+}
+.how-it-works-ctn .services-ctn .services-ctn-inner .service {
+  height: 150px;
+  width: 150px;
+}
+.how-it-works-ctn .services-ctn .services-ctn-inner .service .services-icon img {
+  width: 20px;
+}
+.how-it-works-ctn .services-ctn-inner {
+  padding-left: 0px;
 }/*# sourceMappingURL=theme.css.map */
