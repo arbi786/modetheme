@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'PPAgrandir-WideHeavy';
-  src: url("//cdn.shopify.com/s/files/1/0694/8310/2514/files/PPAgrandirWideHeavy.woff?v=1732421772822716946") format("woff");;
+  src: url("//cdn.shopify.com/s/files/1/0694/8310/2514/files/PPAgrandirWideHeavy.woff?v=1732421772822716946") format("woff");
+  ;
   font-weight: normal;
   font-style: normal;
 }
@@ -25,7 +26,8 @@ body {
   overflow-x: hidden;
 }
 
-.h1,h1 {
+.h1,
+h1 {
   font-family: "PPAgrandir-WideHeavy" !important;
   size: 64px;
   line-height: 68px;
@@ -33,14 +35,16 @@ body {
   word-break: break-word;
 }
 
-.h2,h2 {
+.h2,
+h2 {
   font-size: 36px;
   font-family: "PPAgrandir-WideHeavy" !important;
   line-height: 38px;
   word-break: break-word;
 }
 
-.h3 ,h3{
+.h3,
+h3 {
   font-size: 24px;
   font-family: "PPAgrandir-WideHeavy" !important;
   line-height: 26px;
@@ -89,12 +93,12 @@ p {
 }
 
 
-.add-to-cart--btn-black :hover{
- 
+.add-to-cart--btn-black :hover {
+
   background-color: #000;
   color: #fff;
   opacity: 0.6;
- 
+
 }
 
 .get-started-btn-black {
@@ -111,7 +115,7 @@ p {
   background-color: #000000;
   opacity: 0.6;
   color: white;
- 
+
 }
 
 .shop-now {
@@ -168,9 +172,9 @@ button {
 
 .add-to-cart-yello-btn:hover{
 
-  background: #FFD500;
-opacity: 0.6;
+  background: rgba(yellow, 0.6);
 }
+
 .product-price {
   font-family: "MatterMono-Bold";
   font-size: 18px;
@@ -180,4 +184,3 @@ h4 {
   font-family: "PPAgrandir-WideHeavy";
   font-size: 20px;
 }
-
