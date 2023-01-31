@@ -1804,6 +1804,7 @@ table:not([class]) th {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
+  align-items: center;
 }
 .how-it-works-ctn .how-it-works-ctn-inner .row1 .row1-left-img img {
   width: 80%;
