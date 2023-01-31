@@ -126,6 +126,7 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
 }
 .product-grid-ctn .product-grid-ctn-inner .product {
   text-align: center;
