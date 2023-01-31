@@ -1,4 +1,3 @@
-
 .sub-and-save-hero {
   background: url("./sub-and-save-bg.png");
   background-size: cover;
@@ -7,6 +6,7 @@
   padding-bottom: 15rem;
   width: 100vw;
 }
+
 .sub-and-save-hero h1 {
   color: white;
   text-align: center;
@@ -19,6 +19,7 @@
   background-color: #FFF7DE;
   padding: 2rem;
 }
+
 .services-ctn .services-ctn-inner {
   width: 90vw;
   margin: auto;
@@ -27,6 +28,7 @@
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
 .services-ctn .services-ctn-inner .service {
   display: flex;
   align-items: center;
@@ -39,9 +41,11 @@
   text-align: center;
   padding: 2rem;
 }
+
 .services-ctn .services-ctn-inner .service .services-icon img {
   width: 50px;
 }
+
 .services-ctn .services-ctn-inner .service .service-desc p {
   color: white;
 }
@@ -51,6 +55,7 @@
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
 .subscribe-and-save-ctn .subscribe-and-save-ctn-inner {
   width: 90vw;
   margin: auto;
@@ -58,19 +63,24 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 4rem;
 }
+
 .subscribe-and-save-ctn .subscribe-and-save-ctn-inner .left img {
   width: 100%;
 }
+
 .subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .reviews {
   display: flex;
   align-items: center;
 }
+
 .subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .reviews img {
   margin-right: 10px;
 }
+
 .subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right h2 {
   margin-bottom: 6rem;
 }
+
 .subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty .three-button-ctn button {
   background-color: #01787C;
   border: none;
@@ -80,6 +90,7 @@
   cursor: pointer;
   margin-right: 55px;
 }
+
 .subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty .four-btn-ctn button {
   background-color: #01787C;
   border: none;
@@ -89,6 +100,7 @@
   cursor: pointer;
   margin-right: 10px;
 }
+
 .subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty .start-subs-ctn .start-subs {
   width: 96%;
   background-color: #01787C;
@@ -100,7 +112,7 @@
   margin-top: 2rem;
 }
 
-.subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty p{
+.subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty p {
   font-size: 14px;
   line-height: 20px;
   text-align: center;
@@ -111,9 +123,11 @@
   text-align: center;
   padding-bottom: 5rem;
 }
+
 .why-subscribe-ctn h1 {
   margin-bottom: 3rem;
 }
+
 .why-subscribe-ctn .why-subscribe-ctn-inner {
   width: 90vw;
   margin: auto;
@@ -121,15 +135,18 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2rem;
 }
+
 .why-subscribe-ctn .why-subscribe-ctn-inner .s1 {
   background-color: black;
   padding: 4rem;
   border-radius: 16px;
 }
+
 .why-subscribe-ctn .why-subscribe-ctn-inner .s1 h3 {
   color: white;
   margin-top: 2rem;
 }
+
 .why-subscribe-ctn .why-subscribe-ctn-inner .s1 p {
   color: white;
 }
@@ -141,14 +158,17 @@
   text-align: center;
   width: 100vw;
 }
+
 .words-from-sub-ctn h1 {
   color: white;
 }
+
 .words-from-sub-ctn .ctn-inner {
   width: 90vw;
   margin: auto;
   text-align: center;
 }
+
 .words-from-sub-ctn .ctn-inner .slide {
   width: 50%;
   margin: auto;
@@ -156,6 +176,7 @@
   padding: 4rem;
   border-radius: 16px;
 }
+
 .words-from-sub-ctn .be-the-part {
   background-color: white;
   border: none;
@@ -173,10 +194,12 @@
   width: 100vw;
   text-align: center;
 }
+
 .still-got-question-ctn .still-got-question-ctn-inner {
   width: 90vw;
   margin: auto;
 }
+
 .still-got-question-ctn .still-got-question-ctn-inner .tab-ctn {
   text-align: left;
 }
@@ -231,29 +254,57 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+
   .services-ctn {
     width: 100%;
     padding: 1rem;
   }
+
   .services-ctn .services-ctn-inner {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
   }
+
   .services-ctn .services-ctn-inner .service {
     height: 80px;
     width: 80px;
   }
+
   .services-ctn .services-ctn-inner .service .services-icon img {
     width: 30px;
   }
+
   .subscribe-and-save-ctn .subscribe-and-save-ctn-inner {
     grid-template-columns: 1fr;
   }
+
   .why-subscribe-ctn .why-subscribe-ctn-inner {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
   }
+
   .why-subscribe-ctn .why-subscribe-ctn-inner .s1 {
     padding: 1rem;
   }
-}/*# sourceMappingURL=style.css.map */
+
+  .services-ctn .services-ctn-inner .service {
+
+    height: 150px;
+    width: 150px;
+  }
+
+
+  .services-ctn .services-ctn-inner .service .services-icon img {
+    width: 20px;
+
+  }
+
+
+  .services-ctn-inner {
+
+    padding-left: 0px;
+  }
+
+}
+
+/*# sourceMappingURL=style.css.map */
