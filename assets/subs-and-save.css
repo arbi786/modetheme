@@ -72,30 +72,36 @@
 .subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty .three-button-ctn button {
   background-color: #01787C;
   border: none;
-  padding: 15px 40px;
+  padding: 15px 25px;
   border-radius: 50px;
   color: white;
   cursor: pointer;
-  margin-right: 20px;
+  margin-right: 55px;
 }
 .subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty .four-btn-ctn button {
   background-color: #01787C;
   border: none;
-  padding: 15px 30px;
+  padding: 15px 20px;
   border-radius: 50px;
   color: white;
   cursor: pointer;
-  margin-right: 0px;
+  margin-right: 10px;
 }
 .subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty .start-subs-ctn .start-subs {
-  width: 75%;
+  width: 96%;
   background-color: #01787C;
   border: none;
-  padding: 15px 30px;
+  padding: 15px 20px;
   border-radius: 50px;
   color: black;
   cursor: pointer;
   margin-top: 2rem;
+}
+
+.subscribe-and-save-ctn .subscribe-and-save-ctn-inner .right .how-thirsty p{
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
 }
 
 .why-subscribe-ctn {
