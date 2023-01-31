@@ -907,7 +907,7 @@ table:not([class]) th {
   padding: 0px;
 }
 .accessories-hero-section img {
-  width: auto;
+  width: 100%;
 }
 
 .accessories-product-ctn {
