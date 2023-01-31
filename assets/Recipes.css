@@ -30,6 +30,7 @@
   width: 100vw;
   padding-top: 6rem;
   padding-bottom: 6rem;
+  margin: auto;
 }
 .mode-select-ctn .selected-items-ctn {
   width: 100%;
