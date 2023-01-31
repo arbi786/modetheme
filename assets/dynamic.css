@@ -150,6 +150,11 @@ button {
   padding: 15px 20px;
 }
 
+.add-to-cart-yello-btn:hover{
+
+  background: #FFD500;
+opacity: 0.6;
+}
 .product-price {
   font-family: "MatterMono-Bold";
   font-size: 18px;
