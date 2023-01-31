@@ -31,6 +31,8 @@
   padding-top: 6rem;
   padding-bottom: 6rem;
   margin: auto;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
 }
 .mode-select-ctn .selected-items-ctn {
   width: 100%;
@@ -127,6 +129,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
 }
 .product-grid-ctn .product-grid-ctn-inner .product {
   text-align: center;
