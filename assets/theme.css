@@ -1798,7 +1798,7 @@ table:not([class]) th {
   width: 100vw;
   text-align: center;
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 10rem;
 }
 .how-it-works-ctn .how-it-works-ctn-inner .row1 {
   display: grid;
@@ -1813,4 +1813,5 @@ table:not([class]) th {
   text-align: left;
   padding: 2rem;
   background-color: #FFF7DE;
+  border-radius: 30px;
 }/*# sourceMappingURL=theme.css.map */
