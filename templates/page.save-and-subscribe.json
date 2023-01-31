@@ -20,7 +20,9 @@
         "b-icon2": "shopify:\/\/shop_images\/v2.png",
         "b-icon3": "shopify:\/\/shop_images\/usb.png",
         "b-icon4": "shopify:\/\/shop_images\/clock_8ad5bc44-e9d1-4e34-ae92-e22afd869169.png",
-        "row1-left-img": "shopify:\/\/shop_images\/Rectangle_87.png"
+        "row1-left-img": "shopify:\/\/shop_images\/Rectangle_87.png",
+        "row2-right-img": "shopify:\/\/shop_images\/Rectangle_88.png",
+        "row3-left-img": "shopify:\/\/shop_images\/Rectangle_89.png"
       }
     }
   },
