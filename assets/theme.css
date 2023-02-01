@@ -8,6 +8,10 @@
   margin: auto;
 }
 
+.swiper-pagination-bullet {
+  background: black !important;
+}
+
 .h1 {
   font-family: "PPAgrandir-WideHeavy";
   size: 64px;
