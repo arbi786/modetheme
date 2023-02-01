@@ -77,6 +77,11 @@ h3 {
   opacity: 0.6;
 }
 
+button.add-to-cart--btn-black:hover {
+  background-color: black;
+  opacity: 0.6;
+}
+
 .announcment-ctn {
   background-color: #000000;
   height: 50px;
