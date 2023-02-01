@@ -1050,6 +1050,48 @@ table:not([class]) th {
   font-size: 18px;
 }
 
+.coffee-but-smarter {
+  background: url("./good-vibe-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  width: 100vw;
+}
+.coffee-but-smarter .coffee-but-smarter-inner {
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 67% 33%;
+  grid-gap: 2rem;
+  margin-top: 4rem;
+}
+.coffee-but-smarter .coffee-but-smarter-inner .two-section-column {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1rem;
+}
+.coffee-but-smarter .coffee-but-smarter-inner .two-section-column .section1 .func-benefits {
+  text-align: left;
+}
+.coffee-but-smarter .coffee-but-smarter-inner .two-section-column .section1 .cold-brew {
+  text-align: left;
+}
+.coffee-but-smarter .coffee-but-smarter-inner .two-section-column .section2 {
+  margin-top: 8rem;
+}
+.coffee-but-smarter .coffee-but-smarter-inner .single-section-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+.coffee-but-smarter .coffee-but-smarter-inner .single-section-column .smooth-taste {
+  text-align: left;
+}
+
 @media only screen and (max-width: 600px) {
   .h1 {
     font-family: "PPAgrandir";
