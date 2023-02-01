@@ -23,6 +23,11 @@
   color: white !important;
 }
 
+.unslected {
+  background-color: white !important;
+  color: black !important;
+}
+
 .h1 {
   font-family: "PPAgrandir-WideHeavy";
   size: 64px;
