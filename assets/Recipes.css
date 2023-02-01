@@ -172,6 +172,12 @@
   }
   .recipe1-hero-ctn .h1 {
     width: 100%;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    line-height: 38px;
+
   }
   .mode-select-ctn {
     padding-top: 3rem;
