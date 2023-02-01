@@ -123,3 +123,28 @@ var mySwiper = new Swiper('.swiper', {
 });
 
 
+// no bitterness section
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var button1 = document.getElementById("button1");
+  var button2 = document.getElementById("button2");
+  var button3 = document.getElementById("button3");
+  var button4 = document.getElementById("button4");
+  var heading = document.getElementById("heading");
+
+  button1.addEventListener("click", function() {
+    heading.textContent = "Option 1 Selected";
+  });
+  button2.addEventListener("click", function() {
+    heading.textContent = "Option 2 Selected";
+  });
+  button3.addEventListener("click", function() {
+    heading.textContent = "Option 3 Selected";
+  });
+  button4.addEventListener("click", function() {
+    heading.textContent = "Option 4 Selected";
+  });
+});
+
+
