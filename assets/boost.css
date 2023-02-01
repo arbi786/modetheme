@@ -45,6 +45,7 @@
   height: 50px;
   cursor: pointer;
   font-size: 14px;
+  border: 2px solid black;
 }
 .product-ctn .product-ctn-inner .two-button-ctn .button2 {
   width: 48%;
@@ -58,6 +59,7 @@
   word-break: break-word;
   font-size: 14px;
   background-color: transparent;
+  border: 2px solid black;
 }
 .product-ctn .product-ctn-inner .one-time-pur {
   width: 100%;
@@ -77,6 +79,8 @@
   cursor: pointer;
   font-size: 14px;
   background-color: transparent;
+  border: 2px solid black;
+
 
 }
 .product-ctn .product-ctn-inner .subscribe-and-save-ctn {
@@ -89,7 +93,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(0, 0, 0, 0.4);
   color: rgba(0, 0, 0, 0.4);
   background: transparent;
   border-radius: 30px;
@@ -113,6 +117,7 @@
   height: 50px;
   cursor: pointer;
   font-size: 14px;
+  
 }
 .product-ctn .product-ctn-inner .feature-list .features-item {
   display: flex;
