@@ -39,7 +39,6 @@
 }
 .product-ctn .product-ctn-inner .two-button-ctn .button1 .white-btn {
   width: 100%;
-  border: 1px solid black;
   color: black;
   background: white;
   border-radius: 30px;
@@ -58,11 +57,13 @@
   cursor: pointer;
   word-break: break-word;
   font-size: 14px;
+  background-color: transparent;
 }
 .product-ctn .product-ctn-inner .one-time-pur {
   width: 100%;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  background-color: transparent;
 }
 .product-ctn .product-ctn-inner .one-time-pur .one-time-purchase-btn {
   width: 100%;
