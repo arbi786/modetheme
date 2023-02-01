@@ -139,6 +139,11 @@ p {
   margin-bottom: 2rem;
 }
 
+.explore-more-btn-pink:hover{
+  background: #FFC9E2;
+opacity: 0.6;
+}
+
 .check-out-btn-pink {
   width: 90%;
   background-color: #ffc9e2;
@@ -146,6 +151,12 @@ p {
   padding: 21px 32px 21px 32px;
   border-radius: 60px;
   cursor: pointer;
+}
+
+
+.check-out-btn-pink:hover{
+  background: #FFC9E2;
+opacity: 0.6;
 }
 
 .coffee-title {
@@ -171,7 +182,8 @@ button {
 }
 
 .add-to-cart-yello-btn:hover{
-  background: rgba(yellow, 0.6);
+  background: yellow;
+  opacity: 0.6;
 }
 
 .product-price {
