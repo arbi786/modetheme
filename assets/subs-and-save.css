@@ -255,6 +255,14 @@
     padding-bottom: 5rem;
   }
 
+  .sub-and-save-hero h1{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
   .services-ctn {
     width: 100%;
     padding: 1rem;
