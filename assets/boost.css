@@ -52,8 +52,7 @@
 }
 .product-ctn .product-ctn-inner .two-button-ctn .button2 .black-btn {
   width: 100%;
-  color: white;
-  background: black;
+  color: black;
   border-radius: 30px;
   height: 50px;
   cursor: pointer;
@@ -72,8 +71,7 @@
   align-items: center;
   padding-left: 2rem;
   padding-right: 2rem;
-  color: white;
-  background: black;
+  color: black;
   border-radius: 30px;
   height: 50px;
   cursor: pointer;
