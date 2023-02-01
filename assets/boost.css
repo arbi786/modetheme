@@ -63,7 +63,6 @@
   width: 100%;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  background-color: transparent;
 }
 .product-ctn .product-ctn-inner .one-time-pur .one-time-purchase-btn {
   width: 100%;
@@ -77,6 +76,8 @@
   height: 50px;
   cursor: pointer;
   font-size: 14px;
+  background-color: transparent;
+
 }
 .product-ctn .product-ctn-inner .subscribe-and-save-ctn {
   width: 100%;
