@@ -1,1 +1,79 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":36,"padding_bottom":36}},"db7da95f-942f-4525-a581-c57ed7ea65ac":{"type":"Product-details","settings":{"product-img":"shopify:\/\/shop_images\/productv2.png","star1":"shopify:\/\/shop_images\/star.png","star2":"shopify:\/\/shop_images\/star.png","star3":"shopify:\/\/shop_images\/star.png","star4":"shopify:\/\/shop_images\/star.png","star5":"shopify:\/\/shop_images\/star.png","reviews":"(200+ reviews)","product-title":"Cold Brew Concentrate","weight":"297 kr","product-desc":"We cold brew and craft our functional coffee beverages to help you feel and function better naturally. So you can find your mode.","smooth-icon":"shopify:\/\/shop_images\/smooth_1.png","smooth-icon-desc":"Smooth taste - no bitterness","stomach":"shopify:\/\/shop_images\/friendly.png","stomach-icon-desc":"Stomach friendly","more":"shopify:\/\/shop_images\/more.png","more-icon-desc":"More caffeine","serving":"500 ml = 8 servings","btn1":"24x500ml 8 kr\/serving","btn2":"12x500ml 8 kr\/serving","btn3":"6x500ml 8 kr\/serving","btn4":"Add to cart","check":"shopify:\/\/shop_images\/check_f42f52f5-12c2-456f-a9c4-a2a6d54b3496.png","f1":"100% money back guarantee if you don't love us","f2":"1–2 days fast home Delivery with Budbee","f3":"Buy Now and Pay Later with Klarna"}},"0e3d262e-317b-4f34-958b-d3a75ff7b634":{"type":"our-cutomers","settings":{"section-heading":"Our customers","star-icon":"shopify:\/\/shop_images\/star_1.png","head1":"I love made cold brew","desc1":"The best coffee in the whole world!! I drink mode all day everyday!“","writer-name1":"Sara Svalberg","verf1":"Varified customer","user-pic1":"shopify:\/\/shop_images\/Mask_group.png","head2":"I love made cold brew","desc2":"The best coffee in the whole world!! I drink mode all day everyday!“","writer-name2":"Sara Svalberg","verf2":"Varified customer","user-pic2":"shopify:\/\/shop_images\/Mask_group.png","head3":"I love made cold brew","desc3":"The best coffee in the whole world!! I drink mode all day everyday!“","writer-name3":"Sara Svalberg","verf3":"Varified customer","user-pic3":"shopify:\/\/shop_images\/Mask_group.png"}}},"order":["main","db7da95f-942f-4525-a581-c57ed7ea65ac","0e3d262e-317b-4f34-958b-d3a75ff7b634"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "db7da95f-942f-4525-a581-c57ed7ea65ac": {
+      "type": "Product-details",
+      "settings": {
+        "product-img": "shopify:\/\/shop_images\/productv2.png",
+        "star1": "shopify:\/\/shop_images\/star.png",
+        "star2": "shopify:\/\/shop_images\/star.png",
+        "star3": "shopify:\/\/shop_images\/star.png",
+        "star4": "shopify:\/\/shop_images\/star.png",
+        "star5": "shopify:\/\/shop_images\/star.png",
+        "reviews": "(200+ reviews)",
+        "product-title": "Cold Brew Concentrate",
+        "weight": "297 kr",
+        "product-desc": "We cold brew and craft our functional coffee beverages to help you feel and function better naturally. So you can find your mode.",
+        "smooth-icon": "shopify:\/\/shop_images\/smooth_1.png",
+        "smooth-icon-desc": "Smooth taste - no bitterness",
+        "stomach": "shopify:\/\/shop_images\/friendly.png",
+        "stomach-icon-desc": "Stomach friendly",
+        "more": "shopify:\/\/shop_images\/more.png",
+        "more-icon-desc": "More caffeine",
+        "serving": "500 ml = 8 servings",
+        "btn1": "24x500ml 8 kr\/serving",
+        "btn2": "12x500ml 8 kr\/serving",
+        "btn3": "6x500ml 8 kr\/serving",
+        "btn4": "Add to cart",
+        "check": "shopify:\/\/shop_images\/check_f42f52f5-12c2-456f-a9c4-a2a6d54b3496.png",
+        "f1": "100% money back guarantee if you don't love us",
+        "f2": "1–2 days fast home Delivery with Budbee",
+        "f3": "Buy Now and Pay Later with Klarna"
+      }
+    },
+    "0e3d262e-317b-4f34-958b-d3a75ff7b634": {
+      "type": "our-cutomers",
+      "settings": {
+        "section-heading": "Our customers",
+        "star-icon": "shopify:\/\/shop_images\/star_1.png",
+        "head1": "I love made cold brew",
+        "desc1": "The best coffee in the whole world!! I drink mode all day everyday!“",
+        "writer-name1": "Sara Svalberg",
+        "verf1": "Varified customer",
+        "user-pic1": "shopify:\/\/shop_images\/Mask_group.png",
+        "head2": "I love made cold brew",
+        "desc2": "The best coffee in the whole world!! I drink mode all day everyday!“",
+        "writer-name2": "Sara Svalberg",
+        "verf2": "Varified customer",
+        "user-pic2": "shopify:\/\/shop_images\/Mask_group.png",
+        "head3": "I love made cold brew",
+        "desc3": "The best coffee in the whole world!! I drink mode all day everyday!“",
+        "writer-name3": "Sara Svalberg",
+        "verf3": "Varified customer",
+        "user-pic3": "shopify:\/\/shop_images\/Mask_group.png"
+      }
+    },
+    "010b0a3d-8806-45f3-966a-b60f9fb41d3e": {
+      "type": "no-bitterness",
+      "settings": {
+        "section-heading": "",
+        "logo1": "shopify:\/\/shop_images\/dagens.png",
+        "logo2": "shopify:\/\/shop_images\/mat_415a3fe1-297b-4abf-ac4c-78fdffb4c1c9.png",
+        "logo3": "shopify:\/\/shop_images\/breakit_6816b56a-7857-4036-b70a-875d11d36d49.png",
+        "logo4": "shopify:\/\/shop_images\/halsa.webp"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "db7da95f-942f-4525-a581-c57ed7ea65ac",
+    "0e3d262e-317b-4f34-958b-d3a75ff7b634",
+    "010b0a3d-8806-45f3-966a-b60f9fb41d3e"
+  ]
+}
