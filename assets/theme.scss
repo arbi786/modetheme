@@ -72,6 +72,23 @@ h3 {
 	word-break: break-word;
 }
 
+.btn-yellow-hover:hover{
+	background-color: #FFD500;
+	opacity: 0.6;;
+
+}
+
+.get-started-btn-black:hover {
+	background-color: #000000;
+	opacity: 0.6;
+	color: white;
+  
+  }
+
+.add-to-cart-yello-btn:hover{
+	background: rgba(yellow, 0.6);
+  }
+
 .announcment-ctn {
 	background-color: $background_color_1;
 	height: 50px;
