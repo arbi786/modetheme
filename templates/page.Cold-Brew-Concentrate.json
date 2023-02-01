@@ -68,12 +68,36 @@
         "logo3": "shopify:\/\/shop_images\/breakit_6816b56a-7857-4036-b70a-875d11d36d49.png",
         "logo4": "shopify:\/\/shop_images\/halsa.webp"
       }
+    },
+    "dba7e6a7-281f-408c-b138-262de74daeb1": {
+      "type": "our-dm",
+      "settings": {
+        "section-heading": ""
+      }
+    },
+    "374e65b2-2c1e-43c6-8124-2eedc161c5ca": {
+      "type": "still-got-que",
+      "settings": {
+        "section-heading": "",
+        "tab1-title": "What is cold brew?",
+        "tab1-desc": "We brew our premium, organic beans for 16 hours in cold filtered water to extract all the things you love about coffee, and none of the things you don’t. Totally stomach friendly and free from bitterness. Just smooth and refreshing. Ready to mix when you are.",
+        "tab2-title": "Concentrate what??",
+        "tab2-desc": "We brew our premium, organic beans for 16 hours in cold filtered water to extract all the things you love about coffee, and none of the things you don’t. Totally stomach friendly and free from bitterness. Just smooth and refreshing. Ready to mix when you are.",
+        "tab3-title": "How long does it last?",
+        "tab3-desc": "We brew our premium, organic beans for 16 hours in cold filtered water to extract all the things you love about coffee, and none of the things you don’t. Totally stomach friendly and free from bitterness. Just smooth and refreshing. Ready to mix when you are.",
+        "tab4-title": "What can I make with it?",
+        "tab4-desc": "We brew our premium, organic beans for 16 hours in cold filtered water to extract all the things you love about coffee, and none of the things you don’t. Totally stomach friendly and free from bitterness. Just smooth and refreshing. Ready to mix when you are.",
+        "tab5-title": "Stomach friendly?",
+        "tab5-desc": "We brew our premium, organic beans for 16 hours in cold filtered water to extract all the things you love about coffee, and none of the things you don’t. Totally stomach friendly and free from bitterness. Just smooth and refreshing. Ready to mix when you are."
+      }
     }
   },
   "order": [
     "main",
     "db7da95f-942f-4525-a581-c57ed7ea65ac",
     "0e3d262e-317b-4f34-958b-d3a75ff7b634",
-    "010b0a3d-8806-45f3-966a-b60f9fb41d3e"
+    "010b0a3d-8806-45f3-966a-b60f9fb41d3e",
+    "dba7e6a7-281f-408c-b138-262de74daeb1",
+    "374e65b2-2c1e-43c6-8124-2eedc161c5ca"
   ]
 }
