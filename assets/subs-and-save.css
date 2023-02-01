@@ -313,6 +313,10 @@
   margin-right: 30px;
     margin-top: 20px;
 }
+
+.how-it-works-ctn .how-it-works-ctn-inner .row1{
+  grid-template-columns: 1fr;
+}
   
 }
 
