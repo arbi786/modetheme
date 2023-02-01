@@ -526,9 +526,9 @@
 .active {
   background-color: transparent;
 }
-.active:after {
+/* .active:after {
   content: "−";
-}
+} */
 
 .content {
   padding: 0 18px;

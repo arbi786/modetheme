@@ -90,7 +90,7 @@
 .mode-select-ctn .mode-select-ctn-inner .layout-container .column .heading {
   font-size: 20px;
   line-height: 30px;
-  font-family: "PPAgrandir";
+  font-family: PPAgrandir-WideHeavy;
   font-weight: 800;
   margin-bottom: 1rem;
 }
@@ -161,6 +161,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .product-grid-ctn{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
  
   .recipe1-hero-ctn {
     padding-top: 5rem;
