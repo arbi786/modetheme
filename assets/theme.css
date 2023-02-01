@@ -87,7 +87,7 @@ button.add-to-cart--btn-black:hover {
   opacity: 0.6;
 }
 
-button.shop-now {
+button.shop-now:hover {
   background-color: #FFF7DE;
   opacity: 0.6;
 }
