@@ -19,9 +19,8 @@
 }
 
 .selected {
-  opacity: 0.6;
   background-color: black !important;
-  color: white;
+  color: white !important;
 }
 
 .h1 {
