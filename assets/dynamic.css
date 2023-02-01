@@ -130,6 +130,11 @@ p {
   cursor: pointer;
 }
 
+.shop-now{
+  background:#FFF7DE;
+  opacity: 0.6;
+}
+
 .explore-more-btn-pink {
   background-color: #ffc9e2;
   border-radius: 60px;
