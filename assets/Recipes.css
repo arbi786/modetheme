@@ -169,6 +169,8 @@
   .recipe1-hero-ctn {
     padding-top: 5rem;
     padding-bottom: 5rem;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .recipe1-hero-ctn .h1 {
     width: 100%;

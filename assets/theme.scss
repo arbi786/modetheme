@@ -1648,9 +1648,11 @@ table {
 				display: grid;
 				grid-template-columns: auto auto;
 				width: 100vw;
-				grid-gap: 10px;
+				grid-gap: 20px;
 				margin-top: 2rem;
 				padding-top: 0px;
+				padding-left: 20px;
+				padding-right: 20px;
 
 				.procut1 {
 					.prodcuct-img {
