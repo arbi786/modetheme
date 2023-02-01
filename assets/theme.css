@@ -62,8 +62,26 @@ h3 {
   color: white;
 }
 
-.add-to-cart-yello-btn:hover {
+button.add-to-cart-boost:hover {
   background: yellow;
+  opacity: 0.6;
+}
+
+button.one-time-purchase-btn:hover {
+  background-color: black;
+  opacity: 0.6;
+}
+
+button.black-btn {
+  background-color: #000000;
+  opacity: 0.6;
+}
+
+button.start-subs:hover {
+  opacity: 0.6;
+}
+
+.button.be-the-part {
   opacity: 0.6;
 }
 
