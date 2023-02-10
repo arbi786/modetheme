@@ -166,6 +166,155 @@
 {% endschema %}
 
 {% stylesheet %}
+  .our-dm-section-ctn {
+    background-color: #000;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    width: 100%;
+  }
+  .our-dm-section-ctn .h2 {
+    color: white;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px 100px 150px 170px 250px 80px;
+    grid-gap: 2rem;
+    row-gap: 2rem;
+    margin-top: 4rem;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row1-col1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    padding: 2rem;
+    border-radius: 30px;
+    text-align: left;
+    background-color: white;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row1-col1 .profile-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row1-col2 {
+    background-color: white;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    text-align: left;
+    border-radius: 30px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row1-col2 .profile-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row1-col3 {
+    grid-column: 3/3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 16px;
+    background-color: white;
+    background-image: url('./col3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row2-col1 {
+    grid-column: 1/2;
+    grid-row: 2/5;
+    border-radius: 16px;
+    background-color: white;
+    z-index: 11;
+    background-image: url('./row2-col1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row2-col2 {
+    grid-column: 2/3;
+    grid-row: 4/7;
+    background-image: url('./juice-girl.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+    background-color: white;
+    padding: 2rem;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row2-col3 {
+    background-color: white;
+    grid-row: 3/5;
+    grid-column: 3/3;
+    padding: 2rem;
+    text-align: left;
+    border-radius: 16px;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row2-col3 .profile-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row3-col1 {
+    background-color: white;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    grid-row: 5/5;
+    grid-column: 1/2;
+    padding: 2rem;
+    text-align: left;
+    border-radius: 16px;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row3-col1 .profile-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row3-col2 {
+    text-align: center;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row3-col3 {
+    background-color: white;
+    grid-row: 5/5;
+    grid-column: 3/3;
+    padding: 2rem;
+    text-align: left;
+    border-radius: 16px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .our-dm-section-ctn .our-dm-section-ctn-inner .row3-col3 .profile-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 640px) {
+    .our-dm-section-ctn .h2 {
+      font-size: 24px;
+      line-height: 25px;
+    }
+    .our-dm-section-ctn .our-dm-section-ctn-inner {
+      display: none;
+    }
+    .our-dm-section-ctn .our-dm-section-ctn-inner .slider-swiper .swiper .swiper-wrapper .swiper-slide .row1-col1 {
+      border-radius: 30px;
+      padding: 2rem;
+    }
+  }
 {% endstylesheet %}
 
 {% javascript %}
